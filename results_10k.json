@@ -1,0 +1,500 @@
+{
+  "size": "10k",
+  "manifest": {
+    "column_count": 30,
+    "content_reproducibility": "CSV content is deterministic for the generator version, schema version, seed, and row count. The manifest timestamp and ZIP container metadata are run metadata and may differ.",
+    "csv_sha256": "fe8b8ed3442074786ba86b0a9281545188345c7bbf840c5c4fd25ca40a54ea4a",
+    "data_dictionary_filename": "data_dictionary.csv",
+    "dataset_filename": "customer_360_C365-BD4DU.csv",
+    "dataset_id": "C365-BD4DU",
+    "expected_column_names": [
+      "customer_id",
+      "industry",
+      "region",
+      "company_size_band",
+      "employee_count",
+      "customer_segment",
+      "tenure_months",
+      "lifecycle_stage",
+      "plan_tier",
+      "billing_cycle",
+      "annual_contract_value",
+      "monthly_recurring_revenue",
+      "discount_percentage",
+      "seats_purchased",
+      "seats_active",
+      "active_user_percentage",
+      "sessions_last_30_days",
+      "feature_adoption_percentage",
+      "days_since_last_login",
+      "usage_trend_30d",
+      "error_rate_percentage",
+      "support_tickets_last_90_days",
+      "critical_tickets_last_90_days",
+      "avg_resolution_hours",
+      "customer_satisfaction_score",
+      "outstanding_balance",
+      "avg_payment_delay_days",
+      "csm_touchpoints_last_90_days",
+      "days_until_renewal",
+      "renewal_stage"
+    ],
+    "generation_timestamp": "2026-10-11T17:19:44.064556+00:00",
+    "generator_version": "0.2.0",
+    "intentional_data_quality_summary": {
+      "categorical_inconsistency": {
+        "industry": "Approximately 0.6% of Financial or Professional Services labels use a lowercase second word."
+      },
+      "legitimate_outliers": {
+        "enterprise_scale": "Rare large enterprises arise from the upper employee, seat, and enterprise-price tails.",
+        "reliability_incidents": "Approximately 1.5% of records receive an elevated but bounded product error-rate event."
+      },
+      "missingness": {
+        "customer_satisfaction_score": "Approximately 9% of records have no survey response."
+      }
+    },
+    "reproduction_command": "python -m comp365_data_generator --rows 10000 --seed 950531371",
+    "row_count": 10000,
+    "scenario": "Synthetic Customer 360 / business operations",
+    "schema_version": "2.0.0",
+    "seed": 950531371
+  },
+  "missing": {
+    "customer_id": 0,
+    "industry": 0,
+    "region": 0,
+    "company_size_band": 0,
+    "employee_count": 0,
+    "customer_segment": 0,
+    "tenure_months": 0,
+    "lifecycle_stage": 0,
+    "plan_tier": 0,
+    "billing_cycle": 0,
+    "annual_contract_value": 0,
+    "monthly_recurring_revenue": 0,
+    "discount_percentage": 0,
+    "seats_purchased": 0,
+    "seats_active": 0,
+    "active_user_percentage": 0,
+    "sessions_last_30_days": 0,
+    "feature_adoption_percentage": 0,
+    "days_since_last_login": 0,
+    "usage_trend_30d": 0,
+    "error_rate_percentage": 0,
+    "support_tickets_last_90_days": 0,
+    "critical_tickets_last_90_days": 0,
+    "avg_resolution_hours": 0,
+    "customer_satisfaction_score": 869,
+    "outstanding_balance": 0,
+    "avg_payment_delay_days": 0,
+    "csm_touchpoints_last_90_days": 0,
+    "days_until_renewal": 0,
+    "renewal_stage": 0
+  },
+  "counts": {
+    "Stable": 4891,
+    "Declining": 2631,
+    "Growing": 2478
+  },
+  "duplicates": 0,
+  "results": [
+    {
+      "model": "Random forest",
+      "accuracy": 0.5396,
+      "macro_precision": 0.5384182323959611,
+      "macro_recall": 0.4695859083437571,
+      "macro_f1": 0.4773655812406008
+    },
+    {
+      "model": "Logistic regression",
+      "accuracy": 0.5276,
+      "macro_precision": 0.5271386565504214,
+      "macro_recall": 0.44270788513655424,
+      "macro_f1": 0.44305892311614564
+    },
+    {
+      "model": "Decision tree",
+      "accuracy": 0.4408,
+      "macro_precision": 0.4213075535428974,
+      "macro_recall": 0.42406224467735326,
+      "macro_f1": 0.42251507148410244
+    },
+    {
+      "model": "Dummy baseline",
+      "accuracy": 0.4892,
+      "macro_precision": 0.16306666666666667,
+      "macro_recall": 0.3333333333333333,
+      "macro_f1": 0.21899901513116662
+    }
+  ],
+  "champion": "Random forest",
+  "importance": [
+    {
+      "feature": "sessions_last_30_days",
+      "mean_macro_f1_drop": 0.07136113080510141,
+      "std": 0.00429831488419814
+    },
+    {
+      "feature": "active_user_percentage",
+      "mean_macro_f1_drop": 0.05812217126029355,
+      "std": 0.004976226227898101
+    },
+    {
+      "feature": "feature_adoption_percentage",
+      "mean_macro_f1_drop": 0.040860113624759574,
+      "std": 0.0028991637874996694
+    },
+    {
+      "feature": "days_since_last_login",
+      "mean_macro_f1_drop": 0.040347840567534335,
+      "std": 0.005974800995818124
+    },
+    {
+      "feature": "customer_segment",
+      "mean_macro_f1_drop": 0.003412730172362399,
+      "std": 0.0010987828801238804
+    },
+    {
+      "feature": "days_until_renewal",
+      "mean_macro_f1_drop": 0.0022431320819804703,
+      "std": 0.001126117124128949
+    },
+    {
+      "feature": "critical_tickets_last_90_days",
+      "mean_macro_f1_drop": 0.001836051525056681,
+      "std": 0.0016820720582340941
+    },
+    {
+      "feature": "billing_cycle",
+      "mean_macro_f1_drop": 0.001765149973433988,
+      "std": 0.0028072870321319107
+    },
+    {
+      "feature": "company_size_band",
+      "mean_macro_f1_drop": 0.0015913003059257024,
+      "std": 0.001848362975879751
+    },
+    {
+      "feature": "avg_payment_delay_days",
+      "mean_macro_f1_drop": 0.0008346205622593916,
+      "std": 0.0017867666511901098
+    },
+    {
+      "feature": "region",
+      "mean_macro_f1_drop": -0.00024153065684516805,
+      "std": 0.003252562929814821
+    },
+    {
+      "feature": "support_tickets_last_90_days",
+      "mean_macro_f1_drop": -0.00025714153218503455,
+      "std": 0.00442659929195903
+    },
+    {
+      "feature": "error_rate_percentage",
+      "mean_macro_f1_drop": -0.000687357125503485,
+      "std": 0.001659644511340224
+    },
+    {
+      "feature": "tenure_months",
+      "mean_macro_f1_drop": -0.0011423390136313994,
+      "std": 0.005605342660542464
+    },
+    {
+      "feature": "plan_tier",
+      "mean_macro_f1_drop": -0.0016113389567498858,
+      "std": 0.002221543920110979
+    },
+    {
+      "feature": "renewal_stage",
+      "mean_macro_f1_drop": -0.0016405237645346848,
+      "std": 0.0029314432885025475
+    },
+    {
+      "feature": "industry",
+      "mean_macro_f1_drop": -0.001680381330624836,
+      "std": 0.0035318564444487242
+    },
+    {
+      "feature": "employee_count",
+      "mean_macro_f1_drop": -0.0019196314807606418,
+      "std": 0.0025844812563550054
+    },
+    {
+      "feature": "outstanding_balance",
+      "mean_macro_f1_drop": -0.0019278129067910933,
+      "std": 0.003245091226999806
+    },
+    {
+      "feature": "discount_percentage",
+      "mean_macro_f1_drop": -0.0020384069640079438,
+      "std": 0.0036868020277121983
+    },
+    {
+      "feature": "csm_touchpoints_last_90_days",
+      "mean_macro_f1_drop": -0.0022477448687106437,
+      "std": 0.0032373292029936425
+    },
+    {
+      "feature": "seats_purchased",
+      "mean_macro_f1_drop": -0.0023961743535750755,
+      "std": 0.003194716833301597
+    },
+    {
+      "feature": "lifecycle_stage",
+      "mean_macro_f1_drop": -0.0030346454535498,
+      "std": 0.0025352032947300947
+    },
+    {
+      "feature": "seats_active",
+      "mean_macro_f1_drop": -0.0033184016600671497,
+      "std": 0.00465583138966962
+    },
+    {
+      "feature": "customer_satisfaction_score",
+      "mean_macro_f1_drop": -0.0040365999108072145,
+      "std": 0.00197327216184423
+    },
+    {
+      "feature": "annual_contract_value",
+      "mean_macro_f1_drop": -0.005801078583916985,
+      "std": 0.0050006838279495645
+    },
+    {
+      "feature": "avg_resolution_hours",
+      "mean_macro_f1_drop": -0.006143524522647559,
+      "std": 0.003653623416808545
+    },
+    {
+      "feature": "monthly_recurring_revenue",
+      "mean_macro_f1_drop": -0.012332110933858853,
+      "std": 0.0029313249392896464
+    }
+  ],
+  "ablation": [
+    {
+      "experiment": "All eligible features",
+      "accuracy": 0.7608,
+      "macro_f1": 0.5612230250848431
+    },
+    {
+      "experiment": "Without days_until_renewal",
+      "accuracy": 0.5508,
+      "macro_f1": 0.2801714244293415
+    }
+  ],
+  "labels": [
+    "Declining",
+    "Growing",
+    "Stable"
+  ],
+  "reports": {
+    "Dummy baseline": {
+      "Declining": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 658.0
+      },
+      "Growing": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 619.0
+      },
+      "Stable": {
+        "precision": 0.4892,
+        "recall": 1.0,
+        "f1-score": 0.6569970453934999,
+        "support": 1223.0
+      },
+      "accuracy": 0.4892,
+      "macro avg": {
+        "precision": 0.16306666666666667,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.21899901513116662,
+        "support": 2500.0
+      },
+      "weighted avg": {
+        "precision": 0.23931664,
+        "recall": 0.4892,
+        "f1-score": 0.32140295460650015,
+        "support": 2500.0
+      }
+    },
+    "Logistic regression": {
+      "Declining": {
+        "precision": 0.5707070707070707,
+        "recall": 0.3434650455927052,
+        "f1-score": 0.428842504743833,
+        "support": 658.0
+      },
+      "Growing": {
+        "precision": 0.48717948717948717,
+        "recall": 0.1841680129240711,
+        "f1-score": 0.2672919109026964,
+        "support": 619.0
+      },
+      "Stable": {
+        "precision": 0.5235294117647059,
+        "recall": 0.8004905968928864,
+        "f1-score": 0.6330423537019075,
+        "support": 1223.0
+      },
+      "accuracy": 0.5276,
+      "macro avg": {
+        "precision": 0.5271386565504214,
+        "recall": 0.44270788513655424,
+        "f1-score": 0.44305892311614564,
+        "support": 2500.0
+      },
+      "weighted avg": {
+        "precision": 0.5269463302710362,
+        "recall": 0.5276,
+        "f1-score": 0.48873714381905764,
+        "support": 2500.0
+      }
+    },
+    "Decision tree": {
+      "Declining": {
+        "precision": 0.40459110473457677,
+        "recall": 0.42857142857142855,
+        "f1-score": 0.41623616236162364,
+        "support": 658.0
+      },
+      "Growing": {
+        "precision": 0.34831460674157305,
+        "recall": 0.3505654281098546,
+        "f1-score": 0.3494363929146538,
+        "support": 619.0
+      },
+      "Stable": {
+        "precision": 0.5110169491525424,
+        "recall": 0.49304987735077677,
+        "f1-score": 0.50187265917603,
+        "support": 1223.0
+      },
+      "accuracy": 0.4408,
+      "macro avg": {
+        "precision": 0.4213075535428974,
+        "recall": 0.42406224467735326,
+        "f1-score": 0.42251507148410244,
+        "support": 2500.0
+      },
+      "weighted avg": {
+        "precision": 0.4427205669207779,
+        "recall": 0.4408,
+        "f1-score": 0.44158991368816153,
+        "support": 2500.0
+      }
+    },
+    "Random forest": {
+      "Declining": {
+        "precision": 0.5862831858407079,
+        "recall": 0.4027355623100304,
+        "f1-score": 0.4774774774774775,
+        "support": 658.0
+      },
+      "Growing": {
+        "precision": 0.4934210526315789,
+        "recall": 0.24232633279483037,
+        "f1-score": 0.3250270855904659,
+        "support": 619.0
+      },
+      "Stable": {
+        "precision": 0.5355504587155964,
+        "recall": 0.7636958299264105,
+        "f1-score": 0.6295921806538591,
+        "support": 1223.0
+      },
+      "accuracy": 0.5396,
+      "macro avg": {
+        "precision": 0.5384182323959611,
+        "recall": 0.4695859083437571,
+        "f1-score": 0.4773655812406008,
+        "support": 2500.0
+      },
+      "weighted avg": {
+        "precision": 0.5384720715485231,
+        "recall": 0.5396,
+        "f1-score": 0.5141452732401394,
+        "support": 2500.0
+      }
+    }
+  },
+  "matrices": {
+    "Dummy baseline": [
+      [
+        0,
+        0,
+        658
+      ],
+      [
+        0,
+        0,
+        619
+      ],
+      [
+        0,
+        0,
+        1223
+      ]
+    ],
+    "Logistic regression": [
+      [
+        226,
+        18,
+        414
+      ],
+      [
+        28,
+        114,
+        477
+      ],
+      [
+        142,
+        102,
+        979
+      ]
+    ],
+    "Decision tree": [
+      [
+        282,
+        87,
+        289
+      ],
+      [
+        114,
+        217,
+        288
+      ],
+      [
+        301,
+        319,
+        603
+      ]
+    ],
+    "Random forest": [
+      [
+        265,
+        23,
+        370
+      ],
+      [
+        29,
+        150,
+        440
+      ],
+      [
+        158,
+        131,
+        934
+      ]
+    ]
+  },
+  "versions": {
+    "sklearn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "seaborn": "0.13.2"
+  }
+}
