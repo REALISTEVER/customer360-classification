@@ -1,0 +1,1001 @@
+customer_id,industry,region,company_size_band,employee_count,customer_segment,tenure_months,lifecycle_stage,plan_tier,billing_cycle,annual_contract_value,monthly_recurring_revenue,discount_percentage,seats_purchased,seats_active,active_user_percentage,sessions_last_30_days,feature_adoption_percentage,days_since_last_login,usage_trend_30d,error_rate_percentage,support_tickets_last_90_days,critical_tickets_last_90_days,avg_resolution_hours,customer_satisfaction_score,outstanding_balance,avg_payment_delay_days,csm_touchpoints_last_90_days,days_until_renewal,renewal_stage
+CUST-0000001,Healthcare,EMEA,Mid-Market,453,SMB,3,Onboarding,Starter,Monthly,28425.60,2368.80,4.58,75,61,81.33,1032,50.74,18,Growing,0.48,4,0,12.01,4.7,35.33,3,7,19,In Discussion
+CUST-0000002,Education,EMEA,Small,80,SMB,5,Active,Starter,Annual,5292.36,441.03,9.44,20,15,75.00,129,47.59,22,Stable,1.8,9,2,38.78,3.2,71.29,1,5,197,Not Due
+CUST-0000003,Retail,APAC,Enterprise,14220,Mid-Market,11,Active,Professional,Monthly,620337.60,51694.80,13.18,750,633,84.40,7348,57.19,15,Stable,1.85,5,0,12.46,4.2,1191.31,3,8,267,Not Due
+CUST-0000004,Professional Services,APAC,Mid-Market,232,Mid-Market,27,Expansion,Enterprise,Quarterly,232112.28,19342.69,27.05,250,232,92.80,5444,78.62,6,Stable,0.44,3,1,21.27,3.8,1331.74,1,6,358,Not Due
+CUST-0000005,Financial Services,APAC,Small,12,SMB,120,Active,Professional,Monthly,9361.68,780.14,18.07,10,7,70.00,72,50.01,19,Declining,1.65,2,0,4.44,4.8,32.92,1,5,14,Pending Decision
+CUST-0000006,Healthcare,LATAM,Small,22,SMB,9,Active,Starter,Annual,1836.72,153.06,4.37,5,4,80.00,24,42.97,16,Stable,1.1,3,0,11.67,4.8,11.38,2,1,320,Not Due
+CUST-0000007,Manufacturing,North America,Small,25,SMB,94,Active,Professional,Quarterly,10320.84,860.07,7.33,10,6,60.00,77,54.41,25,Stable,0.83,5,0,12.55,4.7,290.19,6,3,222,Not Due
+CUST-0000008,Financial services,EMEA,Small,28,SMB,8,Active,Professional,Monthly,8810.16,734.18,4.96,10,7,70.00,88,52.3,19,Stable,7.89,27,7,133.52,1,0.00,0,9,246,Not Due
+CUST-0000009,Professional Services,LATAM,Mid-Market,226,Mid-Market,20,Active,Professional,Monthly,53153.04,4429.42,21.99,74,53,71.62,696,58.54,17,Stable,0.63,0,0,7.36,4.7,747.66,10,7,34,In Discussion
+CUST-0000010,Professional Services,APAC,Mid-Market,333,Mid-Market,120,Active,Professional,Monthly,106099.92,8841.66,13.01,132,87,65.91,1353,45.18,22,Stable,0.51,2,0,17.79,4.9,0.00,0,4,257,Not Due
+CUST-0000011,Manufacturing,APAC,Mid-Market,248,Mid-Market,37,Expansion,Business,Annual,151001.88,12583.49,10.0,98,89,90.82,1966,75.11,14,Growing,1.02,1,1,21.31,4.3,631.98,1,8,164,Not Due
+CUST-0000012,Manufacturing,EMEA,Small,14,SMB,44,Active,Professional,Quarterly,8715.96,726.33,7.38,10,5,50.00,43,36.85,31,Declining,1.73,9,1,34.84,3.9,57.68,2,5,193,Not Due
+CUST-0000013,Financial Services,EMEA,Enterprise,3466,Enterprise,9,Active,Enterprise,Annual,655309.68,54609.14,16.51,511,429,83.95,8929,71.95,10,Growing,1.26,2,0,15.32,4.6,8049.22,2,9,76,Planning
+CUST-0000014,Technology,North America,Small,130,SMB,13,Active,Professional,Quarterly,16057.32,1338.11,7.64,16,12,75.00,159,46.82,19,Growing,0.23,1,1,27.39,4.3,167.17,5,7,12,Pending Decision
+CUST-0000015,Healthcare,APAC,Small,150,SMB,18,Active,Professional,Quarterly,24758.16,2063.18,10.23,30,21,70.00,269,51.62,18,Stable,0.57,2,1,23.50,3.8,485.25,3,11,68,In Discussion
+CUST-0000016,Manufacturing,LATAM,Enterprise,23875,Enterprise,47,Active,Business,Annual,3365345.88,280445.49,40.02,3500,2961,84.60,77738,78.98,12,Growing,2.39,18,2,45.71,,0.00,0,9,121,Planning
+CUST-0000017,Retail,APAC,Small,65,SMB,27,Active,Business,Monthly,88160.52,7346.71,4.24,50,32,64.00,811,44.25,26,Stable,4.0,14,3,63.24,2.6,5645.35,47,10,331,Not Due
+CUST-0000018,Education,APAC,Small,14,SMB,22,Active,Professional,Monthly,7710.96,642.58,7.94,10,8,80.00,178,61.57,13,Stable,2.09,5,0,13.01,4.7,30.38,1,3,352,Planning
+CUST-0000019,Technology,APAC,Small,32,SMB,26,Active,Professional,Monthly,9004.56,750.38,10.43,11,5,45.45,33,36.22,31,Declining,0.38,3,0,7.09,4.5,30.22,1,5,224,Not Due
+CUST-0000020,Financial Services,North America,Mid-Market,418,Mid-Market,2,Onboarding,Business,Quarterly,137948.16,11495.68,10.03,106,64,60.38,1564,39.31,28,Stable,4.58,15,3,54.39,3.2,2404.99,4,8,269,Not Due
+CUST-0000021,Healthcare,APAC,Small,11,SMB,12,Active,Starter,Monthly,1164.72,97.06,7.32,3,2,66.67,54,48.18,22,Growing,0.48,2,0,15.43,4.7,24.12,33,7,236,Not Due
+CUST-0000022,Technology,EMEA,Small,114,SMB,9,Active,Starter,Monthly,9379.92,781.66,9.37,21,15,71.43,193,51.69,25,Declining,3.96,6,2,38.27,3.1,87.50,6,9,110,Planning
+CUST-0000023,Manufacturing,North America,Small,90,SMB,38,Active,Professional,Quarterly,7363.68,613.64,8.22,10,8,80.00,152,56.22,17,Stable,2.71,9,0,14.73,,74.00,1,6,141,Planning
+CUST-0000024,Education,North America,Small,11,SMB,103,Active,Professional,Quarterly,7154.64,596.22,5.03,10,8,80.00,111,49.35,15,Growing,3.38,9,1,29.03,3.9,76.21,1,8,287,Not Due
+CUST-0000025,Technology,North America,Small,20,SMB,41,Active,Starter,Monthly,2156.76,179.73,7.24,7,5,71.43,78,64.51,22,Declining,1.32,3,1,14.74,,31.96,1,9,50,Pending Decision
+CUST-0000026,Professional Services,EMEA,Small,62,SMB,26,Active,Business,Monthly,67005.24,5583.77,13.45,50,36,72.00,400,37.64,21,Stable,2.01,4,0,13.01,4.1,0.00,0,9,50,In Discussion
+CUST-0000027,Retail,APAC,Small,76,SMB,3,Onboarding,Starter,Quarterly,6253.56,521.13,12.65,20,16,80.00,443,57.2,13,Stable,0.55,1,0,14.05,3.6,8.54,1,6,270,Not Due
+CUST-0000028,Manufacturing,APAC,Small,62,SMB,47,Active,Professional,Monthly,7760.64,646.72,8.11,10,8,80.00,68,57.37,15,Stable,1.1,1,0,7.15,4.7,83.76,4,4,299,Not Due
+CUST-0000029,Retail,LATAM,Mid-Market,1369,Mid-Market,19,Active,Business,Quarterly,638699.52,53224.96,7.98,416,371,89.18,3187,51.94,14,Stable,12.99,25,10,173.25,1,2359.53,6,10,107,Planning
+CUST-0000030,Financial Services,LATAM,Mid-Market,357,Mid-Market,23,Active,Business,Annual,192497.04,16041.42,9.72,126,85,67.46,1251,52.9,27,Stable,0.35,2,1,20.14,4.5,1427.79,1,10,206,Not Due
+CUST-0000031,Retail,APAC,Mid-Market,1130,Mid-Market,65,Expansion,Business,Quarterly,156450.84,13037.57,9.63,96,84,87.50,1847,74.15,12,Growing,1.08,1,0,9.18,4.4,1035.77,1,6,178,Not Due
+CUST-0000032,Education,North America,Mid-Market,342,Mid-Market,3,Onboarding,Business,Annual,76516.80,6376.40,14.11,56,53,94.64,519,91.99,4,Stable,1.2,4,0,13.27,4.4,666.73,3,8,88,Planning
+CUST-0000033,Professional Services,EMEA,Small,11,SMB,55,Active,Starter,Quarterly,409.08,34.09,8.39,1,1,100.00,17,94.22,2,Growing,2.92,13,2,35.25,3.2,0.00,0,8,164,Not Due
+CUST-0000034,Manufacturing,APAC,Small,10,SMB,11,Active,Professional,Monthly,6527.40,543.95,6.49,10,5,50.00,59,27.44,30,Declining,0.19,1,0,16.28,4.7,67.78,7,2,210,Not Due
+CUST-0000035,Technology,LATAM,Small,57,SMB,30,Active,Starter,Monthly,3914.52,326.21,0.52,8,5,62.50,89,48.77,21,Declining,2.22,3,1,29.89,3.6,768.52,113,7,264,Not Due
+CUST-0000036,Financial Services,North America,Small,142,SMB,62,Active,Business,Monthly,76944.36,6412.03,5.0,50,40,80.00,476,52.66,19,Stable,0.79,0,0,6.93,4.1,253.34,2,7,76,Planning
+CUST-0000037,Professional Services,LATAM,Small,45,SMB,15,Active,Professional,Monthly,8802.96,733.58,15.0,12,5,41.67,61,27.63,32,Declining,1.35,5,1,29.45,3.8,154.36,2,5,124,Not Due
+CUST-0000038,Retail,EMEA,Small,95,SMB,47,Active,Professional,Monthly,38442.36,3203.53,1.71,38,20,52.63,172,47.67,25,Stable,0.34,2,0,5.00,4.0,146.21,3,6,197,Not Due
+CUST-0000039,Financial Services,LATAM,Small,38,SMB,48,Active,Professional,Annual,7844.40,653.70,3.04,10,10,100.00,260,62.71,17,Stable,0.36,3,0,7.58,4.6,72.38,2,6,27,Pending Decision
+CUST-0000040,Manufacturing,LATAM,Small,83,SMB,64,Active,Business,Monthly,78972.72,6581.06,5.09,50,39,78.00,837,92.66,10,Stable,0.66,3,0,12.91,5,0.00,0,9,58,In Discussion
+CUST-0000041,Retail,EMEA,Mid-Market,1936,Mid-Market,45,Active,Professional,Annual,257393.28,21449.44,5.51,239,167,69.87,1873,56.36,21,Stable,0.53,3,3,46.26,3.3,21773.97,62,11,111,Not Due
+CUST-0000042,Retail,LATAM,Small,21,SMB,17,Active,Professional,Monthly,6914.76,576.23,9.34,10,6,60.00,62,45.71,24,Stable,0.92,3,0,13.61,4.7,152.24,6,6,0,Pending Decision
+CUST-0000043,Manufacturing,APAC,Mid-Market,296,Mid-Market,13,Active,Business,Annual,64085.52,5340.46,17.49,50,44,88.00,1222,71.12,13,Growing,0.76,6,0,11.55,4.8,421.34,3,8,75,Planning
+CUST-0000044,Retail,EMEA,Small,70,SMB,36,Active,Starter,Monthly,3449.16,287.43,13.26,13,9,69.23,230,69.75,27,Stable,0.78,4,0,13.86,,13.68,3,4,156,Not Due
+CUST-0000045,Financial Services,EMEA,Small,63,SMB,64,Active,Starter,Quarterly,6618.36,551.53,7.76,19,16,84.21,153,87.2,16,Stable,0.26,1,1,24.39,3.7,32.36,5,9,86,Not Due
+CUST-0000046,Education,EMEA,Small,17,SMB,14,Active,Professional,Monthly,8008.92,667.41,8.96,10,6,60.00,92,57.74,21,Declining,1.14,3,1,23.22,4.1,121.35,6,5,122,Not Due
+CUST-0000047,Manufacturing,EMEA,Small,85,SMB,2,Active,Starter,Annual,12121.80,1010.15,7.85,28,19,67.86,178,44.95,20,Stable,4.5,10,1,32.95,3.2,45.08,1,8,83,Not Due
+CUST-0000048,Financial Services,North America,Mid-Market,505,Mid-Market,19,Active,Professional,Annual,213335.88,17777.99,11.03,200,92,46.00,1407,45.89,31,Declining,1.19,6,0,9.69,4.8,2583.03,4,5,248,Not Due
+CUST-0000049,Education,LATAM,Enterprise,19934,Enterprise,30,Active,Enterprise,Annual,3321967.56,276830.63,15.86,3096,2784,89.92,49963,71.56,9,Stable,2.22,21,2,56.25,2.8,55946.53,2,8,298,Not Due
+CUST-0000050,Retail,APAC,Small,54,SMB,11,Active,Business,Annual,108536.40,9044.70,3.79,50,42,84.00,1158,72.18,13,Growing,1.12,1,1,26.07,3.4,2639.33,70,14,61,Planning
+CUST-0000051,Manufacturing,EMEA,Enterprise,12485,Mid-Market,44,Active,Business,Monthly,5189513.88,432459.49,11.85,3500,1667,47.63,17413,34.12,31,Stable,1.59,17,1,31.81,3.9,40026.57,1,9,118,Planning
+CUST-0000052,Financial Services,APAC,Small,66,SMB,35,Active,Starter,Monthly,7712.52,642.71,3.37,16,13,81.25,153,72.94,18,Stable,3.31,10,0,16.01,4.3,75.32,1,5,100,Planning
+CUST-0000053,Professional Services,APAC,Small,82,SMB,24,Active,Starter,Monthly,2995.80,249.65,2.9,7,5,71.43,42,39.12,19,Declining,1.4,2,1,24.71,3.8,5.59,2,5,135,Planning
+CUST-0000054,Technology,EMEA,Small,47,SMB,0,Onboarding,Starter,Monthly,4848.24,404.02,6.47,11,7,63.64,75,50.76,25,Stable,2.19,7,0,16.00,4.6,18.10,1,7,50,In Discussion
+CUST-0000055,Retail,LATAM,Small,111,SMB,31,Active,Starter,Quarterly,20588.40,1715.70,9.78,49,37,75.51,844,54.19,15,Stable,0.64,0,0,10.07,4.6,0.00,0,3,258,Planning
+CUST-0000056,Professional Services,APAC,Small,166,SMB,36,Active,Professional,Monthly,32805.00,2733.75,12.17,35,30,85.71,584,59.9,11,Stable,0.92,3,0,12.05,4.2,347.31,5,8,65,Planning
+CUST-0000057,Financial Services,APAC,Small,101,SMB,19,Active,Starter,Monthly,11252.64,937.72,3.26,22,14,63.64,345,61.76,23,Growing,0.57,2,0,10.13,4.5,63.55,1,4,118,Planning
+CUST-0000058,Professional Services,LATAM,Mid-Market,1964,Mid-Market,18,Active,Business,Quarterly,662289.48,55190.79,6.04,509,385,75.64,4187,44.02,17,Declining,1.08,7,1,26.70,4.3,0.00,0,13,39,Planning
+CUST-0000059,Technology,North America,Small,66,SMB,77,Active,Starter,Monthly,9205.56,767.13,0.69,26,23,88.46,485,69.35,13,Stable,2.02,6,0,17.74,4.0,39.05,1,3,130,Planning
+CUST-0000060,Technology,EMEA,Small,76,SMB,11,Active,Professional,Quarterly,27087.96,2257.33,8.07,41,30,73.17,659,56.18,17,Growing,0.61,0,0,9.01,4.3,0.00,0,4,303,Not Due
+CUST-0000061,Professional Services,LATAM,Small,106,SMB,74,Active,Starter,Monthly,5158.08,429.84,7.19,18,7,38.89,54,17.88,36,Stable,0.49,5,1,28.81,4.0,15.64,1,8,11,Pending Decision
+CUST-0000062,Financial Services,North America,Small,158,SMB,70,Active,Business,Monthly,76110.48,6342.54,2.46,50,43,86.00,405,62.25,22,Declining,1.18,3,0,10.46,4.6,343.89,1,5,26,Pending Decision
+CUST-0000063,Education,LATAM,Small,39,SMB,22,Active,Starter,Quarterly,2439.72,203.31,1.14,5,4,80.00,87,41.03,16,Stable,2.22,4,1,29.63,3.8,120.88,41,7,76,Planning
+CUST-0000064,Healthcare,APAC,Small,55,SMB,108,Active,Starter,Annual,7441.20,620.10,5.27,15,9,60.00,189,46.46,23,Stable,1.93,0,0,13.05,4.2,434.28,32,6,94,Not Due
+CUST-0000065,Healthcare,North America,Small,133,SMB,35,Expansion,Starter,Monthly,17456.64,1454.72,6.63,46,37,80.43,990,75.09,14,Stable,2.48,3,0,11.50,3.8,326.66,8,4,143,Not Due
+CUST-0000066,Healthcare,EMEA,Mid-Market,549,Mid-Market,50,Active,Professional,Annual,67503.36,5625.28,23.45,138,101,73.19,2009,65.93,17,Stable,1.24,4,0,7.43,4.8,3192.34,30,10,6,Planning
+CUST-0000067,Education,EMEA,Small,198,SMB,36,Active,Professional,Quarterly,31502.76,2625.23,15.15,46,42,91.30,905,63.06,10,Stable,0.49,1,1,21.25,4.2,323.23,4,3,137,Planning
+CUST-0000068,Financial Services,LATAM,Mid-Market,276,Mid-Market,39,Active,Business,Monthly,59580.36,4965.03,23.82,50,39,78.00,1064,64.66,13,Stable,3.3,8,1,29.78,3.8,320.22,3,5,147,In Discussion
+CUST-0000069,Education,North America,Small,25,SMB,95,Active,Professional,Monthly,8411.64,700.97,5.39,10,9,90.00,51,65.21,12,Growing,0.57,2,0,10.19,4.4,984.22,81,8,327,Not Due
+CUST-0000070,Professional Services,LATAM,Mid-Market,321,Mid-Market,2,Onboarding,Professional,Annual,67391.64,5615.97,15.67,84,41,48.81,285,25.3,32,Declining,4.73,6,0,11.84,4.4,527.11,2,5,228,Not Due
+CUST-0000071,Manufacturing,EMEA,Mid-Market,376,Mid-Market,25,Active,Professional,Annual,63069.36,5255.78,13.24,86,60,69.77,802,55.5,18,Stable,2.5,6,1,25.78,,411.11,0,9,333,Not Due
+CUST-0000072,Technology,LATAM,Enterprise,53036,Enterprise,2,Active,Enterprise,Annual,10740039.84,895003.32,18.07,10000,6710,67.10,71169,63.79,24,Stable,0.33,38,1,53.27,3.3,59384.01,4,15,67,Planning
+CUST-0000073,Retail,EMEA,Small,14,SMB,29,Active,Starter,Annual,1105.80,92.15,3.41,3,2,66.67,30,36.51,21,Growing,4.75,12,2,51.51,2.7,8.01,2,5,293,Not Due
+CUST-0000074,Education,EMEA,Small,65,SMB,49,Expansion,Starter,Monthly,10012.56,834.38,2.64,20,16,80.00,508,81.76,10,Stable,1.5,4,0,13.02,4.9,85.05,4,9,40,In Discussion
+CUST-0000075,Education,LATAM,Small,89,SMB,49,Active,Professional,Quarterly,10479.96,873.33,14.43,18,14,77.78,175,60.63,18,Stable,1.08,5,0,9.31,,47.21,2,6,252,Not Due
+CUST-0000076,Education,North America,Small,14,SMB,11,Active,Starter,Quarterly,2264.40,188.70,3.41,6,4,66.67,87,41.92,22,Growing,2.76,7,0,14.74,4.1,42.95,4,3,177,Planning
+CUST-0000077,Education,LATAM,Small,39,SMB,4,Active,Starter,Quarterly,3940.68,328.39,7.2,11,8,72.73,143,63.41,19,Stable,1.95,3,0,7.27,,45.43,1,4,150,Planning
+CUST-0000078,Education,North America,Small,73,SMB,9,Active,Starter,Monthly,3621.60,301.80,3.64,10,8,80.00,110,34.09,18,Declining,0.68,3,1,19.36,,195.82,100,7,148,Planning
+CUST-0000079,Professional Services,APAC,Small,96,SMB,38,Active,Starter,Annual,7549.20,629.10,11.24,26,19,73.08,318,56.26,25,Stable,0.2,1,1,19.11,4.7,33.67,1,9,43,In Discussion
+CUST-0000080,Retail,APAC,Small,120,SMB,2,Onboarding,Professional,Annual,26350.80,2195.90,6.79,34,19,55.88,224,31.61,28,Growing,0.4,2,0,11.46,4.6,108.09,11,3,133,Not Due
+CUST-0000081,Education,APAC,Small,87,SMB,30,Active,Starter,Monthly,7414.56,617.88,6.62,18,12,66.67,176,25.71,23,Stable,1.66,9,0,13.40,4.3,29.35,2,4,111,In Discussion
+CUST-0000082,Manufacturing,EMEA,Small,63,SMB,3,Active,Starter,Annual,6784.08,565.34,3.41,15,8,53.33,170,39.76,37,Stable,2.41,4,1,26.70,4.1,39.05,3,4,258,Not Due
+CUST-0000083,Technology,LATAM,Small,20,SMB,70,Active,Starter,Quarterly,311.88,25.99,5.42,1,1,100.00,9,55.26,7,Stable,0.98,2,0,3.64,4.6,0.85,3,4,295,Not Due
+CUST-0000084,Education,North America,Mid-Market,964,Mid-Market,33,Active,Business,Quarterly,301941.84,25161.82,24.77,243,183,75.31,2405,54.81,22,Stable,2.63,10,0,20.16,3.8,0.00,0,5,280,Not Due
+CUST-0000085,Healthcare,North America,Small,40,Mid-Market,3,Onboarding,Business,Monthly,77376.24,6448.02,19.43,50,27,54.00,297,41.46,26,Declining,0.26,1,0,7.64,4.8,0.00,0,4,354,Not Due
+CUST-0000086,Financial Services,North America,Small,47,SMB,7,Active,Starter,Monthly,3451.80,287.65,9.51,9,5,55.56,88,53.18,24,Growing,0.24,0,0,6.00,4.7,176.99,57,6,108,Planning
+CUST-0000087,Manufacturing,North America,Mid-Market,1352,SMB,6,Active,Professional,Quarterly,365633.28,30469.44,8.53,451,185,41.02,2244,30.92,41,Stable,1.64,8,1,30.70,4.2,2010.96,1,8,29,In Discussion
+CUST-0000088,Manufacturing,LATAM,Small,14,Mid-Market,18,Active,Business,Annual,68122.92,5676.91,4.09,50,22,44.00,217,22.03,33,Declining,1.71,8,2,40.91,3.2,1046.68,4,13,80,Planning
+CUST-0000089,Financial Services,LATAM,Mid-Market,771,Mid-Market,19,Active,Business,Quarterly,227844.96,18987.08,22.93,189,148,78.31,2323,62.24,14,Stable,2.37,6,0,18.22,4.2,2248.44,3,12,24,Planning
+CUST-0000090,Healthcare,EMEA,Small,112,SMB,3,Onboarding,Professional,Quarterly,23980.68,1998.39,2.35,24,16,66.67,137,43.13,24,Stable,1.26,5,2,34.48,3.0,234.36,1,7,181,Not Due
+CUST-0000091,Technology,North America,Mid-Market,1735,Mid-Market,29,Active,Professional,Annual,228114.96,19009.58,23.24,409,278,67.97,3387,55.17,19,Stable,2.77,7,0,13.41,4.5,45672.17,88,10,168,Not Due
+CUST-0000092,Healthcare,EMEA,Enterprise,21359,Enterprise,21,Active,Business,Annual,4216401.60,351366.80,22.58,3500,1928,55.09,43712,52.1,27,Stable,0.08,16,0,21.85,3.7,26336.54,1,10,16,Pending Decision
+CUST-0000093,Education,EMEA,Small,115,SMB,30,Active,Professional,Quarterly,6491.28,540.94,7.15,10,9,90.00,238,70.47,9,Stable,0.08,1,1,19.63,4.3,58.09,1,9,23,Pending Decision
+CUST-0000094,Healthcare,EMEA,Mid-Market,996,Mid-Market,31,Active,Business,Quarterly,319519.32,26626.61,6.81,217,168,77.42,1236,69.59,20,Stable,1.63,9,1,27.64,3.8,1759.73,3,8,67,In Discussion
+CUST-0000095,Professional Services,North America,Mid-Market,396,Mid-Market,40,Active,Business,Monthly,150164.28,12513.69,23.43,101,100,99.01,1416,72.74,10,Growing,0.59,4,0,8.85,4.5,11028.36,33,12,240,Not Due
+CUST-0000096,Financial Services,EMEA,Enterprise,16088,Enterprise,1,Onboarding,Enterprise,Annual,3514157.88,292846.49,18.52,2795,1432,51.23,13919,26.16,29,Stable,0.9,12,0,12.86,4.2,34479.71,4,9,35,In Discussion
+CUST-0000097,Education,North America,Mid-Market,1503,Mid-Market,36,Active,Professional,Monthly,263413.20,21951.10,4.5,304,251,82.57,1778,60.14,22,Stable,0.74,4,0,12.36,4.4,4390.27,7,6,316,Not Due
+CUST-0000098,Financial Services,EMEA,Mid-Market,447,Mid-Market,2,Active,Professional,Annual,58179.24,4848.27,11.9,79,41,51.90,198,40.39,28,Stable,0.94,4,0,13.97,3.8,209.64,2,4,185,Not Due
+CUST-0000099,Retail,APAC,Small,34,SMB,120,Active,Starter,Monthly,993.60,82.80,7.32,3,2,66.67,28,42.58,24,Declining,3.98,10,1,32.36,3.2,8.79,3,6,64,Planning
+CUST-0000100,Professional Services,APAC,Small,67,SMB,35,Active,Business,Quarterly,67649.88,5637.49,9.08,50,39,78.00,497,71.82,12,Stable,1.66,6,0,14.18,4.1,10391.89,83,12,44,In Discussion
+CUST-0000101,Financial Services,North America,Small,73,SMB,36,Active,Starter,Annual,1390.56,115.88,8.84,4,4,100.00,57,53.75,8,Growing,0.24,3,1,24.64,3.6,10.94,6,8,308,Not Due
+CUST-0000102,Financial Services,LATAM,Small,33,SMB,3,Onboarding,Starter,Monthly,2809.68,234.14,4.84,7,5,71.43,60,76.14,15,Declining,1.17,3,0,7.81,4.6,12.21,1,7,26,Pending Decision
+CUST-0000103,Professional Services,LATAM,Small,44,SMB,26,Active,Professional,Monthly,11032.20,919.35,11.68,11,7,63.64,129,35.87,28,Stable,2.56,7,1,27.85,4.3,96.91,2,6,189,Not Due
+CUST-0000104,Technology,APAC,Small,15,SMB,12,Active,Business,Monthly,68305.20,5692.10,5.76,50,43,86.00,780,77.93,8,Stable,0.75,0,0,10.96,5,3958.34,71,11,185,Not Due
+CUST-0000105,Retail,APAC,Small,26,SMB,33,Active,Starter,Monthly,2164.68,180.39,4.94,8,6,75.00,113,52.49,16,Stable,1.66,6,0,12.97,4.3,0.00,0,2,255,Not Due
+CUST-0000106,Manufacturing,North America,Small,148,SMB,16,Active,Starter,Monthly,28228.20,2352.35,4.23,75,34,45.33,226,30.4,34,Declining,4.67,8,2,43.27,3.3,214.50,3,9,228,Not Due
+CUST-0000107,Financial Services,North America,Small,29,SMB,6,Active,Professional,Monthly,9074.88,756.24,6.89,10,10,100.00,141,69.42,5,Stable,0.29,2,1,19.83,4.0,49.34,11,5,246,Not Due
+CUST-0000108,Retail,North America,Small,57,SMB,20,Active,Professional,Monthly,23022.12,1918.51,8.7,26,19,73.08,348,44.99,20,Stable,3.42,11,1,37.45,3.0,0.00,0,7,29,In Discussion
+CUST-0000109,Retail,LATAM,Small,10,SMB,120,Active,Starter,Monthly,818.04,68.17,8.89,2,1,50.00,7,18.99,37,Declining,0.54,6,0,14.42,3.9,10.64,1,3,352,Not Due
+CUST-0000110,Manufacturing,LATAM,Mid-Market,1170,Mid-Market,66,Active,Business,Annual,324374.76,27031.23,5.42,246,204,82.93,3554,75.35,12,Growing,0.88,4,0,3.34,4.1,0.00,0,8,4,In Discussion
+CUST-0000111,Education,North America,Small,29,SMB,4,Active,Starter,Monthly,1558.80,129.90,4.03,4,2,50.00,22,39.7,29,Stable,0.52,6,0,11.82,4.9,0.00,0,7,34,In Discussion
+CUST-0000112,Manufacturing,North America,Small,56,SMB,17,Active,Starter,Monthly,2505.60,208.80,10.4,8,7,87.50,122,73.72,8,Growing,2.48,4,0,16.63,3.9,27.25,3,3,138,Planning
+CUST-0000113,Manufacturing,EMEA,Small,29,SMB,4,Active,Professional,Monthly,7745.04,645.42,12.39,10,7,70.00,102,40.41,20,Stable,14.32,35,15,244.39,1,132.38,2,14,24,Pending Decision
+CUST-0000114,Healthcare,North America,Mid-Market,282,Mid-Market,7,Active,Professional,Annual,19609.20,1634.10,33.1,36,31,86.11,506,75.0,14,Growing,0.31,2,0,6.16,5,176.45,4,4,217,Not Due
+CUST-0000115,Education,North America,Mid-Market,1158,Mid-Market,9,Active,Business,Quarterly,580376.52,48364.71,13.75,383,308,80.42,3452,50.39,14,Stable,13.63,32,13,218.07,1,2775.25,2,10,112,Planning
+CUST-0000116,Financial Services,North America,Small,92,SMB,15,Active,Starter,Monthly,6753.96,562.83,5.12,20,18,90.00,502,54.52,10,Growing,1.69,7,1,25.31,4.2,72.88,3,5,343,Not Due
+CUST-0000117,Retail,North America,Small,194,SMB,115,Active,Professional,Monthly,55951.92,4662.66,6.47,55,38,69.09,648,48.74,23,Stable,1.63,5,0,16.91,3.7,263.58,1,1,115,Planning
+CUST-0000118,Financial Services,EMEA,Small,151,SMB,31,Active,Starter,Quarterly,15857.52,1321.46,8.15,39,24,61.54,113,69.54,23,Declining,1.6,7,0,13.07,4.4,78.05,2,7,75,Planning
+CUST-0000119,Professional Services,APAC,Small,19,SMB,7,Active,Professional,Monthly,6675.00,556.25,14.41,10,8,80.00,88,48.38,15,Stable,0.18,5,0,16.93,5.0,0.00,0,3,350,Not Due
+CUST-0000120,Financial Services,LATAM,Mid-Market,843,SMB,8,Active,Professional,Monthly,109533.12,9127.76,6.87,117,44,37.61,721,6.11,40,Stable,1.19,3,1,30.33,3.8,15397.77,105,13,23,Pending Decision
+CUST-0000121,Retail,APAC,Mid-Market,1436,Mid-Market,56,Active,Professional,Quarterly,346205.28,28850.44,14.45,532,408,76.69,8110,47.79,16,Growing,1.12,5,0,11.59,4.2,5557.05,8,11,151,Not Due
+CUST-0000122,Retail,North America,Enterprise,2987,Mid-Market,37,Active,Business,Annual,632636.40,52719.70,20.83,485,253,52.16,1885,37.63,30,Declining,0.91,6,0,5.44,3.9,0.00,0,8,182,Not Due
+CUST-0000123,Financial Services,North America,Mid-Market,382,Mid-Market,96,Active,Professional,Annual,24642.72,2053.56,20.07,30,15,50.00,183,39.17,28,Stable,0.38,1,1,21.52,3.7,417.07,3,4,97,Not Due
+CUST-0000124,Education,North America,Small,11,SMB,120,Expansion,Starter,Quarterly,2089.80,174.15,6.57,5,4,80.00,62,94.62,9,Growing,2.06,4,0,17.87,4.2,15.77,2,4,112,Planning
+CUST-0000125,Financial Services,APAC,Enterprise,59728,Enterprise,0,Onboarding,Enterprise,Quarterly,17064106.44,1422008.87,11.13,10000,7100,71.00,68381,47.29,20,Declining,3.05,49,4,98.07,1.4,0.00,0,12,105,Not Due
+CUST-0000126,Professional Services,North America,Mid-Market,459,Mid-Market,26,Active,Professional,Quarterly,62350.08,5195.84,16.49,66,47,71.21,270,57.39,18,Declining,3.59,11,1,25.50,3.5,0.00,0,14,55,Planning
+CUST-0000127,Healthcare,North America,Mid-Market,315,Mid-Market,6,Active,Enterprise,Annual,194577.36,16214.78,11.03,250,132,52.80,1040,22.51,35,Stable,1.15,5,0,16.34,5.0,0.00,0,5,302,Planning
+CUST-0000128,Technology,EMEA,Small,63,SMB,34,Active,Professional,Monthly,25013.40,2084.45,6.83,25,24,96.00,413,80.4,5,Growing,2.08,6,1,29.36,,90.16,8,9,85,Planning
+CUST-0000129,Healthcare,North America,Mid-Market,1532,Mid-Market,25,Active,Professional,Monthly,310890.96,25907.58,11.92,433,232,53.58,3934,45.7,25,Declining,1.02,6,0,13.27,4.4,31689.52,70,11,60,Pending Decision
+CUST-0000130,Professional Services,North America,Small,48,SMB,25,Active,Starter,Monthly,2828.64,235.72,3.96,8,4,50.00,50,44.34,31,Declining,0.23,3,0,6.02,4.7,0.00,0,4,207,Not Due
+CUST-0000131,Manufacturing,North America,Enterprise,25998,Enterprise,12,Active,Enterprise,Annual,4039789.44,336649.12,9.49,4808,2842,59.11,37378,39.82,28,Declining,2.45,28,1,45.17,3.6,0.00,0,7,173,Not Due
+CUST-0000132,Retail,APAC,Small,17,SMB,4,Active,Professional,Monthly,8119.44,676.62,11.1,10,9,90.00,196,81.72,7,Growing,2.6,5,1,31.03,3.7,70.45,1,4,335,Not Due
+CUST-0000133,Retail,EMEA,Enterprise,12486,Enterprise,61,Active,Enterprise,Monthly,1272525.72,106043.81,27.84,1734,1061,61.19,6370,49.78,24,Stable,0.42,11,0,16.99,4.4,5554.25,2,6,341,Not Due
+CUST-0000134,Education,LATAM,Mid-Market,483,Mid-Market,30,Expansion,Business,Monthly,137835.00,11486.25,11.47,89,84,94.38,1507,95.22,3,Stable,3.11,8,1,37.34,3.4,0.00,0,12,11,In Discussion
+CUST-0000135,Education,EMEA,Small,132,SMB,19,Active,Professional,Quarterly,9686.88,807.24,3.44,11,9,81.82,121,49.59,16,Stable,0.39,1,1,15.46,4.1,111.55,4,6,185,Not Due
+CUST-0000136,Manufacturing,APAC,Small,37,SMB,7,Active,Starter,Monthly,1842.72,153.56,5.27,5,3,60.00,39,38.48,23,Stable,1.71,7,0,19.32,4.4,25.48,2,5,241,Not Due
+CUST-0000137,Financial Services,EMEA,Small,16,SMB,47,Active,Professional,Quarterly,7204.08,600.34,15.41,10,9,90.00,112,62.83,10,Stable,0.26,2,0,11.35,,32.12,1,5,352,Not Due
+CUST-0000138,Healthcare,EMEA,Mid-Market,1495,Mid-Market,8,Active,Business,Quarterly,446413.92,37201.16,22.59,255,222,87.06,1153,80.07,9,Stable,3.5,6,1,21.24,3.4,2817.68,5,9,100,Planning
+CUST-0000139,Professional Services,EMEA,Small,77,SMB,10,Active,Professional,Quarterly,14883.36,1240.28,7.17,19,8,42.11,39,36.13,33,Declining,11.8,26,11,179.74,1,0.00,0,8,277,Not Due
+CUST-0000140,Manufacturing,APAC,Mid-Market,420,Mid-Market,1,Onboarding,Professional,Annual,46080.36,3840.03,10.97,57,31,54.39,152,37.56,28,Stable,5.5,10,2,47.26,3.0,271.80,3,7,320,Not Due
+CUST-0000141,Education,LATAM,Small,54,SMB,120,Active,Business,Annual,73605.12,6133.76,5.54,50,39,78.00,1176,52.82,20,Growing,1.54,6,0,8.76,5,738.35,2,8,78,Not Due
+CUST-0000142,Technology,APAC,Small,13,SMB,38,Active,Starter,Monthly,299.76,24.98,5.35,1,1,100.00,27,84.76,3,Stable,1.12,3,0,11.42,4.2,0.00,0,2,98,Planning
+CUST-0000143,Professional Services,LATAM,Small,30,SMB,120,Active,Professional,Monthly,8757.96,729.83,0.73,10,8,80.00,132,60.07,17,Growing,1.99,2,0,11.07,4.4,23.73,1,5,67,Planning
+CUST-0000144,Manufacturing,APAC,Small,83,SMB,98,Active,Starter,Monthly,11601.60,966.80,1.1,35,30,85.71,680,55.93,16,Stable,0.53,1,0,6.94,4.5,0.00,0,1,114,Planning
+CUST-0000145,Financial Services,LATAM,Mid-Market,457,Mid-Market,28,Active,Professional,Monthly,149651.28,12470.94,23.75,191,139,72.77,2301,53.53,18,Growing,0.78,0,0,14.80,4.3,721.04,2,8,18,In Discussion
+CUST-0000146,Retail,LATAM,Small,171,SMB,10,Active,Professional,Quarterly,39535.80,3294.65,12.84,42,35,83.33,342,58.29,13,Growing,0.37,4,1,28.80,3.7,213.70,2,9,44,In Discussion
+CUST-0000147,Retail,LATAM,Small,53,SMB,10,Active,Starter,Monthly,1989.24,165.77,10.76,6,2,33.33,15,23.22,39,Declining,2.19,10,0,16.92,4.0,24.00,3,8,75,In Discussion
+CUST-0000148,Financial Services,LATAM,Small,114,SMB,22,Expansion,Professional,Monthly,16418.52,1368.21,6.23,17,15,88.24,287,72.88,10,Stable,1.71,6,1,28.97,4.2,1011.53,47,9,360,Not Due
+CUST-0000149,Financial Services,LATAM,Small,18,SMB,23,Active,Professional,Monthly,10536.60,878.05,5.28,10,9,90.00,39,50.39,13,Stable,1.85,8,2,41.84,3.4,115.65,2,10,61,Planning
+CUST-0000150,Professional Services,LATAM,Mid-Market,586,Mid-Market,11,Active,Professional,Monthly,110758.80,9229.90,21.03,171,116,67.84,3334,51.32,20,Growing,2.11,6,2,37.27,3.0,1149.73,3,12,33,In Discussion
+CUST-0000151,Financial Services,APAC,Small,39,SMB,29,Active,Professional,Monthly,17992.68,1499.39,6.55,16,5,31.25,43,22.08,47,Declining,0.1,4,1,22.70,4.5,163.13,2,7,136,In Discussion
+CUST-0000152,Financial Services,LATAM,Small,169,SMB,22,Active,Professional,Monthly,23665.08,1972.09,9.11,25,17,68.00,237,57.83,23,Stable,0.82,4,0,6.40,4.9,88.84,2,8,12,Planning
+CUST-0000153,Financial Services,EMEA,Enterprise,49469,Enterprise,26,Active,Enterprise,Annual,8789180.40,732431.70,22.78,10000,9609,96.09,232023,70.91,11,Stable,0.19,41,0,38.79,,630214.06,34,12,186,Not Due
+CUST-0000154,Healthcare,APAC,Small,77,SMB,35,Active,Starter,Monthly,6511.20,542.60,3.93,16,10,62.50,95,43.84,24,Growing,1.48,5,0,7.44,4.3,39.79,1,9,19,Pending Decision
+CUST-0000155,Financial Services,LATAM,Enterprise,32871,Enterprise,3,Onboarding,Business,Monthly,3619862.04,301655.17,16.92,3500,2970,84.86,77420,69.91,10,Growing,2.74,21,2,49.52,2.8,16883.55,1,13,86,Planning
+CUST-0000156,Education,North America,Small,14,SMB,7,Active,Professional,Monthly,8864.40,738.70,7.64,10,6,60.00,44,39.72,24,Stable,1.47,9,2,35.83,4.3,629.15,61,8,114,Planning
+CUST-0000157,Retail,North America,Small,66,SMB,3,Onboarding,Starter,Monthly,10013.16,834.43,7.99,23,19,82.61,244,63.22,13,Growing,0.77,4,1,23.18,3.6,498.29,78,10,261,Not Due
+CUST-0000158,Professional Services,APAC,Small,48,SMB,7,Active,Starter,Monthly,3236.04,269.67,11.05,7,5,71.43,93,68.25,18,Growing,1.1,4,0,15.17,4.4,25.68,2,7,76,Planning
+CUST-0000159,Retail,LATAM,Small,111,SMB,40,Active,Professional,Monthly,32430.00,2702.50,18.24,42,30,71.43,251,40.37,19,Stable,0.82,5,0,10.51,4.3,494.54,1,6,268,Not Due
+CUST-0000160,Technology,North America,Mid-Market,714,Mid-Market,30,Active,Business,Annual,132506.52,11042.21,25.68,137,113,82.48,1891,49.59,17,Declining,1.55,3,0,12.74,4.6,1382.01,6,11,9,Pending Decision
+CUST-0000161,Financial Services,APAC,Small,191,SMB,17,Active,Professional,Monthly,14345.04,1195.42,12.25,15,11,73.33,273,51.77,19,Growing,7.03,18,5,93.01,,0.00,0,10,246,Not Due
+CUST-0000162,Technology,North America,Small,171,SMB,0,Onboarding,Starter,Annual,5773.32,481.11,5.38,17,4,23.53,15,23.09,42,Declining,0.7,6,1,28.17,3.7,26.55,1,5,235,Not Due
+CUST-0000163,Retail,EMEA,Small,60,SMB,50,Active,Professional,Quarterly,21134.40,1761.20,11.43,26,15,57.69,146,53.37,23,Stable,0.43,2,0,9.52,4.6,102.49,2,7,78,Planning
+CUST-0000164,Education,APAC,Mid-Market,817,Mid-Market,55,Active,Business,Annual,344026.20,28668.85,21.32,264,219,82.95,6398,69.61,16,Growing,0.41,5,0,11.55,4.6,8025.09,7,5,212,Not Due
+CUST-0000165,Professional Services,North America,Small,36,SMB,69,Active,Starter,Quarterly,2045.64,170.47,11.93,6,3,50.00,29,37.69,32,Declining,0.55,1,1,21.43,4.2,0.00,0,2,174,Not Due
+CUST-0000166,Healthcare,North America,Small,36,SMB,9,Active,Professional,Annual,8112.36,676.03,0.29,10,7,70.00,107,42.09,24,Stable,0.62,3,2,31.22,4.1,68.17,1,9,60,In Discussion
+CUST-0000167,Education,LATAM,Small,38,SMB,12,Active,Starter,Monthly,2746.20,228.85,0.96,7,5,71.43,73,53.43,20,Stable,0.66,2,0,11.99,4.4,28.52,6,3,253,Planning
+CUST-0000168,Healthcare,EMEA,Small,60,SMB,15,Active,Starter,Quarterly,2684.40,223.70,9.87,10,7,70.00,161,64.94,20,Stable,1.6,5,1,24.64,3.7,18.26,4,10,10,In Discussion
+CUST-0000169,Retail,LATAM,Small,42,SMB,74,Active,Starter,Monthly,1417.92,118.16,2.89,4,3,75.00,43,52.04,21,Stable,2.63,11,2,48.04,3.2,12.48,1,4,339,Not Due
+CUST-0000170,Healthcare,LATAM,Enterprise,29879,Enterprise,14,Active,Enterprise,Annual,3947577.96,328964.83,13.31,3264,2671,81.83,13930,67.44,12,Declining,0.64,15,0,21.15,4.0,78142.35,6,7,211,Not Due
+CUST-0000171,Healthcare,EMEA,Mid-Market,1940,SMB,41,Active,Business,Monthly,899427.24,74952.27,15.11,580,441,76.03,3868,56.2,16,Declining,1.8,4,2,35.52,,0.00,0,10,263,Not Due
+CUST-0000172,Retail,APAC,Small,42,Mid-Market,52,Active,Business,Annual,74837.16,6236.43,10.87,50,41,82.00,871,68.78,16,Growing,1.94,1,0,8.97,4.5,4797.09,159,11,357,Not Due
+CUST-0000173,Professional Services,APAC,Small,13,SMB,99,Active,Professional,Monthly,9283.68,773.64,9.24,10,5,50.00,48,42.75,29,Declining,1.05,6,1,28.28,4.1,71.63,4,6,95,Planning
+CUST-0000174,Retail,EMEA,Small,34,SMB,9,Active,Professional,Monthly,7728.24,644.02,10.04,10,7,70.00,97,76.68,16,Declining,2.01,3,2,36.72,3.2,0.00,0,4,242,Not Due
+CUST-0000175,Education,EMEA,Mid-Market,1787,Mid-Market,1,Active,Business,Annual,740401.56,61700.13,6.55,583,429,73.58,4380,39.99,18,Stable,2.45,7,0,12.11,4.4,2796.69,2,5,326,Not Due
+CUST-0000176,Technology,LATAM,Mid-Market,708,Mid-Market,107,Active,Business,Monthly,168213.36,14017.78,9.14,113,90,79.65,1245,76.68,12,Stable,3.77,7,1,27.45,3.1,3061.49,2,5,122,Planning
+CUST-0000177,Manufacturing,EMEA,Mid-Market,784,Mid-Market,114,Active,Business,Annual,148051.56,12337.63,23.87,111,78,70.27,1178,64.75,28,Growing,0.24,1,1,16.49,4.4,1487.09,1,8,214,Not Due
+CUST-0000178,Retail,APAC,Mid-Market,1933,Mid-Market,2,Active,Professional,Quarterly,430163.40,35846.95,19.0,677,512,75.63,4566,43.61,17,Stable,3.31,12,0,20.90,3.6,2915.02,2,8,72,Pending Decision
+CUST-0000179,Technology,APAC,Enterprise,76374,Enterprise,59,Active,Enterprise,Annual,8113985.88,676165.49,25.8,9824,6019,61.27,76525,46.15,22,Growing,1.09,44,2,65.24,3.0,61182.88,3,12,124,Not Due
+CUST-0000180,Retail,North America,Small,89,SMB,69,Active,Professional,Monthly,19945.08,1662.09,17.71,20,14,70.00,151,56.12,24,Declining,2.29,6,1,30.18,4.3,0.00,0,6,155,Not Due
+CUST-0000181,Manufacturing,North America,Small,15,SMB,1,Onboarding,Professional,Annual,8182.92,681.91,3.22,10,6,60.00,55,40.62,29,Declining,2.67,10,2,43.97,3.1,108.30,1,2,176,Planning
+CUST-0000182,Professional Services,LATAM,Small,187,SMB,13,Active,Professional,Quarterly,15359.88,1279.99,19.08,22,11,50.00,118,46.9,27,Growing,3.3,5,1,32.22,3.8,0.00,0,5,250,Not Due
+CUST-0000183,Professional Services,LATAM,Mid-Market,363,SMB,36,Active,Business,Monthly,78184.08,6515.34,3.06,50,36,72.00,454,59.77,18,Declining,2.08,5,0,21.31,4.0,4705.93,37,5,173,Not Due
+CUST-0000184,Manufacturing,APAC,Mid-Market,387,Mid-Market,21,Active,Professional,Quarterly,21495.84,1791.32,30.84,27,23,85.19,120,66.87,10,Declining,0.39,1,0,2.74,4.5,1540.60,50,6,304,Not Due
+CUST-0000185,Professional Services,LATAM,Small,147,SMB,32,Expansion,Professional,Quarterly,23668.80,1972.40,16.75,39,34,87.18,278,83.29,11,Stable,1.32,4,1,23.11,3.7,506.86,3,7,62,In Discussion
+CUST-0000186,Technology,APAC,Mid-Market,694,Mid-Market,30,Expansion,Business,Monthly,152282.04,12690.17,27.26,141,130,92.20,1646,79.52,11,Stable,2.79,8,0,10.96,4.3,429.24,3,6,223,Not Due
+CUST-0000187,Retail,North America,Enterprise,4600,Mid-Market,29,Active,Business,Annual,1881368.88,156780.74,9.83,1160,844,72.76,12450,62.73,20,Stable,1.23,10,0,13.60,3.9,14022.82,1,5,308,Not Due
+CUST-0000188,Technology,EMEA,Enterprise,2695,Mid-Market,6,Active,Starter,Monthly,24360.72,2030.06,4.22,75,65,86.67,998,59.67,15,Growing,1.98,10,0,12.61,4.0,66.98,1,8,55,In Discussion
+CUST-0000189,Manufacturing,EMEA,Mid-Market,752,Mid-Market,20,Active,Business,Annual,436802.76,36400.23,22.36,378,321,84.92,7073,78.19,12,Growing,1.17,2,0,11.25,4.8,6521.32,3,7,229,Not Due
+CUST-0000190,Retail,APAC,Small,80,SMB,28,Active,Starter,Quarterly,4045.44,337.12,7.46,10,8,80.00,184,66.15,19,Growing,1.72,6,0,14.20,4.8,20.32,5,4,230,Not Due
+CUST-0000191,Healthcare,EMEA,Small,22,SMB,63,Active,Starter,Monthly,2493.12,207.76,0.99,8,6,75.00,73,50.73,21,Stable,0.39,2,0,4.97,4.7,23.20,2,4,33,Pending Decision
+CUST-0000192,Technology,APAC,Small,37,Mid-Market,0,Onboarding,Starter,Quarterly,5122.80,426.90,5.42,13,8,61.54,54,35.96,26,Declining,1.36,2,0,14.39,5,267.38,85,8,28,Pending Decision
+CUST-0000193,Technology,LATAM,Mid-Market,1048,Mid-Market,114,Active,Starter,Monthly,31922.88,2660.24,4.83,75,53,70.67,1518,59.49,18,Stable,2.16,5,1,30.20,3.9,640.92,7,12,7,Pending Decision
+CUST-0000194,Professional Services,LATAM,Small,18,SMB,23,Active,Professional,Monthly,6635.28,552.94,16.17,10,8,80.00,152,48.11,17,Growing,0.61,1,0,10.58,4.7,156.87,39,4,354,Not Due
+CUST-0000195,Healthcare,APAC,Small,95,SMB,9,Active,Professional,Quarterly,34069.32,2839.11,10.51,43,39,90.70,1344,66.91,13,Growing,0.91,4,0,13.08,4.6,0.00,0,9,12,In Discussion
+CUST-0000196,Technology,EMEA,Small,17,SMB,0,Onboarding,Professional,Monthly,8325.60,693.80,5.9,10,5,50.00,35,46.52,26,Stable,2.69,8,1,32.77,3.3,253.94,27,5,101,Planning
+CUST-0000197,Professional Services,APAC,Mid-Market,1548,Mid-Market,20,Active,Professional,Annual,88857.12,7404.76,5.49,94,89,94.68,2470,84.5,5,Growing,1.31,2,2,38.72,3.8,901.55,1,6,136,Planning
+CUST-0000198,Technology,EMEA,Small,59,SMB,33,Active,Business,Quarterly,80175.96,6681.33,10.48,50,40,80.00,602,57.23,16,Stable,0.83,3,0,12.48,3.8,356.47,1,7,23,In Discussion
+CUST-0000199,Professional Services,APAC,Small,97,SMB,43,Active,Starter,Quarterly,5389.20,449.10,10.17,14,6,42.86,54,36.64,35,Stable,0.51,2,0,16.68,4.7,15.89,2,5,293,Not Due
+CUST-0000200,Healthcare,APAC,Mid-Market,420,Mid-Market,23,Active,Professional,Quarterly,118300.08,9858.34,6.33,131,105,80.15,921,45.46,20,Growing,2.72,11,1,29.02,4.1,7120.75,59,14,73,In Discussion
+CUST-0000201,Manufacturing,APAC,Mid-Market,253,Mid-Market,120,Active,Professional,Monthly,36735.24,3061.27,27.75,47,31,65.96,461,65.0,21,Stable,0.31,3,1,24.68,4.0,739.54,3,6,317,Not Due
+CUST-0000202,Retail,APAC,Small,60,SMB,120,Active,Professional,Monthly,11011.32,917.61,16.52,15,12,80.00,243,90.5,10,Growing,0.92,5,0,7.13,3.9,115.81,6,6,357,Not Due
+CUST-0000203,Healthcare,LATAM,Small,128,SMB,10,Active,Starter,Monthly,5762.76,480.23,6.77,15,12,80.00,97,45.25,18,Stable,0.65,3,0,8.42,4.5,79.04,1,9,13,Pending Decision
+CUST-0000204,Manufacturing,EMEA,Small,88,SMB,53,Expansion,Starter,Monthly,9505.20,792.10,2.69,20,17,85.00,398,72.08,9,Growing,6.19,6,2,43.66,,28.92,1,5,111,Planning
+CUST-0000205,Manufacturing,North America,Small,34,SMB,32,Active,Professional,Annual,8745.24,728.77,7.21,10,9,90.00,201,64.97,9,Growing,0.44,0,0,5.06,,0.00,0,2,331,Not Due
+CUST-0000206,Education,EMEA,Small,166,SMB,117,Active,Starter,Quarterly,30587.40,2548.95,7.9,69,48,69.57,401,37.65,23,Stable,2.85,10,1,34.73,3.8,0.00,0,8,292,Not Due
+CUST-0000207,Manufacturing,LATAM,Enterprise,34846,Enterprise,16,Active,Enterprise,Annual,12923675.64,1076972.97,15.09,9948,5683,57.13,165952,66.03,25,Stable,1.0,40,1,54.91,3.1,92314.36,3,12,331,Not Due
+CUST-0000208,Technology,LATAM,Small,74,SMB,9,Active,Professional,Monthly,16936.56,1411.38,8.53,20,16,80.00,132,55.93,14,Declining,1.49,3,0,6.94,4.6,172.04,5,4,331,Not Due
+CUST-0000209,Professional Services,North America,Mid-Market,369,Enterprise,16,Active,Enterprise,Quarterly,194601.96,16216.83,14.31,250,217,86.80,1994,70.55,10,Stable,2.97,1,0,8.40,,0.00,0,4,274,Not Due
+CUST-0000210,Financial Services,EMEA,Enterprise,2722,Enterprise,74,Active,Enterprise,Annual,578918.16,48243.18,4.92,387,184,47.55,1096,47.63,33,Declining,0.32,6,0,9.45,4.4,15675.45,74,11,87,Planning
+CUST-0000211,Education,North America,Small,116,SMB,18,Active,Professional,Monthly,39785.76,3315.48,6.53,49,45,91.84,1153,59.83,13,Growing,3.5,8,1,30.58,3.7,88.61,4,10,56,Planning
+CUST-0000212,Healthcare,EMEA,Small,35,SMB,5,Active,Starter,Monthly,3320.04,276.67,10.26,10,7,70.00,65,34.04,21,Stable,1.47,2,0,12.05,4.2,0.00,0,8,22,In Discussion
+CUST-0000213,Technology,APAC,Mid-Market,415,Mid-Market,36,Active,Professional,Annual,26354.16,2196.18,11.51,36,18,50.00,230,32.27,31,Stable,0.61,4,0,8.01,4.3,0.00,0,5,63,In Discussion
+CUST-0000214,Education,APAC,Small,187,SMB,12,Active,Starter,Monthly,21845.64,1820.47,1.46,56,34,60.71,413,37.69,25,Stable,2.34,5,1,29.39,3.2,207.06,2,5,96,Not Due
+CUST-0000215,Healthcare,EMEA,Small,28,Mid-Market,18,Active,Business,Annual,52065.00,4338.75,16.2,50,38,76.00,640,49.64,18,Stable,1.95,5,0,13.22,4.7,102.91,0,8,36,In Discussion
+CUST-0000216,Education,APAC,Mid-Market,310,Mid-Market,2,Onboarding,Business,Quarterly,191510.16,15959.18,8.35,107,84,78.50,715,42.12,16,Declining,1.61,1,0,12.75,4.0,5748.80,10,4,280,Not Due
+CUST-0000217,Education,North America,Small,32,Mid-Market,89,Active,Business,Annual,69140.04,5761.67,12.45,50,23,46.00,285,48.48,29,Stable,0.23,3,1,20.45,,3478.39,45,8,153,Planning
+CUST-0000218,Financial Services,APAC,Small,12,SMB,5,Active,Professional,Monthly,7278.72,606.56,18.67,10,9,90.00,145,46.72,12,Growing,0.4,1,0,8.71,4.6,31.05,1,4,235,Planning
+CUST-0000219,Education,LATAM,Mid-Market,1858,Mid-Market,2,Active,Business,Annual,1402127.40,116843.95,8.48,990,665,67.17,7915,56.46,20,Stable,1.14,8,0,14.58,4.6,7300.21,1,8,290,Not Due
+CUST-0000220,Education,EMEA,Mid-Market,497,Mid-Market,27,Active,Professional,Annual,44940.96,3745.08,8.0,74,56,75.68,891,55.06,17,Stable,0.03,0,0,5.62,4.6,189.48,1,5,70,In Discussion
+CUST-0000221,Financial Services,APAC,Small,132,SMB,43,Active,Professional,Monthly,28712.28,2392.69,13.07,37,18,48.65,135,30.81,30,Declining,7.62,13,4,72.03,2.0,102.49,0,11,358,Not Due
+CUST-0000222,Healthcare,APAC,Small,22,SMB,8,Active,Starter,Quarterly,1353.12,112.76,3.6,3,2,66.67,16,47.48,20,Stable,2.47,0,0,5.54,4.6,0.00,0,1,188,Not Due
+CUST-0000223,Professional Services,North America,Mid-Market,1181,Mid-Market,46,Active,Enterprise,Annual,276714.72,23059.56,20.45,250,144,57.60,1900,48.8,35,Stable,3.98,13,2,45.10,2.3,949.84,1,10,299,Not Due
+CUST-0000224,Education,EMEA,Small,134,SMB,10,Active,Starter,Monthly,6893.16,574.43,10.29,23,20,86.96,163,64.62,14,Declining,1.09,1,0,8.66,4.3,126.72,4,2,234,Not Due
+CUST-0000225,Manufacturing,LATAM,Small,162,SMB,18,Active,Starter,Monthly,7338.60,611.55,7.38,17,14,82.35,123,50.68,13,Stable,1.42,3,0,11.04,4.0,49.83,4,4,331,Not Due
+CUST-0000226,Manufacturing,North America,Mid-Market,1257,Mid-Market,86,Active,Professional,Monthly,369780.00,30815.00,14.0,445,379,85.17,7546,61.59,13,Growing,2.22,8,0,16.24,4.6,2421.25,1,9,357,Not Due
+CUST-0000227,Technology,North America,Enterprise,2569,Mid-Market,34,Active,Professional,Annual,332566.56,27713.88,11.66,432,350,81.02,7453,49.36,25,Stable,1.25,6,0,10.33,4.4,3044.78,4,11,10,In Discussion
+CUST-0000228,Retail,EMEA,Small,15,SMB,45,Active,Starter,Quarterly,2577.72,214.81,8.67,6,4,66.67,111,52.65,19,Growing,0.97,5,1,17.51,4.2,15.16,2,4,138,Planning
+CUST-0000229,Education,North America,Small,47,SMB,11,Active,Professional,Quarterly,13430.76,1119.23,9.95,18,15,83.33,209,53.3,15,Stable,5.48,14,3,59.40,2.3,0.00,0,12,63,Planning
+CUST-0000230,Healthcare,APAC,Mid-Market,226,Enterprise,50,Active,Enterprise,Annual,271194.24,22599.52,10.15,250,165,66.00,1980,54.92,19,Stable,0.62,3,0,1.65,4.0,2633.02,4,4,107,Not Due
+CUST-0000231,Education,North America,Small,182,SMB,24,Active,Starter,Monthly,10757.64,896.47,10.77,27,13,48.15,322,51.27,26,Growing,0.88,2,0,7.75,5.0,0.00,0,1,335,Not Due
+CUST-0000232,Retail,North America,Mid-Market,1131,SMB,44,Active,Starter,Quarterly,31779.12,2648.26,6.14,75,62,82.67,1374,64.62,17,Stable,0.08,1,0,10.94,4.9,196.20,2,6,142,In Discussion
+CUST-0000233,Financial Services,LATAM,Mid-Market,420,Mid-Market,13,Active,Professional,Quarterly,145918.44,12159.87,12.29,156,79,50.64,1925,50.93,26,Growing,0.51,2,0,4.78,4.5,2506.41,4,5,119,Planning
+CUST-0000234,Financial Services,North America,Small,171,SMB,12,Active,Starter,Quarterly,7161.48,596.79,9.61,21,18,85.71,525,66.14,11,Stable,0.25,2,0,8.55,4.7,40.48,1,4,122,In Discussion
+CUST-0000235,Technology,LATAM,Mid-Market,822,Mid-Market,64,Expansion,Business,Monthly,147110.40,12259.20,11.79,114,107,93.86,3263,81.19,7,Stable,2.39,4,1,22.38,4.0,2107.25,6,8,213,Not Due
+CUST-0000236,Education,LATAM,Small,42,Mid-Market,54,Active,Business,Monthly,73677.48,6139.79,10.72,50,23,46.00,327,22.58,32,Stable,0.53,5,0,10.18,4.6,1318.73,5,5,171,Planning
+CUST-0000237,Retail,LATAM,Small,190,SMB,1,Active,Professional,Quarterly,36228.60,3019.05,4.32,37,22,59.46,137,36.32,27,Declining,5.63,16,3,68.07,2.7,489.63,2,11,42,In Discussion
+CUST-0000238,Manufacturing,EMEA,Small,33,SMB,3,Onboarding,Professional,Quarterly,7241.40,603.45,15.4,10,9,90.00,168,61.19,12,Stable,1.62,5,0,15.54,4.5,76.29,2,2,290,Not Due
+CUST-0000239,Healthcare,North America,Small,44,SMB,2,Onboarding,Professional,Quarterly,10354.20,862.85,5.14,10,4,40.00,36,18.71,35,Declining,4.44,10,2,42.73,2.6,113.75,1,7,45,Planning
+CUST-0000240,Professional Services,APAC,Mid-Market,1448,Mid-Market,59,Active,Business,Monthly,116145.36,9678.78,6.52,85,32,37.65,407,26.53,35,Declining,2.76,8,1,24.66,4.0,1396.32,6,11,83,Planning
+CUST-0000241,Technology,APAC,Small,10,SMB,22,Active,Professional,Monthly,8244.12,687.01,14.21,10,5,50.00,39,45.61,33,Stable,2.49,6,0,17.51,4.4,47.25,3,4,271,Not Due
+CUST-0000242,Retail,APAC,Small,75,SMB,21,Active,Professional,Quarterly,9515.52,792.96,16.28,18,15,83.33,578,76.53,12,Growing,2.5,7,1,26.80,,57.56,3,4,127,Planning
+CUST-0000243,Education,EMEA,Mid-Market,239,Mid-Market,11,Active,Professional,Monthly,54094.68,4507.89,19.13,79,50,63.29,1170,62.38,19,Stable,2.09,5,1,20.43,3.6,968.69,6,11,3,Pending Decision
+CUST-0000244,Education,EMEA,Small,179,SMB,99,Active,Professional,Monthly,35647.20,2970.60,10.76,59,30,50.85,304,31.08,28,Declining,1.24,5,1,28.93,4.4,282.01,1,6,207,Not Due
+CUST-0000245,Education,EMEA,Small,88,SMB,43,Active,Starter,Monthly,3991.92,332.66,4.6,10,5,50.00,50,49.39,31,Stable,0.79,5,0,10.79,5,27.64,2,5,137,Planning
+CUST-0000246,Financial Services,North America,Small,146,SMB,26,Active,Starter,Monthly,7028.64,585.72,2.94,22,15,68.18,256,64.21,28,Declining,1.05,0,0,3.35,4.7,74.57,2,4,88,Not Due
+CUST-0000247,Professional Services,EMEA,Small,132,SMB,14,Active,Starter,Annual,13613.52,1134.46,9.01,40,35,87.50,665,60.44,11,Stable,1.13,4,0,15.98,4.5,164.89,2,4,235,Not Due
+CUST-0000248,Technology,LATAM,Small,72,SMB,22,Active,Professional,Monthly,19162.68,1596.89,16.71,27,21,77.78,258,60.95,16,Stable,3.98,15,3,56.37,2.5,504.69,76,14,88,Planning
+CUST-0000249,Education,North America,Mid-Market,1342,Enterprise,32,Active,Enterprise,Quarterly,394064.52,32838.71,8.54,250,216,86.40,2790,61.15,13,Stable,0.26,1,0,6.48,4.8,8927.90,10,5,227,Not Due
+CUST-0000250,Healthcare,EMEA,Small,11,SMB,73,Active,Business,Quarterly,78959.76,6579.98,13.21,50,30,60.00,458,53.63,24,Growing,2.52,5,0,22.02,3.9,287.17,1,5,114,Planning
+CUST-0000251,Technology,EMEA,Small,43,Mid-Market,21,Active,Starter,Monthly,1860.48,155.04,7.12,4,2,50.00,21,41.76,32,Declining,0.53,4,0,18.85,5,22.68,6,2,194,Not Due
+CUST-0000252,Manufacturing,APAC,Small,21,SMB,1,Active,Professional,Monthly,7424.64,618.72,10.33,10,5,50.00,44,39.65,33,Declining,1.12,3,0,5.08,4.9,0.00,0,9,43,In Discussion
+CUST-0000253,Healthcare,APAC,Mid-Market,994,Mid-Market,1,Onboarding,Starter,Annual,26845.56,2237.13,10.64,75,23,30.67,400,20.48,38,Stable,3.33,13,0,16.75,4.5,89.76,8,4,346,Not Due
+CUST-0000254,Financial Services,EMEA,Small,101,SMB,60,Active,Starter,Monthly,7600.92,633.41,4.82,21,10,47.62,131,33.79,36,Declining,2.3,6,0,15.39,3.9,886.02,85,6,190,Not Due
+CUST-0000255,Retail,LATAM,Small,17,SMB,23,Active,Professional,Monthly,9048.72,754.06,7.76,10,10,100.00,140,71.74,4,Growing,1.34,4,0,14.13,4.3,89.41,1,4,186,Not Due
+CUST-0000256,Manufacturing,North America,Small,28,SMB,16,Active,Professional,Annual,9482.16,790.18,3.33,10,9,90.00,146,64.45,12,Stable,2.85,6,1,26.03,4.0,79.04,1,5,266,Not Due
+CUST-0000257,Retail,North America,Small,73,SMB,11,Active,Starter,Quarterly,2406.48,200.54,11.32,6,3,50.00,94,46.67,26,Growing,3.92,9,1,29.63,2.9,66.52,40,8,252,Not Due
+CUST-0000258,Technology,EMEA,Mid-Market,235,Mid-Market,40,Active,Business,Quarterly,107974.92,8997.91,11.66,85,28,32.94,418,32.35,39,Stable,1.33,8,1,26.73,4.3,293.30,2,5,201,Not Due
+CUST-0000259,Financial Services,APAC,Mid-Market,524,Mid-Market,17,Active,Enterprise,Quarterly,213935.16,17827.93,16.76,250,231,92.40,3958,64.62,8,Growing,1.86,4,0,6.73,5.0,0.00,0,8,162,Planning
+CUST-0000260,Healthcare,EMEA,Small,25,SMB,4,Active,Starter,Quarterly,4036.20,336.35,2.61,12,8,66.67,112,62.73,18,Stable,1.71,3,0,12.10,5,21.87,1,1,175,Not Due
+CUST-0000261,Financial Services,North America,Mid-Market,970,Mid-Market,6,Active,Business,Monthly,680940.24,56745.02,11.34,378,213,56.35,2882,52.84,24,Declining,0.82,4,1,26.18,4.2,7823.90,1,7,220,Not Due
+CUST-0000262,Professional Services,North America,Small,11,Mid-Market,29,Active,Business,Quarterly,69273.12,5772.76,16.27,50,48,96.00,721,65.61,8,Stable,0.47,4,0,13.60,4.8,1207.69,3,11,78,In Discussion
+CUST-0000263,Manufacturing,APAC,Small,46,SMB,24,Active,Professional,Annual,8106.24,675.52,5.68,10,7,70.00,48,49.76,20,Declining,0.63,2,0,14.03,4.5,0.00,0,3,236,Not Due
+CUST-0000264,Education,EMEA,Small,16,SMB,56,Active,Starter,Monthly,407.28,33.94,4.49,1,1,100.00,6,70.89,4,Declining,1.13,5,1,19.57,4.0,0.00,0,5,234,Not Due
+CUST-0000265,Financial Services,North America,Mid-Market,829,SMB,30,Active,Professional,Quarterly,80898.24,6741.52,10.71,142,122,85.92,3192,69.55,12,Stable,2.53,11,1,35.10,,536.41,4,8,345,Not Due
+CUST-0000266,Healthcare,APAC,Small,33,Mid-Market,20,Active,Professional,Annual,8663.16,721.93,7.87,12,6,50.00,75,11.0,41,Stable,0.47,2,0,14.02,4.1,94.34,1,3,277,Not Due
+CUST-0000267,Education,LATAM,Small,65,SMB,41,Active,Professional,Monthly,15436.68,1286.39,14.74,19,8,42.11,54,24.99,32,Declining,0.94,1,0,11.46,4.9,0.00,0,7,78,Planning
+CUST-0000268,Education,LATAM,Small,188,SMB,38,Active,Professional,Monthly,33597.24,2799.77,10.89,33,16,48.48,199,25.73,31,Stable,2.29,9,1,35.45,4.0,0.00,0,5,254,Not Due
+CUST-0000269,Education,APAC,Mid-Market,385,Mid-Market,32,Active,Professional,Annual,70779.00,5898.25,9.7,72,67,93.06,1211,71.99,12,Growing,0.89,4,1,22.71,4.2,363.71,1,4,114,Planning
+CUST-0000270,Professional Services,LATAM,Small,188,Mid-Market,38,Active,Professional,Monthly,54474.36,4539.53,21.83,89,48,53.93,169,27.47,27,Declining,0.25,0,0,3.21,4.0,686.10,5,6,154,Not Due
+CUST-0000271,Education,EMEA,Mid-Market,351,Mid-Market,25,Active,Professional,Annual,56349.72,4695.81,13.41,84,71,84.52,853,57.44,13,Stable,0.86,2,0,10.19,,347.16,2,3,353,Not Due
+CUST-0000272,Retail,North America,Small,113,SMB,89,Active,Business,Quarterly,100181.88,8348.49,5.26,50,47,94.00,868,64.79,8,Stable,0.69,1,0,7.28,5,0.00,0,6,110,Planning
+CUST-0000273,Education,LATAM,Small,74,SMB,20,Active,Starter,Monthly,4363.80,363.65,7.25,13,8,61.54,173,34.77,25,Stable,0.09,2,0,9.62,4.7,35.90,3,3,229,Not Due
+CUST-0000274,Professional Services,North America,Enterprise,30390,Enterprise,64,Active,Enterprise,Quarterly,9432504.00,786042.00,14.38,7506,4530,60.35,47047,50.24,32,Declining,9.5,50,17,272.09,1,82402.95,3,15,161,Not Due
+CUST-0000275,Education,LATAM,Enterprise,48570,Enterprise,15,Active,Business,Annual,6341369.40,528447.45,17.67,3500,3392,96.91,18040,46.61,10,Stable,0.25,20,0,23.23,4.5,70294.51,3,8,137,Planning
+CUST-0000276,Healthcare,North America,Enterprise,14286,Enterprise,60,Active,Business,Annual,4528450.56,377370.88,34.84,3500,3396,97.03,87509,62.83,6,Growing,3.74,28,3,73.95,1.9,19925.81,1,12,192,Not Due
+CUST-0000277,Healthcare,North America,Enterprise,21397,Enterprise,40,Active,Enterprise,Annual,7398008.64,616500.72,20.8,6750,2804,41.54,25367,36.45,32,Stable,1.75,34,1,52.59,3.3,24234.57,1,14,52,Planning
+CUST-0000278,Technology,EMEA,Small,114,SMB,14,Active,Professional,Quarterly,29606.88,2467.24,18.46,30,20,66.67,459,52.94,22,Stable,0.56,2,0,7.44,3.9,0.00,0,7,79,Planning
+CUST-0000279,Manufacturing,North America,Small,67,SMB,28,Active,Starter,Monthly,1324.08,110.34,7.15,4,4,100.00,24,66.99,5,Declining,2.38,8,1,29.32,4.0,13.69,4,1,305,Not Due
+CUST-0000280,Technology,North America,Small,80,SMB,36,Active,Professional,Monthly,6933.84,577.82,8.21,10,10,100.00,136,58.55,11,Growing,1.08,5,0,18.78,4.2,0.00,0,4,94,In Discussion
+CUST-0000281,Manufacturing,APAC,Small,84,SMB,40,Active,Professional,Monthly,16745.64,1395.47,11.41,22,18,81.82,190,68.7,12,Stable,2.18,6,0,13.58,4.0,63.32,2,5,210,Not Due
+CUST-0000282,Healthcare,North America,Small,22,SMB,16,Active,Professional,Quarterly,6529.92,544.16,2.34,10,6,60.00,75,62.9,23,Stable,1.78,5,0,19.44,3.9,70.01,6,6,329,Planning
+CUST-0000283,Retail,EMEA,Small,136,SMB,4,Active,Professional,Monthly,10744.56,895.38,13.23,17,13,76.47,349,55.22,16,Growing,0.67,4,0,13.27,4.7,661.81,74,6,305,Not Due
+CUST-0000284,Financial Services,APAC,Small,15,SMB,16,Active,Starter,Monthly,2287.32,190.61,2.19,7,4,57.14,33,38.8,25,Declining,0.59,1,1,17.68,3.9,101.92,62,10,91,Not Due
+CUST-0000285,Professional Services,North America,Small,137,SMB,1,Onboarding,Starter,Quarterly,7116.00,593.00,6.7,18,7,38.89,30,13.18,38,Stable,1.56,6,0,15.97,4.1,66.38,4,5,150,Planning
+CUST-0000286,Financial Services,North America,Mid-Market,377,Mid-Market,9,Active,Starter,Quarterly,29516.28,2459.69,5.84,75,47,62.67,543,41.36,24,Stable,1.16,3,0,13.21,4.8,0.00,0,6,66,In Discussion
+CUST-0000287,Retail,LATAM,Small,70,SMB,38,Active,Professional,Annual,36180.36,3015.03,4.36,34,15,44.12,72,27.81,32,Stable,0.26,0,0,5.12,,0.00,0,9,66,In Discussion
+CUST-0000288,Financial Services,APAC,Small,33,SMB,31,Expansion,Professional,Monthly,7255.80,604.65,7.56,10,9,90.00,232,79.54,7,Stable,1.28,1,1,23.36,4.8,31.90,0,8,43,In Discussion
+CUST-0000289,Financial Services,LATAM,Enterprise,2479,Enterprise,26,Active,Enterprise,Annual,339235.44,28269.62,20.65,347,290,83.57,5995,69.22,12,Stable,5.63,10,2,44.70,2.8,1245.33,1,9,23,Planning
+CUST-0000290,Healthcare,North America,Small,173,SMB,88,Active,Professional,Monthly,37525.32,3127.11,0.83,52,46,88.46,328,63.07,11,Declining,2.82,7,2,43.22,3.4,303.79,4,8,146,Planning
+CUST-0000291,Education,EMEA,Mid-Market,1080,Mid-Market,4,Active,Professional,Monthly,145850.16,12154.18,13.55,174,74,42.53,835,27.65,44,Stable,2.4,6,1,27.94,3.9,2302.75,4,5,361,Planning
+CUST-0000292,Manufacturing,North America,Small,14,SMB,17,Active,Starter,Quarterly,288.00,24.00,5.85,1,1,100.00,7,66.14,16,Stable,3.77,4,0,16.58,4.4,2.05,0,0,208,Not Due
+CUST-0000293,Professional Services,North America,Small,100,SMB,17,Active,Professional,Quarterly,34661.76,2888.48,4.92,43,38,88.37,939,88.27,8,Stable,0.62,3,0,9.61,4.3,7609.48,122,13,19,Pending Decision
+CUST-0000294,Healthcare,EMEA,Mid-Market,655,Mid-Market,40,Active,Professional,Monthly,164887.08,13740.59,19.45,293,197,67.24,3646,20.93,23,Stable,1.07,8,1,28.11,4.2,443.77,7,10,6,In Discussion
+CUST-0000295,Education,LATAM,Small,17,SMB,2,Onboarding,Professional,Monthly,9475.68,789.64,8.0,10,7,70.00,131,50.38,22,Stable,2.67,8,0,14.68,3.9,95.68,1,8,19,Pending Decision
+CUST-0000296,Retail,APAC,Small,131,SMB,3,Active,Starter,Quarterly,12275.64,1022.97,7.08,34,24,70.59,152,32.24,21,Declining,2.62,10,0,17.16,4.0,154.86,5,7,7,Pending Decision
+CUST-0000297,Healthcare,APAC,Small,22,SMB,93,Active,Professional,Monthly,7180.32,598.36,14.25,10,9,90.00,126,55.57,10,Growing,1.28,5,1,24.36,3.4,31.59,3,8,133,In Discussion
+CUST-0000298,Healthcare,North America,Small,24,SMB,52,Expansion,Professional,Monthly,6506.76,542.23,11.4,10,10,100.00,320,97.57,7,Growing,0.58,1,0,7.59,4.5,0.00,0,4,346,Not Due
+CUST-0000299,Education,APAC,Small,145,SMB,15,Active,Professional,Quarterly,27496.80,2291.40,5.79,29,11,37.93,79,21.8,40,Declining,3.49,12,2,52.66,3.1,83.29,1,9,188,Not Due
+CUST-0000300,Manufacturing,LATAM,Small,22,SMB,2,Onboarding,Starter,Monthly,1422.48,118.54,9.75,5,2,40.00,13,61.5,29,Stable,0.29,0,0,11.26,5,13.51,5,3,103,Planning
+CUST-0000301,Retail,APAC,Mid-Market,215,Mid-Market,84,Active,Business,Annual,61608.12,5134.01,13.35,50,49,98.00,486,62.48,6,Growing,1.89,4,0,8.52,4.4,375.80,1,4,352,Not Due
+CUST-0000302,Financial Services,LATAM,Small,134,SMB,23,Active,Starter,Monthly,21010.32,1750.86,5.2,55,50,90.91,1291,53.39,12,Growing,3.05,8,1,27.29,2.9,183.51,10,7,14,In Discussion
+CUST-0000303,Healthcare,LATAM,Small,19,SMB,43,Active,Starter,Quarterly,1171.56,97.63,5.09,3,2,66.67,28,40.01,22,Declining,0.8,2,1,20.42,4.2,3.34,2,6,4,Pending Decision
+CUST-0000304,Retail,LATAM,Mid-Market,1053,Mid-Market,68,Active,Business,Annual,382635.24,31886.27,14.09,235,199,84.68,4675,72.87,9,Stable,5.74,8,1,34.92,,21325.75,66,14,31,Planning
+CUST-0000305,Education,North America,Small,38,SMB,15,Active,Starter,Monthly,978.12,81.51,6.42,2,1,50.00,15,20.11,30,Stable,1.69,6,1,24.38,,5.86,2,1,317,Not Due
+CUST-0000306,Manufacturing,EMEA,Small,35,SMB,16,Active,Starter,Monthly,2645.76,220.48,9.67,6,4,66.67,57,53.76,28,Stable,0.53,1,0,13.77,4.2,0.00,0,3,325,Not Due
+CUST-0000307,Education,LATAM,Small,142,SMB,21,Active,Professional,Monthly,31328.76,2610.73,6.29,43,29,67.44,632,31.09,26,Stable,1.57,7,0,9.23,4.5,319.59,5,9,57,In Discussion
+CUST-0000308,Education,LATAM,Mid-Market,229,Mid-Market,59,Active,Professional,Monthly,15849.84,1320.82,17.79,19,13,68.42,78,64.76,20,Stable,1.0,2,0,9.11,4.8,224.78,1,4,174,Not Due
+CUST-0000309,Technology,North America,Enterprise,38652,Enterprise,6,Active,Enterprise,Annual,9905643.48,825470.29,13.28,8689,8538,98.26,239756,59.94,11,Growing,2.01,39,2,68.79,2.7,0.00,0,14,86,Planning
+CUST-0000310,Technology,APAC,Mid-Market,639,SMB,1,Onboarding,Professional,Monthly,60305.76,5025.48,2.01,68,31,45.59,679,54.95,30,Growing,1.83,8,2,47.76,3.2,0.00,0,9,61,In Discussion
+CUST-0000311,Technology,EMEA,Small,15,SMB,2,Onboarding,Business,Monthly,85524.36,7127.03,11.04,50,20,40.00,154,24.02,35,Stable,0.3,0,0,4.46,4.8,0.00,0,3,215,Not Due
+CUST-0000312,Retail,LATAM,Small,25,SMB,29,Active,Starter,Monthly,1458.72,121.56,8.26,5,1,20.00,6,23.18,50,Declining,3.22,11,2,42.45,3.0,23.72,7,8,196,Not Due
+CUST-0000313,Manufacturing,LATAM,Small,53,SMB,11,Active,Professional,Annual,11524.56,960.38,5.95,18,11,61.11,125,34.73,26,Declining,2.72,12,1,28.88,4.3,870.48,62,12,279,Not Due
+CUST-0000314,Technology,North America,Enterprise,11238,Enterprise,1,Onboarding,Business,Annual,3301205.88,275100.49,30.51,3500,1995,57.00,10099,47.25,23,Declining,1.29,19,0,19.38,4.3,31070.64,1,8,240,Not Due
+CUST-0000315,Manufacturing,EMEA,Small,16,SMB,34,Active,Starter,Annual,1640.28,136.69,7.84,4,2,50.00,31,34.23,32,Stable,0.94,6,1,23.59,3.7,0.00,0,5,192,Planning
+CUST-0000316,Financial Services,North America,Mid-Market,711,Mid-Market,12,Active,Business,Annual,88028.88,7335.74,18.73,89,81,91.01,1040,55.09,10,Growing,1.19,6,0,8.86,4.6,529.45,5,7,76,Not Due
+CUST-0000317,Retail,APAC,Mid-Market,217,Mid-Market,90,Active,Business,Annual,79922.04,6660.17,15.65,54,46,85.19,845,70.86,18,Growing,2.25,8,1,29.10,3.6,0.00,0,7,1,In Discussion
+CUST-0000318,Manufacturing,LATAM,Small,191,SMB,2,Active,Starter,Monthly,8429.52,702.46,7.22,26,12,46.15,113,41.02,37,Declining,2.36,7,1,30.79,3.7,13.40,2,7,122,Not Due
+CUST-0000319,Retail,EMEA,Small,23,SMB,120,Active,Professional,Quarterly,8879.04,739.92,15.36,10,8,80.00,99,60.41,14,Declining,0.37,2,0,8.76,4.3,137.93,4,6,130,Planning
+CUST-0000320,Healthcare,APAC,Small,51,SMB,21,Active,Professional,Monthly,13536.36,1128.03,9.59,16,15,93.75,173,54.29,12,Growing,0.34,1,1,21.21,4.3,48.26,1,9,59,In Discussion
+CUST-0000321,Financial Services,LATAM,Small,72,SMB,20,Active,Professional,Annual,7777.32,648.11,6.8,10,6,60.00,33,50.6,22,Declining,1.26,2,0,9.62,4.9,11.57,4,3,210,Not Due
+CUST-0000322,Education,EMEA,Small,16,SMB,7,Active,Starter,Monthly,2348.16,195.68,2.47,6,4,66.67,74,50.96,22,Stable,2.44,7,1,20.91,4.1,25.22,1,3,261,Not Due
+CUST-0000323,Retail,LATAM,Small,12,SMB,2,Onboarding,Starter,Quarterly,685.44,57.12,6.36,2,1,50.00,11,26.58,31,Stable,1.53,6,0,12.57,4.3,2.97,0,4,13,Pending Decision
+CUST-0000324,Healthcare,EMEA,Small,22,Mid-Market,5,Active,Professional,Annual,9269.52,772.46,15.31,10,7,70.00,35,41.7,22,Stable,0.8,3,0,13.33,4.3,56.01,0,2,342,Not Due
+CUST-0000325,Healthcare,North America,Small,13,SMB,24,Active,Professional,Quarterly,9152.52,762.71,7.64,10,8,80.00,146,68.26,16,Declining,0.48,4,1,25.22,4.2,49.47,1,6,139,Planning
+CUST-0000326,Professional Services,North America,Small,43,SMB,9,Active,Starter,Monthly,3270.36,272.53,11.1,8,6,75.00,142,74.76,16,Growing,1.7,6,0,7.63,4.4,0.00,0,5,312,Not Due
+CUST-0000327,Retail,North America,Small,31,Mid-Market,14,Active,Professional,Annual,8356.08,696.34,12.99,10,5,50.00,40,44.66,27,Declining,1.08,4,0,9.91,,104.06,2,2,302,Not Due
+CUST-0000328,Professional Services,APAC,Small,12,SMB,23,Active,Starter,Monthly,1063.68,88.64,0.45,3,2,66.67,20,51.08,21,Declining,2.17,3,0,10.16,,2.74,3,7,15,In Discussion
+CUST-0000329,Retail,North America,Small,45,SMB,96,Active,Starter,Quarterly,4122.24,343.52,3.97,11,4,36.36,59,36.92,33,Declining,3.08,6,2,43.31,3.6,74.13,3,6,206,Not Due
+CUST-0000330,Professional Services,EMEA,Enterprise,27517,Enterprise,32,Active,Enterprise,Annual,6934693.20,577891.10,30.42,7659,5760,75.21,76665,55.26,20,Stable,4.48,45,5,114.83,1,0.00,0,12,357,Not Due
+CUST-0000331,Professional Services,LATAM,Small,18,SMB,71,Active,Professional,Quarterly,7719.60,643.30,17.81,10,9,90.00,66,65.09,9,Stable,1.57,9,0,12.64,4.3,116.83,3,4,120,Planning
+CUST-0000332,Manufacturing,North America,Small,104,SMB,11,Active,Starter,Quarterly,2956.20,246.35,6.29,9,5,55.56,126,38.31,29,Growing,1.23,4,1,21.32,4.1,31.39,1,9,0,Planning
+CUST-0000333,Financial Services,North America,Small,21,SMB,18,Active,Starter,Monthly,2084.28,173.69,9.96,6,3,50.00,39,31.25,35,Growing,1.9,7,0,18.45,3.7,7.96,2,8,24,In Discussion
+CUST-0000334,Financial Services,EMEA,Small,33,SMB,46,Active,Professional,Monthly,6990.12,582.51,7.14,10,9,90.00,102,69.26,9,Stable,0.41,3,0,10.23,4.6,86.75,3,6,351,Not Due
+CUST-0000335,Technology,EMEA,Enterprise,4487,Enterprise,15,Active,Business,Annual,771951.60,64329.30,16.01,801,702,87.64,12484,63.88,12,Stable,1.95,8,0,12.02,4.3,8387.56,1,8,287,Not Due
+CUST-0000336,Healthcare,LATAM,Small,22,SMB,40,Active,Starter,Quarterly,870.00,72.50,8.07,2,1,50.00,6,25.67,30,Declining,4.54,16,1,39.07,3.5,7.89,9,4,357,Not Due
+CUST-0000337,Education,EMEA,Mid-Market,363,Mid-Market,19,Active,Business,Annual,52750.68,4395.89,22.43,50,41,82.00,482,53.6,16,Stable,0.69,1,0,7.13,4.8,7425.71,106,12,71,In Discussion
+CUST-0000338,Manufacturing,North America,Mid-Market,711,Mid-Market,11,Active,Professional,Monthly,104091.36,8674.28,20.32,140,92,65.71,1433,55.11,20,Stable,0.6,5,1,25.10,4.4,488.40,1,5,103,Planning
+CUST-0000339,Retail,North America,Small,44,SMB,95,Active,Professional,Annual,14190.72,1182.56,12.26,20,12,60.00,234,55.3,22,Stable,0.31,2,0,5.64,4.7,256.32,11,6,27,In Discussion
+CUST-0000340,Technology,APAC,Mid-Market,1104,Mid-Market,120,Active,Professional,Quarterly,90469.08,7539.09,16.63,117,98,83.76,1255,67.8,10,Declining,1.32,2,1,21.80,4.0,687.88,5,11,267,Not Due
+CUST-0000341,Professional Services,EMEA,Small,89,SMB,74,Active,Professional,Monthly,16722.96,1393.58,8.9,23,16,69.57,172,47.76,19,Stable,0.29,0,0,3.21,,0.00,0,6,26,In Discussion
+CUST-0000342,Professional Services,LATAM,Small,179,SMB,46,Active,Starter,Monthly,5081.40,423.45,6.98,18,6,33.33,34,29.34,40,Declining,2.96,9,0,19.68,3.5,113.22,7,6,14,Pending Decision
+CUST-0000343,Healthcare,EMEA,Small,116,SMB,38,Active,Professional,Monthly,23804.64,1983.72,4.29,24,19,79.17,316,71.39,12,Stable,1.17,3,1,24.53,4.6,142.61,4,5,338,Planning
+CUST-0000344,Education,North America,Mid-Market,1206,SMB,6,Active,Professional,Quarterly,149963.52,12496.96,8.38,169,131,77.51,1179,56.6,15,Declining,0.48,1,0,10.05,4.2,0.00,0,7,21,Pending Decision
+CUST-0000345,Professional Services,LATAM,Mid-Market,741,SMB,73,Active,Starter,Monthly,16652.16,1387.68,8.32,49,38,77.55,699,64.47,13,Stable,0.08,0,0,6.18,4.6,0.00,0,5,291,Not Due
+CUST-0000346,Healthcare,APAC,Small,42,SMB,59,Active,Professional,Monthly,7936.56,661.38,7.86,10,8,80.00,147,52.7,15,Growing,0.37,1,0,6.36,4.7,37.56,2,4,362,Not Due
+CUST-0000347,Education,APAC,Small,73,SMB,32,Active,Professional,Monthly,26918.04,2243.17,3.36,29,21,72.41,471,36.68,21,Stable,2.05,5,0,17.01,4.5,0.00,0,7,56,In Discussion
+CUST-0000348,Retail,North America,Mid-Market,1119,Mid-Market,62,Active,Professional,Annual,71703.48,5975.29,8.03,89,74,83.15,987,83.65,9,Stable,0.72,6,0,14.81,4.5,379.62,3,5,103,Planning
+CUST-0000349,Education,North America,Small,131,SMB,0,Onboarding,Starter,Monthly,7384.56,615.38,10.38,26,13,50.00,77,50.72,26,Declining,0.86,6,0,2.76,4.8,116.06,4,3,264,Not Due
+CUST-0000350,Manufacturing,EMEA,Small,166,SMB,4,Active,Starter,Monthly,25192.44,2099.37,6.13,67,44,65.67,203,58.26,20,Declining,0.3,4,0,14.79,4.6,0.00,0,7,2,In Discussion
+CUST-0000351,Education,LATAM,Small,34,SMB,107,Active,Professional,Monthly,7408.44,617.37,8.28,10,8,80.00,80,63.91,16,Stable,0.28,1,0,9.17,4.3,134.05,3,3,231,Not Due
+CUST-0000352,Financial Services,APAC,Small,49,SMB,39,Active,Starter,Quarterly,5193.72,432.81,1.47,13,5,38.46,91,53.5,30,Stable,0.06,2,0,9.16,4.2,27.17,3,4,298,Not Due
+CUST-0000353,Technology,APAC,Enterprise,2791,Enterprise,13,Active,Enterprise,Annual,669078.36,55756.53,29.16,711,500,70.32,3377,32.37,29,Stable,1.05,10,0,13.32,4.8,5366.82,4,6,226,Not Due
+CUST-0000354,Technology,North America,Small,61,SMB,32,Active,Professional,Quarterly,11301.72,941.81,1.65,17,14,82.35,89,55.57,19,Declining,0.68,3,1,22.67,,72.66,1,3,297,Not Due
+CUST-0000355,Retail,North America,Small,32,SMB,12,Active,Starter,Monthly,1408.92,117.41,4.08,4,3,75.00,45,35.6,35,Stable,2.7,3,0,13.23,4.7,14.60,3,4,158,Planning
+CUST-0000356,Retail,LATAM,Small,11,SMB,12,Active,Starter,Monthly,910.44,75.87,4.85,2,2,100.00,55,69.46,16,Growing,2.66,9,1,28.24,3.3,3.77,0,7,60,In Discussion
+CUST-0000357,Retail,North America,Small,55,SMB,16,Active,Starter,Monthly,4100.76,341.73,1.97,12,11,91.67,386,93.79,7,Growing,0.82,2,0,9.06,4.6,39.58,1,5,165,Not Due
+CUST-0000358,Retail,North America,Small,29,SMB,15,Active,Professional,Monthly,5970.84,497.57,15.25,10,7,70.00,122,57.06,20,Growing,1.75,9,0,15.86,4.1,40.62,3,5,363,Not Due
+CUST-0000359,Manufacturing,APAC,Small,67,SMB,14,Active,Professional,Monthly,8439.48,703.29,17.27,10,9,90.00,166,68.59,10,Stable,1.74,10,0,16.09,4.2,64.06,1,4,153,Not Due
+CUST-0000360,Manufacturing,APAC,Small,129,SMB,93,Active,Starter,Annual,27686.76,2307.23,4.88,64,49,76.56,1444,74.83,15,Stable,0.92,2,0,10.98,4.1,0.00,0,7,75,Planning
+CUST-0000361,Manufacturing,EMEA,Small,47,SMB,1,Onboarding,Professional,Monthly,7395.48,616.29,14.44,10,7,70.00,48,39.53,19,Stable,0.88,4,2,36.56,3.7,39.71,2,4,178,Not Due
+CUST-0000362,Healthcare,EMEA,Mid-Market,551,Mid-Market,74,Active,Starter,Annual,30336.00,2528.00,2.61,75,70,93.33,850,73.26,10,Stable,0.14,1,0,6.89,4.6,404.77,6,5,72,Pending Decision
+CUST-0000363,Healthcare,APAC,Mid-Market,226,Mid-Market,4,Active,Business,Monthly,82944.96,6912.08,8.34,50,33,66.00,581,59.67,19,Stable,1.42,4,0,14.16,4.7,484.60,2,5,269,Not Due
+CUST-0000364,Healthcare,LATAM,Small,28,SMB,63,Active,Starter,Quarterly,2772.60,231.05,10.51,6,4,66.67,47,41.15,24,Declining,0.85,3,1,26.25,3.8,28.45,0,3,324,Not Due
+CUST-0000365,Education,APAC,Mid-Market,531,Mid-Market,2,Onboarding,Business,Monthly,53392.56,4449.38,18.36,50,26,52.00,186,38.24,27,Declining,0.84,4,1,21.88,4.4,0.00,0,4,138,Planning
+CUST-0000366,Manufacturing,LATAM,Mid-Market,391,Mid-Market,41,Active,Business,Monthly,67087.44,5590.62,13.27,50,37,74.00,576,71.66,16,Growing,0.33,1,0,4.15,4.4,1308.06,10,5,270,Not Due
+CUST-0000367,Technology,APAC,Mid-Market,666,Mid-Market,15,Active,Business,Monthly,157677.84,13139.82,14.54,118,71,60.17,788,51.0,24,Stable,0.41,0,0,2.60,4.7,0.00,0,8,53,Planning
+CUST-0000368,Retail,EMEA,Small,92,SMB,3,Onboarding,Starter,Quarterly,2847.84,237.32,4.46,9,5,55.56,25,39.09,28,Declining,1.92,6,0,9.66,4.3,16.51,1,7,44,In Discussion
+CUST-0000369,Healthcare,North America,Small,28,SMB,10,Active,Starter,Monthly,3492.60,291.05,8.62,10,4,40.00,27,24.09,34,Declining,0.41,4,0,10.87,4.9,31.28,2,4,96,Not Due
+CUST-0000370,Healthcare,APAC,Small,35,SMB,28,Active,Business,Monthly,93775.56,7814.63,13.05,50,42,84.00,828,67.27,11,Stable,3.94,12,1,32.44,3.2,788.56,1,7,101,Not Due
+CUST-0000371,Healthcare,LATAM,Small,12,SMB,112,Active,Starter,Monthly,632.16,52.68,4.5,2,1,50.00,16,55.18,30,Declining,1.41,5,1,28.18,3.1,0.00,0,3,170,Not Due
+CUST-0000372,Manufacturing,APAC,Mid-Market,1277,Mid-Market,22,Active,Professional,Quarterly,199009.44,16584.12,17.76,292,202,69.18,3939,37.48,22,Growing,0.76,4,0,15.37,4.7,430.32,2,3,232,Not Due
+CUST-0000373,Retail,APAC,Small,80,SMB,120,Active,Professional,Monthly,11129.16,927.43,6.58,19,10,52.63,156,48.35,29,Declining,2.51,10,0,19.54,4.4,99.98,1,7,244,Not Due
+CUST-0000374,Professional Services,LATAM,Small,41,SMB,26,Active,Starter,Quarterly,3079.68,256.64,6.75,9,8,88.89,114,63.41,11,Growing,1.5,1,0,9.98,4.7,38.81,1,5,269,Not Due
+CUST-0000375,Retail,North America,Small,23,SMB,23,Active,Professional,Monthly,8742.12,728.51,4.47,10,7,70.00,162,39.6,21,Growing,0.8,6,0,13.36,4.7,37.57,4,4,326,Not Due
+CUST-0000376,Manufacturing,APAC,Small,81,SMB,0,Onboarding,Professional,Monthly,15853.44,1321.12,13.72,22,18,81.82,208,49.57,18,Declining,0.72,0,0,9.27,4.8,0.00,0,4,203,Not Due
+CUST-0000377,Technology,EMEA,Small,65,SMB,3,Onboarding,Professional,Monthly,12463.08,1038.59,15.01,18,14,77.78,295,44.53,20,Stable,0.14,2,0,6.69,4.3,325.95,8,7,122,Planning
+CUST-0000378,Education,North America,Small,147,SMB,93,Active,Starter,Annual,22627.08,1885.59,6.36,54,32,59.26,644,35.61,28,Stable,2.58,5,0,9.36,3.2,175.63,2,4,113,Planning
+CUST-0000379,Financial Services,North America,Enterprise,2163,Enterprise,18,Active,Business,Quarterly,438818.28,36568.19,9.34,337,279,82.79,6558,75.83,14,Growing,1.09,3,1,24.12,3.7,42305.41,53,13,54,In Discussion
+CUST-0000380,Education,North America,Small,11,SMB,84,Active,Professional,Quarterly,6417.00,534.75,9.18,10,8,80.00,130,54.87,18,Growing,0.18,0,0,3.80,4.4,0.00,0,5,129,Not Due
+CUST-0000381,Technology,North America,Mid-Market,1302,Mid-Market,24,Active,Enterprise,Quarterly,361403.52,30116.96,23.22,250,204,81.60,2691,76.72,11,Stable,1.01,9,1,28.95,3.8,2186.92,6,9,36,In Discussion
+CUST-0000382,Healthcare,North America,Small,88,SMB,42,Active,Professional,Quarterly,13090.92,1090.91,13.98,20,16,80.00,211,53.16,23,Stable,5.54,13,3,63.72,2.6,64.35,2,8,294,Not Due
+CUST-0000383,Retail,LATAM,Small,16,SMB,12,Active,Business,Monthly,83980.68,6998.39,11.48,50,43,86.00,1053,64.17,11,Stable,2.15,7,0,14.28,3.9,0.00,0,6,191,Not Due
+CUST-0000384,Manufacturing,North America,Small,75,SMB,2,Onboarding,Starter,Quarterly,12396.60,1033.05,3.88,25,18,72.00,169,65.03,21,Stable,4.0,10,2,46.02,3.5,412.53,43,9,281,Planning
+CUST-0000385,Healthcare,LATAM,Small,132,SMB,9,Active,Starter,Monthly,11415.84,951.32,4.89,33,27,81.82,222,54.11,15,Stable,0.78,1,1,21.53,4.4,69.79,1,9,82,Planning
+CUST-0000386,Retail,APAC,Enterprise,23298,Enterprise,51,Active,Enterprise,Annual,7988986.44,665748.87,11.64,7303,5812,79.58,131487,71.25,16,Stable,0.47,29,0,26.27,,654837.06,48,10,335,Not Due
+CUST-0000387,Healthcare,APAC,Mid-Market,1873,Mid-Market,28,Active,Business,Monthly,804889.80,67074.15,16.06,478,367,76.78,4362,62.25,15,Growing,3.63,9,1,30.86,4.0,75414.58,40,8,151,Not Due
+CUST-0000388,Professional Services,North America,Mid-Market,1364,Mid-Market,76,Active,Business,Monthly,544977.12,45414.76,6.66,380,288,75.79,4675,65.8,14,Stable,0.8,6,0,11.91,4.4,0.00,0,6,214,Not Due
+CUST-0000389,Financial Services,North America,Small,26,SMB,4,Active,Starter,Monthly,2834.04,236.17,6.35,9,7,77.78,87,53.08,23,Declining,0.97,5,0,9.50,4.4,37.76,2,2,80,Not Due
+CUST-0000390,Retail,EMEA,Mid-Market,375,Mid-Market,2,Active,Business,Annual,150473.40,12539.45,17.18,87,61,70.11,796,60.53,17,Growing,1.75,4,1,26.51,4.2,0.00,0,8,135,Planning
+CUST-0000391,Healthcare,North America,Small,46,SMB,111,Active,Starter,Quarterly,1639.32,136.61,5.37,4,3,75.00,37,70.49,14,Stable,0.76,1,0,9.21,4.4,66.84,34,6,97,Planning
+CUST-0000392,Technology,EMEA,Enterprise,89547,Enterprise,5,Active,Enterprise,Quarterly,10892390.40,907699.20,32.16,10000,7261,72.61,91948,64.72,16,Declining,3.0,40,4,94.53,1.6,72672.24,1,15,86,Planning
+CUST-0000393,Technology,LATAM,Small,106,SMB,19,Active,Professional,Monthly,18434.76,1536.23,18.66,27,22,81.48,324,37.9,24,Growing,0.54,2,0,19.40,4.1,1465.60,75,4,338,Not Due
+CUST-0000394,Technology,EMEA,Enterprise,3876,Mid-Market,35,Active,Professional,Annual,378180.48,31515.04,8.38,495,367,74.14,7334,42.92,18,Stable,1.39,6,1,26.38,3.5,2156.74,3,9,84,Planning
+CUST-0000395,Professional Services,EMEA,Mid-Market,240,Mid-Market,120,Active,Professional,Monthly,33833.64,2819.47,15.58,43,29,67.44,492,53.43,19,Declining,0.07,2,1,18.31,4.0,256.24,1,6,122,Not Due
+CUST-0000396,Financial Services,North America,Mid-Market,803,Mid-Market,10,Active,Professional,Quarterly,101519.52,8459.96,13.83,173,110,63.58,1678,49.25,24,Declining,0.97,1,0,20.69,4.6,0.00,0,7,21,In Discussion
+CUST-0000397,Manufacturing,EMEA,Enterprise,20252,Enterprise,32,Active,Enterprise,Annual,7815485.04,651290.42,18.92,6398,5690,88.93,95997,59.16,10,Growing,1.61,31,2,52.06,2.8,119034.89,5,11,120,Planning
+CUST-0000398,Manufacturing,North America,Mid-Market,1457,Mid-Market,6,Active,Professional,Annual,101331.36,8444.28,20.76,161,113,70.19,1138,39.87,29,Stable,4.14,7,1,31.91,4.5,977.49,8,9,43,Planning
+CUST-0000399,Retail,EMEA,Small,40,SMB,7,Active,Starter,Monthly,3552.72,296.06,11.93,11,7,63.64,59,41.7,23,Declining,2.47,7,0,15.21,4.3,21.37,2,5,11,In Discussion
+CUST-0000400,Retail,APAC,Small,17,SMB,0,Onboarding,Professional,Monthly,8772.24,731.02,1.24,10,6,60.00,79,44.39,22,Declining,0.33,4,0,10.47,4.2,39.48,2,2,156,Not Due
+CUST-0000401,Manufacturing,EMEA,Small,32,SMB,32,Active,Professional,Quarterly,10804.56,900.38,9.89,10,7,70.00,55,59.46,19,Declining,3.67,4,0,16.25,4.2,112.31,2,5,81,In Discussion
+CUST-0000402,Education,North America,Small,92,SMB,99,Active,Professional,Monthly,22196.40,1849.70,14.87,35,26,74.29,142,43.14,17,Declining,0.38,2,0,6.93,4.9,201.98,5,6,330,Not Due
+CUST-0000403,Healthcare,LATAM,Small,41,SMB,56,Active,Starter,Monthly,1713.96,142.83,13.36,5,3,60.00,22,61.08,21,Stable,1.77,6,0,10.85,4.4,9.33,28,6,340,Not Due
+CUST-0000404,Healthcare,North America,Small,22,SMB,20,Active,Starter,Monthly,2454.24,204.52,11.51,9,6,66.67,47,39.99,23,Declining,0.34,2,0,7.88,4.1,26.95,1,1,259,Not Due
+CUST-0000405,Education,North America,Small,36,SMB,80,Active,Starter,Monthly,3755.76,312.98,8.11,10,1,10.00,6,22.19,60,Declining,3.31,10,0,22.36,4.2,55.59,2,7,6,In Discussion
+CUST-0000406,Manufacturing,LATAM,Small,36,SMB,82,Active,Professional,Quarterly,7864.56,655.38,4.88,10,9,90.00,304,67.34,9,Growing,1.04,3,0,5.75,4.2,1067.70,137,10,111,Planning
+CUST-0000407,Manufacturing,EMEA,Small,42,SMB,1,Active,Professional,Quarterly,11279.04,939.92,8.18,11,1,9.09,11,0,50,Stable,1.9,7,1,34.72,4.0,220.50,4,4,339,Planning
+CUST-0000408,Retail,LATAM,Enterprise,12718,Enterprise,18,Active,Enterprise,Annual,3666656.76,305554.73,14.18,3245,2218,68.35,22642,51.58,24,Declining,2.26,19,2,55.24,3.1,17764.64,3,10,310,Not Due
+CUST-0000409,Financial Services,North America,Enterprise,2685,Enterprise,2,Active,Business,Annual,948352.92,79029.41,13.41,716,427,59.64,5048,42.71,30,Declining,2.31,7,1,31.05,,8494.02,5,11,232,Planning
+CUST-0000410,Healthcare,EMEA,Small,14,SMB,41,Active,Starter,Quarterly,791.76,65.98,8.38,2,1,50.00,31,50.62,30,Growing,0.34,2,0,8.62,4.8,1.81,1,7,38,Planning
+CUST-0000411,Healthcare,APAC,Small,186,SMB,19,Active,Professional,Monthly,51543.72,4295.31,6.65,55,32,58.18,231,47.77,25,Declining,2.08,4,0,11.26,5,305.92,1,5,293,Not Due
+CUST-0000412,Technology,EMEA,Mid-Market,895,Mid-Market,3,Active,Professional,Quarterly,102710.88,8559.24,29.47,180,126,70.00,1165,32.33,24,Stable,0.33,1,0,6.37,5,1086.56,1,4,215,Not Due
+CUST-0000413,Manufacturing,APAC,Mid-Market,555,Mid-Market,13,Active,Professional,Monthly,52485.60,4373.80,10.09,64,38,59.38,863,47.77,27,Growing,0.52,4,0,10.37,4.9,0.00,0,7,84,Planning
+CUST-0000414,Manufacturing,North America,Small,14,SMB,16,Active,Professional,Quarterly,8025.96,668.83,12.64,10,9,90.00,102,58.21,11,Stable,2.6,3,1,22.53,3.9,143.80,3,3,174,Not Due
+CUST-0000415,Retail,North America,Small,18,SMB,23,Active,Business,Monthly,64454.76,5371.23,14.43,50,34,68.00,458,55.96,22,Declining,1.0,2,0,13.51,4.3,4293.60,74,7,316,Not Due
+CUST-0000416,Retail,EMEA,Small,157,SMB,23,Active,Starter,Monthly,20696.52,1724.71,2.85,51,40,78.43,580,58.1,16,Growing,0.9,4,1,18.43,4.2,494.30,73,7,273,Not Due
+CUST-0000417,Technology,EMEA,Small,131,SMB,120,Active,Professional,Monthly,35819.16,2984.93,5.98,42,31,73.81,268,53.31,21,Stable,3.76,10,1,29.69,4.1,352.32,65,11,15,Pending Decision
+CUST-0000418,Healthcare,LATAM,Mid-Market,404,Enterprise,63,Active,Business,Annual,70714.92,5892.91,25.57,67,51,76.12,801,64.08,18,Stable,2.37,5,1,25.71,3.7,680.85,2,7,195,Planning
+CUST-0000419,Retail,LATAM,Small,37,SMB,10,Active,Professional,Monthly,7922.64,660.22,2.88,10,6,60.00,149,48.86,24,Stable,0.45,2,0,13.26,4.7,27.24,1,8,228,Planning
+CUST-0000420,Manufacturing,LATAM,Small,57,SMB,14,Active,Starter,Quarterly,2228.52,185.71,7.56,7,3,42.86,35,29.4,32,Declining,0.81,2,1,18.72,4.2,0.00,0,6,160,Not Due
+CUST-0000421,Retail,North America,Mid-Market,1259,SMB,12,Active,Starter,Monthly,22714.56,1892.88,3.67,75,29,38.67,271,24.38,33,Declining,4.59,15,1,39.95,3.0,151.96,2,10,90,Planning
+CUST-0000422,Healthcare,LATAM,Mid-Market,500,Mid-Market,3,Active,Professional,Quarterly,144299.52,12024.96,8.92,198,108,54.55,2049,32.06,27,Stable,0.78,5,0,14.90,4.0,3346.10,5,6,84,Planning
+CUST-0000423,Healthcare,EMEA,Small,26,SMB,30,Active,Starter,Quarterly,2228.04,185.67,4.43,6,5,83.33,51,82.65,14,Stable,1.4,2,1,22.21,4.6,14.15,2,4,143,Planning
+CUST-0000424,Manufacturing,LATAM,Small,31,SMB,21,Active,Starter,Annual,2521.80,210.15,3.06,6,4,66.67,35,44.03,22,Stable,0.48,2,1,21.35,3.6,19.51,1,7,162,Not Due
+CUST-0000425,Professional Services,EMEA,Small,23,Mid-Market,29,Active,Business,Quarterly,66020.52,5501.71,22.38,50,43,86.00,790,51.51,14,Stable,4.61,15,3,57.65,2.6,282.22,0,8,334,Not Due
+CUST-0000426,Education,APAC,Enterprise,91611,Enterprise,24,Active,Enterprise,Annual,8986254.72,748854.56,21.14,10000,9640,96.40,166949,53.26,12,Stable,1.73,58,4,103.62,1.6,66317.49,3,11,202,Not Due
+CUST-0000427,Manufacturing,APAC,Small,11,SMB,42,Active,Starter,Monthly,275.64,22.97,7.09,1,1,100.00,14,86.82,3,Stable,1.21,2,0,10.43,4.5,2.78,2,2,262,Not Due
+CUST-0000428,Technology,North America,Mid-Market,349,Mid-Market,8,Active,Business,Quarterly,133913.64,11159.47,19.73,79,68,86.08,725,71.86,19,Declining,4.76,15,2,52.28,3.0,14816.95,66,11,324,Not Due
+CUST-0000429,Retail,LATAM,Small,33,SMB,23,Active,Starter,Quarterly,4586.64,382.22,4.09,9,8,88.89,40,59.62,14,Growing,3.45,1,0,13.01,3.9,426.65,123,10,14,In Discussion
+CUST-0000430,Technology,APAC,Small,34,SMB,17,Active,Professional,Monthly,8488.32,707.36,12.65,10,8,80.00,117,43.54,22,Stable,1.49,3,0,12.59,4.6,540.95,88,6,353,Not Due
+CUST-0000431,Healthcare,EMEA,Enterprise,6609,Enterprise,62,Active,Enterprise,Quarterly,2046831.48,170569.29,3.92,1064,735,69.08,18667,53.71,18,Stable,0.1,5,1,26.19,4.3,206132.22,91,10,234,Not Due
+CUST-0000432,Education,North America,Mid-Market,1363,Mid-Market,15,Active,Professional,Annual,171556.80,14296.40,4.12,192,160,83.33,1080,59.13,18,Declining,2.84,6,0,18.27,4.5,3040.09,6,9,11,Pending Decision
+CUST-0000433,Financial Services,EMEA,Small,174,SMB,46,Active,Business,Monthly,99956.76,8329.73,6.92,60,29,48.33,365,43.69,29,Declining,0.44,3,0,9.01,4.7,1278.32,4,5,107,Planning
+CUST-0000434,Retail,EMEA,Small,10,SMB,18,Active,Starter,Monthly,1368.72,114.06,12.84,3,3,100.00,50,74.82,3,Stable,0.55,3,1,23.43,4.5,361.65,161,6,92,Planning
+CUST-0000435,Healthcare,LATAM,Enterprise,43496,Enterprise,26,Active,Enterprise,Annual,3600363.48,300030.29,6.27,2580,1864,72.25,23875,54.26,18,Declining,0.91,16,1,28.57,3.9,54077.73,3,14,76,Not Due
+CUST-0000436,Financial Services,EMEA,Small,10,SMB,23,Active,Starter,Monthly,1223.28,101.94,9.94,3,3,100.00,45,74.05,6,Stable,2.54,11,1,28.74,,8.98,2,4,172,Not Due
+CUST-0000437,Education,APAC,Enterprise,39931,Enterprise,70,Active,Enterprise,Annual,3436458.72,286371.56,20.26,3757,3641,96.91,53096,66.57,11,Stable,1.69,28,1,35.20,3.5,34642.33,1,13,43,In Discussion
+CUST-0000438,Retail,LATAM,Small,166,SMB,2,Active,Starter,Monthly,20505.00,1708.75,0.73,46,27,58.70,535,46.86,24,Stable,0.1,2,0,11.22,4.4,165.08,2,4,166,Not Due
+CUST-0000439,Financial Services,North America,Small,127,SMB,84,Active,Professional,Monthly,23374.92,1947.91,13.5,33,19,57.58,80,42.48,24,Stable,1.78,7,0,16.87,4.0,257.14,8,4,322,Not Due
+CUST-0000440,Technology,North America,Mid-Market,1839,Mid-Market,2,Onboarding,Professional,Quarterly,140977.68,11748.14,5.23,222,142,63.96,2940,51.24,24,Stable,1.0,8,0,14.26,4.0,1108.41,2,12,63,Planning
+CUST-0000441,Professional Services,EMEA,Mid-Market,323,Mid-Market,23,Active,Business,Quarterly,147361.92,12280.16,18.6,133,112,84.21,1617,76.66,13,Declining,0.85,1,0,8.91,4.3,13053.23,45,10,119,Planning
+CUST-0000442,Financial Services,EMEA,Mid-Market,1070,Mid-Market,4,Active,Business,Monthly,209225.04,17435.42,8.84,147,124,84.35,1592,77.21,9,Declining,1.83,4,0,9.87,3.7,1346.61,1,6,52,In Discussion
+CUST-0000443,Education,LATAM,Small,23,SMB,71,Expansion,Starter,Monthly,2042.04,170.17,0.87,6,4,66.67,67,77.52,16,Growing,0.58,1,1,24.82,,12.81,3,4,148,Not Due
+CUST-0000444,Financial Services,North America,Mid-Market,516,SMB,7,Active,Starter,Quarterly,34572.60,2881.05,6.17,75,69,92.00,847,46.15,11,Stable,1.29,6,1,19.77,3.3,396.31,1,6,177,Not Due
+CUST-0000445,Education,North America,Small,87,SMB,10,Active,Professional,Quarterly,19157.04,1596.42,6.3,24,22,91.67,396,49.44,10,Growing,0.96,1,0,7.92,4.6,1557.42,133,8,291,Planning
+CUST-0000446,Professional Services,LATAM,Small,35,SMB,11,Active,Professional,Monthly,6170.64,514.22,5.3,10,9,90.00,63,55.81,13,Declining,2.61,9,0,12.75,4.3,37.26,1,3,296,Not Due
+CUST-0000447,Education,APAC,Mid-Market,279,Mid-Market,45,Active,Professional,Monthly,98993.64,8249.47,14.48,125,89,71.20,743,59.67,21,Stable,2.58,6,0,13.06,4.4,462.47,0,10,85,Planning
+CUST-0000448,Professional Services,North America,Mid-Market,1311,Mid-Market,70,Active,Business,Monthly,933880.80,77823.40,13.31,633,597,94.31,6908,86.45,6,Stable,1.82,6,0,10.18,4.2,6239.50,3,8,69,Planning
+CUST-0000449,Technology,LATAM,Small,24,SMB,8,Active,Professional,Monthly,6819.24,568.27,17.82,10,7,70.00,191,69.1,18,Stable,1.57,5,0,14.87,4.6,278.68,70,6,195,Not Due
+CUST-0000450,Healthcare,North America,Mid-Market,272,Mid-Market,18,Active,Business,Annual,64751.28,5395.94,17.87,50,39,78.00,263,32.61,19,Stable,0.3,0,0,4.19,4.8,376.13,0,5,259,Not Due
+CUST-0000451,Healthcare,North America,Small,15,Mid-Market,74,Active,Starter,Annual,776.76,64.73,4.61,2,2,100.00,36,85.82,6,Stable,2.75,6,0,16.65,4.1,6.38,3,4,343,Not Due
+CUST-0000452,Education,APAC,Small,157,SMB,8,Active,Starter,Monthly,8162.64,680.22,5.01,22,16,72.73,196,40.24,24,Declining,0.03,1,0,8.78,5,134.71,25,7,19,In Discussion
+CUST-0000453,Retail,North America,Small,128,SMB,3,Onboarding,Professional,Quarterly,20527.68,1710.64,6.85,31,25,80.65,423,52.38,15,Stable,1.26,7,1,29.02,3.8,277.62,1,6,200,Not Due
+CUST-0000454,Healthcare,EMEA,Small,15,SMB,7,Active,Professional,Quarterly,6790.32,565.86,9.55,10,9,90.00,143,54.96,15,Stable,1.51,0,0,3.68,4.2,65.78,1,3,305,Not Due
+CUST-0000455,Financial Services,APAC,Small,186,SMB,40,Active,Starter,Monthly,17018.40,1418.20,10.94,59,37,62.71,584,54.32,29,Growing,1.65,2,0,9.48,4.7,245.81,4,10,19,Pending Decision
+CUST-0000456,Retail,APAC,Enterprise,59013,Enterprise,11,Active,Enterprise,Annual,9842886.24,820240.52,12.33,10000,8381,83.81,262976,82.69,9,Growing,1.26,51,1,53.01,3.0,44578.26,3,12,208,Not Due
+CUST-0000457,Manufacturing,LATAM,Enterprise,7590,Enterprise,57,Active,Business,Annual,1556109.72,129675.81,7.18,948,872,91.98,5506,52.92,10,Growing,6.15,16,5,99.16,1.8,10211.27,0,14,292,Not Due
+CUST-0000458,Financial Services,North America,Small,34,SMB,13,Active,Starter,Quarterly,5345.64,445.47,7.71,13,10,76.92,138,67.7,17,Declining,2.12,6,1,30.25,3.6,10.32,3,8,66,Planning
+CUST-0000459,Professional Services,EMEA,Enterprise,3079,Enterprise,18,Active,Enterprise,Annual,419878.92,34989.91,27.76,583,387,66.38,3154,37.76,21,Stable,1.0,4,0,12.14,4.6,3196.75,0,4,210,Not Due
+CUST-0000460,Professional Services,EMEA,Small,45,Mid-Market,8,Active,Professional,Quarterly,6211.08,517.59,22.12,10,9,90.00,221,80.02,8,Stable,0.57,3,1,30.04,4.6,94.30,5,7,30,Pending Decision
+CUST-0000461,Retail,North America,Enterprise,3920,Enterprise,29,Active,Business,Quarterly,1398023.28,116501.94,24.12,1101,843,76.57,8856,46.57,21,Growing,1.37,6,2,37.27,3.1,7614.54,1,9,208,Not Due
+CUST-0000462,Retail,North America,Small,29,SMB,15,Active,Professional,Monthly,8521.92,710.16,12.81,10,4,40.00,34,26.14,34,Declining,0.97,3,0,6.97,5,28.18,3,4,114,Planning
+CUST-0000463,Manufacturing,APAC,Enterprise,11435,Enterprise,9,Active,Enterprise,Annual,4905824.16,408818.68,25.14,4546,4409,96.99,64799,83.32,13,Growing,0.75,28,1,39.32,3.1,0.00,0,9,102,Planning
+CUST-0000464,Healthcare,APAC,Small,20,SMB,97,Active,Professional,Monthly,7413.96,617.83,5.79,10,8,80.00,146,64.05,13,Growing,1.96,6,2,38.56,3.0,106.25,3,7,351,Not Due
+CUST-0000465,Financial Services,LATAM,Small,33,SMB,24,Active,Professional,Monthly,7049.88,587.49,18.37,10,8,80.00,54,59.46,17,Declining,0.05,3,1,25.18,4.1,77.64,3,4,338,Not Due
+CUST-0000466,Retail,North America,Small,85,SMB,8,Active,Starter,Monthly,5202.60,433.55,6.61,14,8,57.14,91,39.64,25,Stable,2.58,7,1,29.08,4.1,42.80,4,4,361,Not Due
+CUST-0000467,Manufacturing,APAC,Enterprise,8847,Enterprise,13,Active,Enterprise,Annual,2119446.96,176620.58,14.34,2379,1489,62.59,18268,47.83,22,Stable,0.16,15,0,17.47,4.6,0.00,0,9,168,Not Due
+CUST-0000468,Manufacturing,North America,Small,59,SMB,9,Active,Starter,Monthly,3555.36,296.28,9.45,10,5,50.00,52,31.28,29,Declining,0.8,2,0,10.44,4.7,27.86,4,0,166,Not Due
+CUST-0000469,Technology,North America,Small,27,SMB,61,Active,Professional,Monthly,7611.84,634.32,10.0,10,7,70.00,124,44.06,20,Stable,13.11,32,13,215.19,1,0.00,0,9,146,Not Due
+CUST-0000470,Retail,LATAM,Small,31,SMB,43,Active,Business,Monthly,70672.32,5889.36,19.13,50,46,92.00,917,51.1,13,Stable,2.08,5,1,20.91,4.1,402.46,1,4,255,Not Due
+CUST-0000471,Retail,North America,Small,11,SMB,24,Active,Professional,Monthly,6506.52,542.21,20.81,10,6,60.00,104,55.82,21,Stable,1.1,1,0,7.90,4.1,26.75,1,3,358,Not Due
+CUST-0000472,Manufacturing,North America,Mid-Market,778,SMB,42,Active,Business,Annual,146622.12,12218.51,4.21,96,92,95.83,2874,77.42,12,Growing,2.61,5,0,12.11,3.9,1823.17,0,8,47,In Discussion
+CUST-0000473,Financial Services,EMEA,Small,26,SMB,12,Active,Professional,Monthly,7014.00,584.50,20.53,10,9,90.00,92,51.98,15,Stable,2.15,3,0,10.17,4.3,70.69,1,3,153,Not Due
+CUST-0000474,Manufacturing,North America,Small,28,SMB,20,Active,Professional,Annual,7441.08,620.09,0.96,10,9,90.00,84,62.96,9,Declining,1.02,3,0,9.51,4.5,43.69,4,7,84,Not Due
+CUST-0000475,Professional Services,APAC,Small,191,SMB,3,Active,Starter,Monthly,14941.68,1245.14,3.69,39,33,84.62,153,43.49,17,Stable,1.97,4,0,14.21,4.0,113.76,3,4,103,Not Due
+CUST-0000476,Technology,EMEA,Small,17,SMB,4,Active,Starter,Monthly,981.96,81.83,13.52,3,3,100.00,58,65.16,8,Stable,2.4,10,2,42.34,3.4,0.00,0,8,4,Pending Decision
+CUST-0000477,Retail,LATAM,Mid-Market,244,Mid-Market,33,Active,Professional,Quarterly,103148.76,8595.73,6.95,113,106,93.81,2259,68.07,7,Growing,0.45,1,0,7.94,5.0,367.00,1,8,361,Planning
+CUST-0000478,Financial Services,LATAM,Small,106,SMB,46,Active,Professional,Monthly,13694.88,1141.24,4.66,22,13,59.09,95,36.19,24,Stable,0.26,2,1,26.44,4.2,152.04,3,5,257,Not Due
+CUST-0000479,Retail,North America,Small,104,SMB,19,Active,Professional,Monthly,36999.84,3083.32,6.43,48,35,72.92,451,49.51,18,Declining,0.17,0,0,5.42,4.1,0.00,0,3,267,Not Due
+CUST-0000480,Professional Services,North America,Small,108,Mid-Market,120,Active,Business,Quarterly,47217.60,3934.80,21.17,50,42,84.00,732,92.38,7,Stable,0.15,1,1,23.68,4.7,10894.33,170,8,227,Not Due
+CUST-0000481,Manufacturing,APAC,Mid-Market,423,Mid-Market,28,Active,Business,Annual,189424.92,15785.41,11.41,150,108,72.00,2801,60.41,20,Stable,1.37,2,0,5.48,4.1,534.80,0,4,208,Not Due
+CUST-0000482,Technology,EMEA,Small,56,SMB,3,Active,Professional,Quarterly,10476.84,873.07,10.15,10,7,70.00,51,49.64,21,Declining,0.58,1,0,10.15,4.7,26.01,1,8,174,Not Due
+CUST-0000483,Retail,LATAM,Small,13,SMB,0,Onboarding,Professional,Quarterly,9539.76,794.98,8.02,10,3,30.00,27,44.78,37,Declining,0.38,2,0,3.20,4.2,914.67,103,7,226,Not Due
+CUST-0000484,Education,EMEA,Small,12,SMB,5,Active,Starter,Monthly,302.64,25.22,4.73,1,1,100.00,11,69.09,13,Growing,0.73,1,0,8.44,5,7.41,7,5,70,In Discussion
+CUST-0000485,Financial Services,North America,Small,30,SMB,46,Active,Starter,Monthly,2107.92,175.66,4.27,5,3,60.00,24,52.54,22,Declining,1.37,4,0,12.17,5,22.02,5,6,192,Not Due
+CUST-0000486,Technology,EMEA,Mid-Market,607,SMB,26,Active,Professional,Quarterly,140186.04,11682.17,5.66,167,129,77.25,1838,59.29,15,Stable,4.66,9,1,36.17,3.2,2950.27,6,6,336,Not Due
+CUST-0000487,Financial Services,APAC,Small,28,SMB,40,Active,Starter,Monthly,3705.12,308.76,11.65,11,10,90.91,135,73.38,10,Stable,2.46,2,0,12.76,4.1,0.00,0,6,54,Pending Decision
+CUST-0000488,Professional Services,North America,Small,79,SMB,42,Active,Professional,Quarterly,16014.36,1334.53,4.19,19,12,63.16,157,39.06,22,Declining,0.2,2,0,4.88,5,228.05,4,6,349,Not Due
+CUST-0000489,Financial Services,North America,Mid-Market,222,Mid-Market,31,Active,Professional,Annual,47798.16,3983.18,21.94,67,46,68.66,704,42.73,21,Declining,0.47,2,1,23.19,4.0,226.46,1,4,261,Not Due
+CUST-0000490,Technology,North America,Mid-Market,532,Mid-Market,10,Active,Business,Quarterly,73014.36,6084.53,11.1,52,45,86.54,1287,84.62,11,Stable,3.33,11,0,22.68,4.1,581.43,4,5,314,Not Due
+CUST-0000491,Financial Services,North America,Small,23,SMB,71,Active,Professional,Monthly,9124.68,760.39,4.04,10,8,80.00,113,66.9,12,Declining,0.11,1,1,15.87,5,129.68,6,8,179,Not Due
+CUST-0000492,Financial Services,APAC,Enterprise,15666,Enterprise,82,Active,Business,Quarterly,4013191.68,334432.64,15.11,3500,2943,84.09,26924,60.21,13,Growing,3.06,20,1,41.13,3.0,28125.20,1,9,237,Not Due
+CUST-0000493,Professional Services,EMEA,Small,15,SMB,36,Active,Starter,Monthly,1461.24,121.77,7.05,3,2,66.67,11,61.76,18,Declining,1.21,3,0,5.92,4.6,8.36,5,5,146,In Discussion
+CUST-0000494,Education,LATAM,Small,12,SMB,6,Active,Professional,Monthly,5740.56,478.38,5.57,10,8,80.00,131,50.13,14,Stable,0.69,1,0,7.62,4.6,17.89,5,4,305,Not Due
+CUST-0000495,Healthcare,APAC,Mid-Market,207,Mid-Market,25,Active,Professional,Annual,28192.68,2349.39,18.21,31,19,61.29,223,59.41,24,Growing,2.27,9,0,21.33,,128.11,1,6,185,Not Due
+CUST-0000496,Healthcare,North America,Small,84,SMB,53,Active,Professional,Annual,10344.36,862.03,1.64,14,6,42.86,58,49.04,38,Declining,0.18,1,1,17.67,3.9,0.00,0,5,328,Not Due
+CUST-0000497,Education,EMEA,Mid-Market,1728,SMB,21,Active,Starter,Monthly,27126.96,2260.58,9.35,75,68,90.67,1018,56.56,10,Growing,0.69,0,0,6.95,4.5,1027.30,68,8,177,Not Due
+CUST-0000498,Technology,North America,Mid-Market,1887,Mid-Market,25,Active,Business,Quarterly,817627.80,68135.65,20.79,636,498,78.30,11529,57.47,15,Growing,1.98,10,1,25.86,4.3,12241.77,4,14,21,In Discussion
+CUST-0000499,Technology,North America,Mid-Market,386,Enterprise,8,Active,Enterprise,Annual,217164.48,18097.04,23.97,250,168,67.20,1451,49.01,29,Declining,2.15,4,0,14.14,4.7,0.00,0,3,173,Not Due
+CUST-0000500,Financial Services,APAC,Small,35,SMB,3,Onboarding,Starter,Monthly,439.56,36.63,7.36,1,1,100.00,21,59.08,5,Growing,0.56,4,1,18.92,4.2,21.74,61,6,104,Planning
+CUST-0000501,Education,APAC,Small,80,SMB,46,Active,Business,Monthly,74196.24,6183.02,15.01,50,40,80.00,124,43.77,18,Declining,1.08,3,0,14.80,4.1,591.22,2,7,53,In Discussion
+CUST-0000502,Manufacturing,North America,Mid-Market,308,SMB,0,Onboarding,Professional,Monthly,37796.52,3149.71,5.72,40,29,72.50,152,51.45,19,Stable,0.37,2,0,6.26,5,406.89,1,7,100,Planning
+CUST-0000503,Education,North America,Enterprise,4053,Enterprise,35,Active,Enterprise,Annual,1169331.12,97444.26,8.19,829,618,74.55,8658,48.14,18,Growing,1.32,10,1,28.85,3.8,15979.92,3,5,339,Not Due
+CUST-0000504,Technology,EMEA,Small,20,SMB,12,Active,Business,Monthly,85103.04,7091.92,19.57,50,35,70.00,472,43.45,22,Stable,1.68,4,0,9.89,4.2,663.55,3,6,232,Not Due
+CUST-0000505,Retail,EMEA,Mid-Market,228,Mid-Market,106,Active,Professional,Monthly,26811.84,2234.32,1.42,30,15,50.00,227,54.07,27,Declining,1.74,7,1,26.07,4.1,275.88,2,7,315,Not Due
+CUST-0000506,Education,EMEA,Enterprise,4256,Enterprise,1,Onboarding,Business,Quarterly,757855.68,63154.64,8.26,755,590,78.15,3992,34.45,18,Stable,0.98,4,0,13.27,4.5,12809.89,2,7,294,Not Due
+CUST-0000507,Education,LATAM,Small,82,SMB,73,Active,Starter,Monthly,6526.08,543.84,7.41,16,10,62.50,76,42.5,24,Declining,2.42,9,0,16.46,4.2,24.32,1,7,5,Pending Decision
+CUST-0000508,Healthcare,EMEA,Small,21,SMB,25,Active,Professional,Quarterly,9408.24,784.02,7.04,10,3,30.00,32,36.17,49,Declining,0.12,2,1,19.88,,250.21,9,4,234,Not Due
+CUST-0000509,Healthcare,APAC,Small,49,SMB,11,Active,Professional,Monthly,11543.64,961.97,9.86,16,9,56.25,75,28.24,29,Stable,1.26,5,1,23.01,4.4,96.16,1,7,71,Planning
+CUST-0000510,Education,APAC,Small,88,SMB,18,Expansion,Professional,Monthly,13205.76,1100.48,5.1,14,13,92.86,256,79.12,9,Stable,3.08,7,0,19.31,4.3,117.20,1,8,34,Planning
+CUST-0000511,Manufacturing,EMEA,Small,19,SMB,3,Onboarding,Professional,Quarterly,8351.64,695.97,16.45,10,7,70.00,84,61.57,17,Declining,1.19,3,0,11.87,4.2,14.93,2,4,178,Not Due
+CUST-0000512,Healthcare,LATAM,Mid-Market,1956,Mid-Market,52,Active,Professional,Quarterly,190730.76,15894.23,29.17,383,150,39.16,1337,42.01,34,Declining,0.34,6,0,11.17,4.2,451.80,1,9,125,Planning
+CUST-0000513,Technology,North America,Mid-Market,416,Mid-Market,8,Active,Business,Monthly,118784.40,9898.70,5.75,68,68,100.00,478,77.82,6,Stable,3.0,11,2,46.47,3.0,2830.04,11,12,257,Not Due
+CUST-0000514,Manufacturing,North America,Small,95,SMB,71,Active,Professional,Annual,9216.48,768.04,4.81,11,9,81.82,132,61.55,14,Stable,0.6,2,0,6.55,4.1,993.72,72,6,4,Pending Decision
+CUST-0000515,Healthcare,North America,Small,86,SMB,12,Active,Professional,Monthly,13755.12,1146.26,9.03,17,16,94.12,421,63.06,8,Stable,0.3,1,0,7.61,4.6,158.12,3,2,268,Not Due
+CUST-0000516,Financial Services,APAC,Small,54,Mid-Market,13,Active,Business,Annual,64387.56,5365.63,15.82,50,47,94.00,302,57.91,17,Stable,1.33,5,0,11.27,4.2,101.73,1,5,102,Planning
+CUST-0000517,Manufacturing,EMEA,Enterprise,60630,Enterprise,63,Active,Enterprise,Annual,9273872.64,772822.72,25.23,10000,7551,75.51,96837,48.48,17,Stable,0.21,46,0,43.33,3.1,59117.36,4,10,256,Not Due
+CUST-0000518,Technology,North America,Small,45,SMB,8,Active,Starter,Monthly,2024.28,168.69,3.88,6,6,100.00,141,78.35,6,Growing,3.28,14,2,47.98,3.2,0.00,0,12,88,Planning
+CUST-0000519,Professional Services,North America,Small,15,SMB,67,Active,Starter,Quarterly,403.20,33.60,10.35,1,1,100.00,17,79.58,3,Growing,0.16,2,0,1.51,4.2,4.42,7,9,3,In Discussion
+CUST-0000520,Healthcare,LATAM,Mid-Market,1982,SMB,93,Active,Professional,Quarterly,397931.76,33160.98,7.31,398,350,87.94,3439,63.98,16,Growing,0.67,4,0,8.28,4.5,4288.77,1,4,138,Planning
+CUST-0000521,Financial Services,APAC,Small,100,SMB,5,Active,Starter,Quarterly,6108.96,509.08,8.82,14,9,64.29,56,33.63,23,Stable,0.17,1,0,12.09,4.8,51.96,1,4,324,Not Due
+CUST-0000522,Healthcare,APAC,Small,38,SMB,6,Active,Starter,Monthly,3197.40,266.45,3.09,9,8,88.89,137,62.67,10,Stable,4.43,5,1,30.17,3.3,3.61,2,7,19,In Discussion
+CUST-0000523,Manufacturing,North America,Small,71,SMB,20,Active,Professional,Monthly,24541.56,2045.13,7.39,27,13,48.15,47,45.32,27,Declining,2.73,10,1,28.62,4.0,141.33,4,8,76,Planning
+CUST-0000524,Financial Services,North America,Small,64,SMB,71,Active,Starter,Monthly,1580.28,131.69,6.6,4,3,75.00,52,75.17,13,Growing,1.52,2,0,10.39,4.7,0.00,0,5,143,Planning
+CUST-0000525,Education,North America,Small,33,SMB,7,Active,Professional,Monthly,7461.12,621.76,20.42,10,5,50.00,123,37.39,34,Growing,0.68,4,0,9.15,4.5,53.16,1,6,16,Planning
+CUST-0000526,Professional Services,APAC,Small,129,SMB,18,Active,Professional,Quarterly,9348.36,779.03,5.71,11,7,63.64,76,62.11,20,Stable,0.38,2,0,8.75,4.8,865.05,69,7,311,Not Due
+CUST-0000527,Technology,EMEA,Mid-Market,1202,Mid-Market,42,Active,Enterprise,Monthly,805653.12,67137.76,13.51,551,471,85.48,11254,75.42,10,Growing,1.94,6,1,20.52,3.9,5515.40,1,12,58,Planning
+CUST-0000528,Healthcare,LATAM,Small,13,SMB,13,Active,Professional,Quarterly,9111.36,759.28,15.99,10,5,50.00,20,32.19,31,Declining,14.67,35,15,249.69,1,111.45,3,9,256,Not Due
+CUST-0000529,Healthcare,North America,Small,90,SMB,42,Active,Starter,Monthly,5385.00,448.75,7.58,13,6,46.15,23,25.18,31,Declining,0.4,5,0,12.79,5.0,39.07,3,2,331,Not Due
+CUST-0000530,Financial Services,North America,Mid-Market,1772,Mid-Market,29,Active,Business,Monthly,353830.68,29485.89,7.25,208,134,64.42,937,51.32,25,Stable,0.22,0,0,10.21,4.3,2960.96,6,3,250,Not Due
+CUST-0000531,Education,EMEA,Small,15,SMB,5,Active,Professional,Monthly,9142.56,761.88,6.69,10,7,70.00,154,39.88,20,Stable,0.88,1,0,9.55,4.3,118.94,6,5,306,Not Due
+CUST-0000532,Professional Services,LATAM,Small,188,SMB,6,Active,Starter,Annual,6114.72,509.56,6.33,20,16,80.00,111,54.04,14,Stable,0.45,3,0,11.01,5.0,0.00,0,5,1,In Discussion
+CUST-0000533,Healthcare,APAC,Small,31,SMB,20,Active,Starter,Monthly,3551.64,295.97,8.51,10,6,60.00,186,64.37,20,Growing,0.78,5,0,10.81,,17.19,1,6,264,Planning
+CUST-0000534,Financial Services,APAC,Mid-Market,403,Mid-Market,10,Active,Enterprise,Annual,405684.00,33807.00,4.5,250,204,81.60,2942,61.26,13,Declining,0.69,1,0,8.44,4.3,2622.75,2,8,310,Not Due
+CUST-0000535,Retail,EMEA,Small,21,SMB,2,Onboarding,Starter,Monthly,2094.00,174.50,4.33,5,3,60.00,27,40.86,24,Declining,2.93,8,0,21.35,4.1,6.46,2,2,98,Planning
+CUST-0000536,Professional Services,LATAM,Small,33,SMB,113,Active,Starter,Monthly,671.16,55.93,6.03,2,1,50.00,14,40.17,35,Stable,2.5,7,0,14.39,,2.83,2,3,293,Planning
+CUST-0000537,Financial Services,EMEA,Small,40,SMB,120,Active,Business,Monthly,67995.60,5666.30,9.88,50,46,92.00,769,93.97,4,Stable,0.32,0,0,13.50,4.8,521.59,29,6,360,Not Due
+CUST-0000538,Technology,LATAM,Enterprise,39649,Mid-Market,1,Onboarding,Professional,Monthly,767064.84,63922.07,7.88,750,325,43.33,2031,24.88,37,Declining,1.68,12,0,22.15,4.1,10436.43,1,8,73,In Discussion
+CUST-0000539,Healthcare,LATAM,Enterprise,17448,Enterprise,5,Active,Professional,Quarterly,522416.28,43534.69,18.44,750,597,79.60,4746,33.03,17,Stable,0.53,6,0,12.32,4.6,5581.92,2,9,12,Pending Decision
+CUST-0000540,Professional Services,APAC,Small,84,SMB,27,Active,Professional,Monthly,9875.04,822.92,20.12,15,8,53.33,81,23.07,30,Growing,0.98,6,0,11.38,4.3,154.79,5,4,138,Planning
+CUST-0000541,Manufacturing,North America,Enterprise,7379,Enterprise,41,Active,Enterprise,Annual,4253927.28,354493.94,12.76,2635,2386,90.55,23922,79.54,7,Declining,0.94,16,0,22.11,4.0,44201.51,1,5,135,Planning
+CUST-0000542,Professional Services,LATAM,Mid-Market,386,Mid-Market,41,Active,Business,Annual,105331.44,8777.62,14.37,92,71,77.17,745,71.49,15,Stable,4.28,15,2,52.47,2.9,1244.88,2,11,77,Planning
+CUST-0000543,Manufacturing,North America,Enterprise,2796,Enterprise,8,Active,Enterprise,Quarterly,890518.80,74209.90,35.73,749,702,93.72,8134,69.4,13,Growing,0.17,2,1,22.90,,10047.35,6,6,275,Not Due
+CUST-0000544,Healthcare,EMEA,Small,173,SMB,2,Onboarding,Starter,Monthly,11584.08,965.34,3.62,32,24,75.00,195,42.77,26,Stable,1.48,3,0,4.62,4.2,166.49,3,2,304,Not Due
+CUST-0000545,Healthcare,LATAM,Small,126,SMB,2,Onboarding,Starter,Monthly,5375.76,447.98,5.19,15,9,60.00,54,40.71,24,Declining,1.57,9,0,11.91,4.6,35.50,2,3,162,Not Due
+CUST-0000546,Technology,North America,Small,75,SMB,4,Active,Business,Monthly,59538.36,4961.53,7.07,50,19,38.00,124,31.05,37,Declining,0.77,5,0,6.19,,1079.24,2,11,74,Pending Decision
+CUST-0000547,Education,APAC,Small,77,SMB,47,Active,Starter,Monthly,4832.04,402.67,4.76,14,7,50.00,130,57.87,26,Stable,0.5,0,0,7.24,5,554.84,106,9,85,Planning
+CUST-0000548,Manufacturing,APAC,Small,17,SMB,0,Onboarding,Starter,Quarterly,684.00,57.00,8.45,2,1,50.00,22,32.69,30,Stable,2.02,9,1,26.41,4.0,0.00,0,3,338,Planning
+CUST-0000549,Retail,North America,Small,10,SMB,22,Active,Professional,Monthly,8599.32,716.61,10.98,10,5,50.00,49,40.07,32,Declining,1.04,6,0,14.96,4.5,29.77,1,5,5,Pending Decision
+CUST-0000550,Professional Services,North America,Mid-Market,1942,Mid-Market,5,Active,Professional,Quarterly,481526.16,40127.18,3.91,750,205,27.33,1655,24.31,50,Declining,1.19,13,1,36.80,3.8,64133.10,113,16,43,Planning
+CUST-0000551,Retail,APAC,Mid-Market,944,Mid-Market,2,Active,Business,Monthly,421335.84,35111.32,11.85,301,110,36.54,390,24.47,35,Declining,4.8,18,3,64.20,2.3,4265.79,3,9,126,Planning
+CUST-0000552,Manufacturing,North America,Small,86,SMB,35,Active,Starter,Annual,4604.88,383.74,2.9,16,9,56.25,133,50.13,25,Declining,2.47,3,0,11.08,4.4,29.00,1,1,353,Planning
+CUST-0000553,Healthcare,EMEA,Mid-Market,549,Mid-Market,6,Active,Business,Quarterly,70486.08,5873.84,7.16,52,32,61.54,532,59.08,21,Stable,0.13,1,1,18.44,3.9,0.00,0,2,332,Not Due
+CUST-0000554,Manufacturing,North America,Small,13,SMB,0,Active,Professional,Quarterly,9005.64,750.47,13.23,10,3,30.00,28,11.49,41,Stable,1.61,6,0,10.04,,194.31,6,5,122,Not Due
+CUST-0000555,Professional Services,EMEA,Small,30,SMB,11,Active,Starter,Monthly,3131.88,260.99,1.6,9,6,66.67,52,44.3,20,Declining,1.35,0,0,10.06,4.2,25.07,4,5,248,Not Due
+CUST-0000556,Manufacturing,APAC,Small,188,SMB,12,Active,Professional,Monthly,56852.52,4737.71,17.19,71,59,83.10,651,54.39,14,Stable,0.91,4,0,15.46,4.7,3950.99,130,10,334,Not Due
+CUST-0000557,Healthcare,North America,Small,19,SMB,20,Active,Starter,Quarterly,1668.48,139.04,12.0,4,2,50.00,22,48.55,27,Declining,4.2,1,0,8.73,4.0,11.89,1,4,33,Planning
+CUST-0000558,Healthcare,EMEA,Small,46,SMB,67,Active,Starter,Annual,1547.40,128.95,4.27,5,4,80.00,55,53.17,16,Stable,3.81,10,1,33.01,3.6,0.00,0,4,196,Not Due
+CUST-0000559,Professional Services,APAC,Enterprise,15905,Enterprise,45,Active,Business,Annual,6055143.00,504595.25,17.57,3500,2000,57.14,14627,39.37,27,Stable,1.21,16,0,24.66,3.6,41120.55,5,7,332,Not Due
+CUST-0000560,Technology,APAC,Enterprise,3180,Enterprise,73,Active,Enterprise,Annual,546755.28,45562.94,17.74,582,469,80.58,11238,42.4,15,Stable,2.08,6,1,27.87,3.8,0.00,0,8,115,Planning
+CUST-0000561,Financial Services,EMEA,Mid-Market,1151,Mid-Market,15,Active,Professional,Quarterly,69597.48,5799.79,28.71,89,60,67.42,546,40.89,24,Stable,2.43,4,1,23.53,,634.52,7,7,40,Planning
+CUST-0000562,Professional Services,EMEA,Small,75,SMB,9,Active,Professional,Annual,7668.60,639.05,4.09,10,8,80.00,82,36.52,18,Stable,0.95,4,0,20.39,4.1,113.89,3,3,109,Planning
+CUST-0000563,Healthcare,North America,Small,137,SMB,2,Onboarding,Professional,Monthly,13661.40,1138.45,12.31,19,12,63.16,81,38.49,25,Stable,1.0,4,2,29.10,4.0,167.83,3,6,168,Not Due
+CUST-0000564,Manufacturing,LATAM,Mid-Market,1854,Mid-Market,19,Active,Enterprise,Quarterly,520120.20,43343.35,6.29,427,373,87.35,3820,67.25,9,Declining,1.21,3,1,27.53,4.2,29859.08,87,12,17,Pending Decision
+CUST-0000565,Education,APAC,Small,77,SMB,52,Active,Professional,Monthly,13035.60,1086.30,10.1,14,11,78.57,135,64.28,13,Growing,3.78,9,1,35.97,3.4,25.74,3,3,232,Not Due
+CUST-0000566,Healthcare,LATAM,Mid-Market,229,Mid-Market,119,Active,Professional,Monthly,21921.36,1826.78,13.77,25,14,56.00,266,43.03,27,Stable,0.15,2,0,8.12,4.2,1622.81,47,4,108,Planning
+CUST-0000567,Healthcare,LATAM,Enterprise,50382,Enterprise,44,Active,Enterprise,Annual,17915390.64,1492949.22,6.21,10000,7964,79.64,87647,70.92,16,Declining,0.59,43,1,48.03,3.6,0.00,0,14,156,Not Due
+CUST-0000568,Professional Services,North America,Enterprise,20434,Enterprise,19,Active,Business,Annual,3014559.96,251213.33,9.14,2292,1627,70.99,23747,32.67,22,Stable,0.59,7,0,15.55,4.1,31947.97,0,4,212,Not Due
+CUST-0000569,Retail,LATAM,Small,171,SMB,106,Active,Professional,Monthly,28746.60,2395.55,17.42,36,31,86.11,408,61.46,16,Stable,0.46,1,0,1.77,4.8,108.47,1,6,334,Not Due
+CUST-0000570,Education,EMEA,Small,105,SMB,68,Active,Starter,Monthly,5472.96,456.08,9.11,19,16,84.21,226,66.76,13,Stable,3.78,11,2,45.95,3.1,64.53,1,6,221,Not Due
+CUST-0000571,Technology,EMEA,Small,16,SMB,35,Active,Professional,Monthly,7070.64,589.22,10.33,10,9,90.00,66,58.23,9,Stable,0.11,0,0,1.00,4.4,94.98,3,6,70,In Discussion
+CUST-0000572,Healthcare,LATAM,Small,15,SMB,51,Active,Starter,Monthly,1438.44,119.87,5.43,5,3,60.00,27,29.12,28,Stable,1.11,1,0,14.42,4.2,0.00,0,4,339,Not Due
+CUST-0000573,Retail,APAC,Mid-Market,1486,SMB,68,Active,Professional,Monthly,301266.48,25105.54,13.19,431,409,94.90,13297,88.79,4,Stable,3.0,14,0,18.57,3.8,2356.49,0,9,365,Not Due
+CUST-0000574,Manufacturing,North America,Small,23,SMB,4,Active,Starter,Monthly,1309.20,109.10,7.46,3,2,66.67,18,37.99,27,Stable,1.75,7,0,13.20,4.4,0.00,0,5,125,Planning
+CUST-0000575,Professional Services,North America,Enterprise,62559,Enterprise,67,Active,Enterprise,Annual,18106347.60,1508862.30,12.55,10000,9712,97.12,281626,73.14,6,Stable,0.93,39,1,51.26,3.4,0.00,0,13,288,Not Due
+CUST-0000576,Education,LATAM,Enterprise,5847,Enterprise,16,Active,Enterprise,Quarterly,766099.08,63841.59,20.03,732,568,77.60,5009,55.47,17,Stable,0.43,4,0,11.22,,198897.16,134,12,217,Not Due
+CUST-0000577,Education,North America,Small,36,SMB,25,Active,Business,Monthly,70674.72,5889.56,10.98,50,40,80.00,661,58.21,18,Growing,6.11,11,3,60.12,,195.37,0,11,171,Not Due
+CUST-0000578,Healthcare,North America,Small,13,SMB,11,Active,Professional,Quarterly,5890.92,490.91,13.92,10,8,80.00,84,50.72,14,Stable,1.34,6,0,14.21,,11.41,3,5,143,Not Due
+CUST-0000579,Manufacturing,North America,Small,170,SMB,6,Active,Professional,Monthly,24907.08,2075.59,6.5,26,25,96.15,295,68.42,8,Stable,0.54,1,0,6.76,4.4,154.29,1,4,126,Planning
+CUST-0000580,Financial Services,EMEA,Small,131,SMB,7,Active,Professional,Annual,13968.84,1164.07,8.18,21,19,90.48,171,62.94,10,Stable,1.33,5,0,14.30,4.2,186.69,1,5,151,Not Due
+CUST-0000581,Healthcare,APAC,Small,38,SMB,39,Active,Starter,Monthly,2526.72,210.56,8.54,9,7,77.78,55,53.06,17,Stable,0.69,6,0,10.32,4.6,17.52,1,4,117,Planning
+CUST-0000582,Manufacturing,APAC,Small,63,SMB,44,Active,Professional,Quarterly,8005.20,667.10,10.07,10,9,90.00,105,64.86,11,Stable,1.07,5,0,13.38,4.3,0.00,0,3,106,Planning
+CUST-0000583,Education,EMEA,Mid-Market,313,Mid-Market,120,Active,Professional,Monthly,44505.84,3708.82,7.4,62,45,72.58,272,69.41,16,Declining,2.63,5,0,15.68,3.9,416.90,7,7,247,Planning
+CUST-0000584,Manufacturing,North America,Small,148,SMB,21,Active,Starter,Quarterly,6350.40,529.20,10.42,18,13,72.22,93,54.43,18,Declining,0.15,1,0,3.09,4.6,82.15,1,3,247,Not Due
+CUST-0000585,Healthcare,North America,Small,142,SMB,35,Active,Starter,Annual,4226.52,352.21,9.34,14,11,78.57,224,67.67,15,Stable,8.89,11,4,78.83,,0.00,0,9,160,Not Due
+CUST-0000586,Financial Services,North America,Mid-Market,247,Enterprise,65,Expansion,Enterprise,Annual,258845.16,21570.43,27.84,250,189,75.60,4787,73.21,17,Stable,3.53,9,0,16.38,4.5,2855.96,2,7,315,Not Due
+CUST-0000587,Healthcare,EMEA,Small,46,SMB,9,Active,Professional,Monthly,10644.84,887.07,10.56,12,7,58.33,61,25.76,26,Declining,2.78,7,1,32.63,3.7,41.03,3,5,263,Not Due
+CUST-0000588,Manufacturing,APAC,Mid-Market,1490,Mid-Market,11,Active,Professional,Annual,414140.64,34511.72,9.07,584,465,79.62,6028,53.33,15,Growing,1.85,4,1,26.32,4.0,3691.90,6,11,65,In Discussion
+CUST-0000589,Retail,APAC,Small,180,SMB,7,Active,Professional,Monthly,17119.56,1426.63,10.78,25,24,96.00,285,67.81,6,Growing,1.03,4,1,26.96,4.4,50.33,1,7,323,Not Due
+CUST-0000590,Retail,North America,Mid-Market,334,Mid-Market,59,Active,Professional,Monthly,50626.56,4218.88,18.08,100,96,96.00,1837,67.8,7,Growing,2.59,9,0,11.61,4.0,0.00,0,4,149,Planning
+CUST-0000591,Education,North America,Small,28,SMB,9,Active,Professional,Monthly,7577.04,631.42,6.54,10,6,60.00,60,47.33,35,Stable,1.4,4,0,17.17,4.9,33.75,2,2,229,Not Due
+CUST-0000592,Professional Services,LATAM,Mid-Market,668,Mid-Market,34,Active,Business,Annual,313403.04,26116.92,10.48,180,87,48.33,563,10.8,33,Declining,1.23,4,0,8.48,,4896.86,2,5,17,In Discussion
+CUST-0000593,Retail,EMEA,Mid-Market,1842,Mid-Market,28,Active,Business,Monthly,173812.08,14484.34,7.11,124,84,67.74,1054,61.93,18,Stable,0.64,0,0,1.80,4.9,2027.76,1,2,247,Not Due
+CUST-0000594,Professional Services,EMEA,Small,12,SMB,24,Active,Starter,Monthly,696.24,58.02,9.52,2,1,50.00,16,47.78,26,Stable,1.13,3,0,3.45,4.5,5.42,2,6,65,In Discussion
+CUST-0000595,Technology,LATAM,Small,16,SMB,16,Active,Professional,Annual,9643.80,803.65,15.68,10,4,40.00,48,45.62,30,Declining,3.43,10,0,17.32,4.1,36.66,1,3,143,In Discussion
+CUST-0000596,Healthcare,APAC,Small,25,SMB,14,Active,Starter,Monthly,3666.12,305.51,4.44,10,7,70.00,78,41.35,21,Stable,2.42,3,1,27.54,3.9,0.00,0,7,157,Not Due
+CUST-0000597,Healthcare,APAC,Small,17,SMB,50,Active,Business,Monthly,85048.68,7087.39,2.29,50,13,26.00,108,33.08,38,Declining,1.75,4,0,12.39,4.7,585.04,3,5,117,Planning
+CUST-0000598,Technology,EMEA,Small,31,SMB,4,Active,Professional,Quarterly,6826.32,568.86,16.76,10,7,70.00,211,51.09,23,Growing,6.1,19,4,81.05,1.6,0.00,0,8,108,Not Due
+CUST-0000599,Healthcare,LATAM,Small,80,SMB,120,Active,Starter,Quarterly,11465.04,955.42,3.47,32,21,65.62,311,36.19,26,Growing,0.84,6,3,54.61,3.2,41.76,2,11,42,Planning
+CUST-0000600,Manufacturing,North America,Mid-Market,325,SMB,19,Active,Starter,Quarterly,22614.72,1884.56,4.13,75,47,62.67,907,76.11,23,Growing,0.19,3,1,20.41,4.4,118.57,1,8,29,In Discussion
+CUST-0000601,Retail,North America,Small,144,SMB,49,Active,Professional,Annual,31167.72,2597.31,8.03,41,19,46.34,225,43.23,29,Declining,1.61,7,0,14.97,4.9,459.06,2,8,2,Planning
+CUST-0000602,Technology,EMEA,Small,35,SMB,10,Active,Starter,Monthly,1818.48,151.54,4.99,5,5,100.00,127,76.81,4,Growing,0.51,3,0,19.17,4.2,13.89,1,5,173,Not Due
+CUST-0000603,Education,APAC,Small,36,SMB,7,Active,Starter,Monthly,2315.28,192.94,5.03,6,3,50.00,31,20.58,30,Stable,1.53,10,0,16.99,4.4,37.74,5,5,344,Not Due
+CUST-0000604,Technology,LATAM,Small,25,SMB,23,Active,Professional,Annual,7936.80,661.40,14.16,10,9,90.00,263,68.83,9,Growing,3.4,9,1,30.91,3.7,28.21,2,5,168,Not Due
+CUST-0000605,Healthcare,APAC,Mid-Market,1119,Mid-Market,1,Onboarding,Enterprise,Monthly,183446.16,15287.18,20.4,250,149,59.60,1462,48.42,25,Declining,0.76,6,0,11.03,4.2,1632.55,2,7,70,In Discussion
+CUST-0000606,Technology,APAC,Small,179,SMB,120,Active,Starter,Quarterly,26468.04,2205.67,3.25,56,46,82.14,1058,65.13,12,Growing,1.75,1,1,26.46,3.8,253.62,1,7,220,Not Due
+CUST-0000607,Technology,North America,Enterprise,62203,Enterprise,120,Active,Enterprise,Annual,14551726.32,1212643.86,8.14,10000,9303,93.03,345389,80.85,7,Growing,0.6,42,0,39.93,3.2,0.00,0,9,206,Not Due
+CUST-0000608,Retail,EMEA,Enterprise,71151,Enterprise,3,Active,Business,Annual,4821542.88,401795.24,24.87,3500,2818,80.51,53424,52.0,19,Growing,1.22,24,2,46.84,3.0,200415.79,47,13,134,Planning
+CUST-0000609,Education,LATAM,Small,14,SMB,43,Active,Starter,Monthly,780.60,65.05,13.57,2,2,100.00,37,88.33,7,Growing,0.32,2,1,23.52,4.1,7.16,2,7,98,Planning
+CUST-0000610,Manufacturing,APAC,Mid-Market,1048,Mid-Market,7,Active,Professional,Monthly,136653.00,11387.75,24.97,279,136,48.75,1162,39.44,29,Declining,1.2,6,0,14.45,4.3,0.00,0,6,137,Planning
+CUST-0000611,Manufacturing,North America,Mid-Market,813,SMB,10,Active,Professional,Quarterly,261509.64,21792.47,5.86,350,262,74.86,3417,32.94,22,Growing,2.81,6,1,28.10,4.0,1141.94,1,4,354,Planning
+CUST-0000612,Retail,LATAM,Mid-Market,447,Mid-Market,8,Active,Professional,Annual,56307.60,4692.30,9.72,55,51,92.73,317,65.58,7,Growing,1.81,6,2,36.80,3.2,620.88,7,8,303,Not Due
+CUST-0000613,Retail,North America,Mid-Market,1416,SMB,2,Onboarding,Professional,Annual,411371.64,34280.97,5.06,542,417,76.94,3995,55.34,19,Declining,0.53,0,0,10.40,4.1,3128.56,1,5,275,Not Due
+CUST-0000614,Financial Services,North America,Small,20,SMB,11,Active,Starter,Quarterly,2633.88,219.49,1.46,7,5,71.43,34,41.49,22,Declining,1.05,6,0,15.26,4.8,0.00,0,8,31,In Discussion
+CUST-0000615,Technology,North America,Mid-Market,707,Mid-Market,0,Onboarding,Business,Monthly,274951.56,22912.63,12.21,196,161,82.14,5157,70.19,16,Growing,0.71,3,0,11.64,4.2,0.00,0,6,199,Not Due
+CUST-0000616,Financial Services,LATAM,Small,18,SMB,120,Active,Professional,Monthly,9337.80,778.15,9.37,10,9,90.00,173,67.46,12,Growing,3.24,7,1,31.23,3.8,79.84,2,8,84,Planning
+CUST-0000617,Manufacturing,EMEA,Mid-Market,764,Enterprise,18,Active,Enterprise,Annual,157937.40,13161.45,32.54,250,224,89.60,5465,76.51,12,Growing,2.05,7,0,14.60,4.6,954.00,1,9,83,Planning
+CUST-0000618,Professional Services,EMEA,Small,19,SMB,28,Active,Professional,Annual,6506.64,542.22,13.05,10,9,90.00,215,64.23,10,Stable,0.85,5,0,7.54,4.4,82.40,5,5,200,Not Due
+CUST-0000619,Professional Services,LATAM,Small,44,SMB,12,Active,Starter,Monthly,5547.72,462.31,7.97,15,7,46.67,59,26.0,30,Declining,2.11,8,1,24.27,4.4,101.52,6,6,364,Planning
+CUST-0000620,Healthcare,APAC,Mid-Market,788,Mid-Market,63,Active,Business,Annual,126086.76,10507.23,11.39,68,40,58.82,817,61.31,22,Growing,1.29,2,0,5.59,4.4,799.08,1,6,230,Not Due
+CUST-0000621,Professional Services,LATAM,Small,146,SMB,44,Active,Professional,Quarterly,35037.72,2919.81,5.86,53,27,50.94,172,36.39,39,Stable,0.44,4,1,25.03,4.3,257.88,2,11,13,Pending Decision
+CUST-0000622,Technology,North America,Small,157,SMB,20,Active,Starter,Monthly,5744.04,478.67,1.75,15,12,80.00,192,55.69,15,Stable,1.01,1,0,12.73,4.1,50.10,1,2,94,Planning
+CUST-0000623,Professional Services,EMEA,Mid-Market,1301,SMB,20,Active,Professional,Annual,379273.08,31606.09,2.46,469,357,76.12,4092,51.62,18,Stable,0.82,3,0,13.36,4.5,2653.67,4,8,234,Not Due
+CUST-0000624,Healthcare,LATAM,Mid-Market,782,Enterprise,30,Active,Business,Annual,260742.48,21728.54,18.28,217,167,76.96,1911,37.6,21,Stable,0.51,1,0,9.93,5,0.00,0,8,98,Planning
+CUST-0000625,Education,APAC,Mid-Market,1034,Mid-Market,55,Active,Professional,Quarterly,141929.40,11827.45,24.47,252,137,54.37,827,40.09,29,Stable,2.91,4,1,24.85,4.2,821.55,3,7,112,Planning
+CUST-0000626,Professional Services,North America,Small,30,SMB,37,Active,Professional,Monthly,11095.92,924.66,5.56,10,2,20.00,18,45.71,38,Growing,0.05,2,1,18.31,,77.56,5,7,112,Planning
+CUST-0000627,Manufacturing,North America,Small,48,SMB,66,Active,Starter,Monthly,7166.64,597.22,4.95,16,8,50.00,41,18.8,30,Declining,3.36,9,1,34.71,3.3,261.31,80,12,75,Pending Decision
+CUST-0000628,Manufacturing,APAC,Small,33,SMB,38,Active,Starter,Quarterly,2804.76,233.73,4.05,6,4,66.67,68,54.44,22,Growing,1.45,4,0,10.79,4.7,16.63,1,3,147,Planning
+CUST-0000629,Healthcare,LATAM,Mid-Market,990,Mid-Market,120,Active,Professional,Quarterly,380438.28,31703.19,17.4,459,391,85.19,5536,74.97,17,Declining,1.77,11,0,14.69,4.0,599.24,1,9,76,Planning
+CUST-0000630,Technology,EMEA,Enterprise,12268,Mid-Market,83,Active,Professional,Annual,658497.72,54874.81,11.56,750,449,59.87,9133,64.35,22,Stable,1.18,6,0,13.58,4.9,6560.72,1,11,50,Planning
+CUST-0000631,Education,North America,Mid-Market,633,Mid-Market,78,Active,Business,Annual,248890.68,20740.89,13.67,152,119,78.29,1558,57.79,14,Stable,0.56,2,0,14.27,,0.00,0,6,184,Not Due
+CUST-0000632,Education,LATAM,Small,20,SMB,46,Active,Professional,Monthly,7115.28,592.94,14.93,10,8,80.00,214,62.09,13,Stable,0.4,3,1,29.77,,41.86,2,6,25,Pending Decision
+CUST-0000633,Technology,LATAM,Small,159,SMB,3,Onboarding,Starter,Monthly,6236.16,519.68,3.82,16,10,62.50,154,42.97,28,Stable,2.03,8,0,17.37,4.1,9.48,4,7,187,Not Due
+CUST-0000634,Retail,North America,Mid-Market,1719,Mid-Market,22,Active,Business,Monthly,286893.60,23907.80,18.32,224,223,99.55,1634,82.25,17,Growing,0.78,8,0,16.01,,1886.99,1,4,149,Not Due
+CUST-0000635,Professional Services,LATAM,Small,24,Mid-Market,96,Active,Business,Monthly,78612.84,6551.07,7.51,50,34,68.00,791,56.21,20,Stable,0.8,1,0,13.34,4.9,1063.15,4,8,9,Planning
+CUST-0000636,Retail,LATAM,Enterprise,2089,Mid-Market,36,Active,Business,Quarterly,361906.80,30158.90,18.61,365,299,81.92,3999,57.45,15,Growing,0.29,6,0,11.71,4.5,1936.83,3,6,136,Planning
+CUST-0000637,Financial Services,APAC,Mid-Market,1030,Mid-Market,29,Active,Professional,Annual,225587.88,18798.99,11.28,248,218,87.90,1626,54.88,13,Declining,3.06,8,1,28.14,3.7,3779.15,2,11,44,Planning
+CUST-0000638,Financial Services,EMEA,Small,29,Mid-Market,7,Active,Business,Annual,63880.68,5323.39,6.73,50,42,84.00,569,62.55,14,Growing,3.48,10,0,16.36,3.7,0.00,0,4,244,Planning
+CUST-0000639,Financial Services,EMEA,Mid-Market,938,Enterprise,5,Active,Enterprise,Annual,260538.72,21711.56,27.38,250,213,85.20,3940,41.2,20,Stable,2.23,5,2,45.33,3.5,2380.42,4,11,56,In Discussion
+CUST-0000640,Healthcare,LATAM,Mid-Market,568,Mid-Market,29,Active,Professional,Quarterly,102791.52,8565.96,25.05,145,110,75.86,2689,57.83,15,Stable,1.19,3,0,8.54,5,1097.72,4,6,157,Not Due
+CUST-0000641,Technology,EMEA,Small,11,SMB,36,Active,Starter,Monthly,887.76,73.98,11.96,3,2,66.67,26,40.98,25,Stable,1.83,5,0,11.06,4.3,5.56,1,2,289,Not Due
+CUST-0000642,Healthcare,LATAM,Mid-Market,634,Mid-Market,9,Active,Business,Monthly,97139.52,8094.96,1.84,55,43,78.18,971,48.03,16,Stable,2.68,5,1,29.14,3.7,952.54,2,4,323,Not Due
+CUST-0000643,Financial Services,North America,Mid-Market,1383,SMB,32,Active,Professional,Quarterly,196996.68,16416.39,15.61,245,159,64.90,2113,47.91,25,Stable,1.36,5,0,11.85,4.4,1606.58,2,5,353,Planning
+CUST-0000644,Manufacturing,LATAM,Mid-Market,1817,Mid-Market,7,Active,Professional,Quarterly,321907.08,26825.59,23.24,504,331,65.67,2000,52.92,19,Declining,2.58,8,2,42.45,3.4,4798.47,2,11,17,Planning
+CUST-0000645,Education,LATAM,Small,34,SMB,33,Active,Professional,Quarterly,8610.36,717.53,8.08,10,8,80.00,124,76.91,13,Stable,0.53,1,0,13.99,4.5,55.96,3,2,177,Not Due
+CUST-0000646,Healthcare,LATAM,Mid-Market,1149,Mid-Market,20,Active,Professional,Quarterly,272522.64,22710.22,16.29,382,224,58.64,5393,39.99,26,Growing,1.41,3,0,10.34,3.6,2429.01,2,6,147,Planning
+CUST-0000647,Healthcare,LATAM,Small,45,SMB,2,Onboarding,Professional,Annual,10405.08,867.09,14.71,12,7,58.33,157,34.21,26,Stable,0.73,3,1,21.10,3.8,175.39,2,4,349,Not Due
+CUST-0000648,Financial Services,EMEA,Mid-Market,804,Mid-Market,11,Active,Professional,Monthly,52892.64,4407.72,21.64,88,58,65.91,428,55.13,20,Declining,2.17,6,0,10.58,4.8,810.78,4,6,362,Not Due
+CUST-0000649,Professional Services,APAC,Small,14,SMB,37,Active,Starter,Monthly,1552.80,129.40,5.6,4,3,75.00,54,53.06,20,Stable,0.97,6,0,10.22,4.2,5.73,3,5,200,Not Due
+CUST-0000650,Professional Services,APAC,Small,36,SMB,1,Onboarding,Starter,Monthly,5325.84,443.82,6.43,14,5,35.71,47,29.13,34,Declining,0.86,4,1,23.40,4.1,237.99,39,4,246,Not Due
+CUST-0000651,Retail,EMEA,Enterprise,5254,Mid-Market,17,Active,Professional,Monthly,378330.12,31527.51,5.93,413,350,84.75,6484,57.92,13,Growing,1.37,2,1,25.62,4.9,1799.59,1,7,136,In Discussion
+CUST-0000652,Financial Services,EMEA,Small,70,SMB,72,Active,Professional,Monthly,9799.80,816.65,6.38,10,5,50.00,84,37.5,30,Stable,2.89,5,0,14.08,4.3,60.99,3,3,149,Planning
+CUST-0000653,Healthcare,North America,Small,20,SMB,7,Active,Professional,Annual,7426.68,618.89,1.12,10,8,80.00,153,51.27,22,Stable,0.05,3,0,6.96,4.4,31.22,1,6,87,Planning
+CUST-0000654,Technology,LATAM,Small,96,SMB,44,Active,Starter,Monthly,3299.16,274.93,8.47,7,6,85.71,65,55.08,17,Growing,0.78,2,0,7.56,4.8,50.32,1,5,112,Not Due
+CUST-0000655,Retail,APAC,Small,32,SMB,35,Active,Starter,Monthly,1871.40,155.95,11.41,4,1,25.00,8,17.82,40,Stable,3.13,11,1,36.15,,6.31,1,6,104,Not Due
+CUST-0000656,Manufacturing,APAC,Small,18,SMB,10,Active,Starter,Monthly,2030.76,169.23,5.43,5,4,80.00,65,51.87,25,Declining,0.37,3,0,10.24,4.3,240.76,69,7,6,In Discussion
+CUST-0000657,Financial Services,APAC,Small,164,SMB,30,Active,Starter,Monthly,29710.44,2475.87,5.85,61,50,81.97,1558,85.87,10,Growing,2.03,7,1,34.42,3.4,161.87,1,5,315,Planning
+CUST-0000658,Retail,APAC,Mid-Market,261,Mid-Market,17,Active,Business,Monthly,76686.96,6390.58,5.05,51,35,68.63,414,54.13,34,Stable,0.76,6,0,12.70,4.4,804.32,1,4,163,Not Due
+CUST-0000659,Retail,APAC,Mid-Market,567,Mid-Market,80,Active,Professional,Monthly,32000.28,2666.69,20.89,61,30,49.18,322,37.74,30,Stable,0.18,4,1,21.60,4.4,3743.97,120,10,152,Not Due
+CUST-0000660,Professional Services,EMEA,Small,58,SMB,26,Active,Starter,Annual,5751.60,479.30,10.52,15,10,66.67,271,57.84,18,Stable,0.45,4,1,21.04,4.8,53.60,3,4,322,Planning
+CUST-0000661,Education,LATAM,Small,62,SMB,21,Expansion,Starter,Quarterly,8428.92,702.41,6.55,23,20,86.96,316,73.96,9,Declining,1.67,5,1,25.14,4.4,141.45,5,7,70,Pending Decision
+CUST-0000662,Professional Services,LATAM,Small,13,SMB,18,Active,Starter,Monthly,940.20,78.35,7.36,3,3,100.00,66,70.4,7,Growing,1.28,3,1,26.21,3.7,4.27,3,3,276,Not Due
+CUST-0000663,Technology,APAC,Small,12,SMB,44,Active,Professional,Quarterly,8775.24,731.27,9.08,10,8,80.00,80,51.56,18,Stable,1.69,4,1,26.95,3.8,165.68,3,5,164,Not Due
+CUST-0000664,Technology,EMEA,Enterprise,5702,Mid-Market,113,Active,Professional,Annual,560010.60,46667.55,16.22,750,594,79.20,12691,65.31,14,Stable,0.44,5,1,24.53,3.9,3239.62,0,9,130,In Discussion
+CUST-0000665,Manufacturing,EMEA,Small,48,SMB,9,Active,Business,Quarterly,59493.96,4957.83,13.15,50,48,96.00,834,59.43,7,Growing,0.23,0,0,9.81,4.5,0.00,0,6,42,Planning
+CUST-0000666,Professional Services,EMEA,Mid-Market,906,Mid-Market,3,Onboarding,Professional,Annual,83526.72,6960.56,11.83,88,68,77.27,491,46.24,17,Declining,0.86,4,0,11.86,4.9,1082.27,2,7,162,Not Due
+CUST-0000667,Professional Services,EMEA,Small,66,SMB,37,Active,Professional,Monthly,15371.28,1280.94,7.58,21,13,61.90,112,29.08,25,Declining,2.2,5,0,14.65,4.1,105.45,1,9,15,In Discussion
+CUST-0000668,Professional Services,APAC,Enterprise,8516,Enterprise,24,Active,Enterprise,Annual,2589723.24,215810.27,17.31,2542,1923,75.65,13118,54.53,15,Stable,1.57,13,0,21.35,4.1,23050.68,1,7,109,Not Due
+CUST-0000669,Professional Services,LATAM,Mid-Market,326,Mid-Market,41,Active,Professional,Quarterly,57493.32,4791.11,18.77,70,53,75.71,591,68.26,16,Stable,1.97,0,0,10.58,4.1,0.00,0,6,301,Not Due
+CUST-0000670,Technology,LATAM,Small,22,SMB,47,Active,Starter,Monthly,1661.64,138.47,6.99,4,3,75.00,26,67.56,15,Growing,2.55,5,0,9.26,4.7,11.70,0,6,3,In Discussion
+CUST-0000671,Manufacturing,North America,Mid-Market,888,Mid-Market,66,Active,Professional,Monthly,256504.20,21375.35,16.69,320,227,70.94,2111,44.91,19,Declining,2.49,9,0,15.05,4.2,1551.25,2,7,265,Not Due
+CUST-0000672,Technology,North America,Enterprise,4004,Enterprise,47,Active,Enterprise,Annual,427180.44,35598.37,18.05,361,350,96.95,9440,81.39,5,Growing,2.33,4,0,15.33,4.0,0.00,0,9,7,In Discussion
+CUST-0000673,Technology,North America,Small,55,SMB,16,Active,Professional,Annual,9698.64,808.22,14.18,16,13,81.25,252,37.87,16,Stable,2.26,6,0,11.48,4.0,122.46,1,9,79,Planning
+CUST-0000674,Retail,North America,Small,37,SMB,10,Active,Starter,Monthly,1541.04,128.42,6.3,5,3,60.00,22,57.78,23,Growing,1.42,3,0,8.67,4.5,7.03,0,4,143,Not Due
+CUST-0000675,Financial Services,LATAM,Mid-Market,214,SMB,10,Active,Professional,Quarterly,24372.36,2031.03,8.4,32,27,84.38,419,32.23,15,Stable,0.39,3,1,17.22,4.0,304.68,3,6,271,Not Due
+CUST-0000676,Professional Services,North America,Small,31,SMB,22,Active,Starter,Quarterly,5792.40,482.70,1.65,12,9,75.00,62,34.13,24,Declining,7.4,13,4,78.19,1.9,50.99,2,11,125,Planning
+CUST-0000677,Education,EMEA,Mid-Market,219,SMB,32,Active,Professional,Monthly,26566.32,2213.86,5.66,34,31,91.18,365,71.33,7,Stable,2.07,5,1,33.47,3.9,0.00,0,6,253,Not Due
+CUST-0000678,Professional Services,LATAM,Small,104,SMB,27,Active,Starter,Annual,5707.68,475.64,4.92,15,11,73.33,221,66.38,16,Declining,0.16,2,0,9.78,5,22.78,1,4,146,Planning
+CUST-0000679,Financial Services,North America,Mid-Market,1208,SMB,41,Active,Starter,Monthly,31356.60,2613.05,11.03,75,57,76.00,225,54.62,16,Declining,1.22,4,0,9.63,4.3,479.80,2,6,30,In Discussion
+CUST-0000680,Retail,EMEA,Mid-Market,1412,Mid-Market,120,Active,Professional,Quarterly,307337.76,25611.48,19.53,401,116,28.93,1625,43.2,37,Stable,0.38,5,0,9.80,4.7,4033.09,1,8,281,Not Due
+CUST-0000681,Education,LATAM,Small,60,SMB,10,Active,Professional,Monthly,8533.20,711.10,10.01,10,9,90.00,83,59.03,10,Stable,0.53,0,0,10.24,4.7,144.86,5,5,222,Not Due
+CUST-0000682,Financial Services,North America,Small,47,SMB,3,Active,Starter,Monthly,2065.92,172.16,5.88,4,3,75.00,72,63.19,17,Stable,0.11,0,0,7.13,4.6,23.22,2,6,88,Not Due
+CUST-0000683,Retail,EMEA,Mid-Market,620,Mid-Market,13,Active,Business,Quarterly,240414.96,20034.58,6.75,128,97,75.78,1523,42.64,28,Stable,1.27,4,0,7.47,4.8,0.00,0,7,59,In Discussion
+CUST-0000684,Manufacturing,EMEA,Mid-Market,551,Mid-Market,54,Active,Business,Annual,238313.16,19859.43,13.1,155,123,79.35,1457,76.76,12,Stable,0.38,3,0,12.39,4.2,13465.31,93,11,345,Not Due
+CUST-0000685,Technology,North America,Small,14,SMB,18,Active,Starter,Monthly,1529.04,127.42,13.85,6,4,66.67,50,48.18,21,Stable,0.13,2,0,6.90,5,24.69,3,5,291,Not Due
+CUST-0000686,Healthcare,North America,Small,188,SMB,59,Active,Professional,Quarterly,17686.56,1473.88,9.04,18,15,83.33,246,43.07,14,Declining,1.9,9,1,25.78,3.8,0.00,0,5,144,Planning
+CUST-0000687,Technology,APAC,Mid-Market,374,Mid-Market,8,Active,Professional,Annual,45132.12,3761.01,12.07,76,63,82.89,820,51.56,17,Stable,1.64,4,0,12.39,4.2,177.15,1,2,336,Not Due
+CUST-0000688,Retail,North America,Enterprise,30081,Enterprise,15,Active,Enterprise,Annual,9728680.32,810723.36,11.28,10000,8699,86.99,139846,61.6,10,Growing,2.61,44,3,84.92,2.2,53163.39,1,9,247,Not Due
+CUST-0000689,Manufacturing,EMEA,Small,162,SMB,80,Active,Business,Quarterly,79291.44,6607.62,15.14,50,26,52.00,316,43.07,27,Stable,4.85,9,2,41.72,3.2,477.89,3,14,60,Planning
+CUST-0000690,Healthcare,APAC,Mid-Market,691,Mid-Market,85,Active,Professional,Monthly,121723.20,10143.60,24.39,188,127,67.55,1742,52.75,20,Stable,1.02,2,0,9.69,4.6,645.46,2,7,250,Not Due
+CUST-0000691,Financial Services,EMEA,Small,18,Mid-Market,39,Active,Business,Annual,85924.44,7160.37,6.76,50,48,96.00,828,76.28,6,Growing,1.15,4,0,10.80,4.2,138.08,2,4,187,Not Due
+CUST-0000692,Education,EMEA,Mid-Market,898,Mid-Market,11,Active,Professional,Monthly,288000.24,24000.02,19.3,340,126,37.06,850,30.67,40,Declining,1.11,4,0,11.15,5.0,4790.77,3,3,283,Not Due
+CUST-0000693,Financial Services,APAC,Mid-Market,237,Mid-Market,20,Active,Professional,Quarterly,31769.88,2647.49,19.88,55,51,92.73,728,53.64,10,Stable,0.22,1,0,4.24,4.3,92.99,0,2,208,Not Due
+CUST-0000694,Healthcare,APAC,Small,29,SMB,3,Onboarding,Professional,Monthly,7783.08,648.59,7.45,10,7,70.00,73,45.9,24,Stable,6.2,11,2,47.12,2.4,0.00,0,9,108,Planning
+CUST-0000695,Education,LATAM,Mid-Market,462,Mid-Market,0,Onboarding,Professional,Annual,126438.24,10536.52,19.16,156,107,68.59,1543,28.96,24,Stable,0.86,4,0,9.23,4.7,1214.81,1,7,19,In Discussion
+CUST-0000696,Retail,APAC,Mid-Market,518,Mid-Market,18,Active,Business,Monthly,219425.28,18285.44,13.86,213,204,95.77,4050,66.56,7,Growing,0.85,2,0,11.97,4.7,3090.88,5,5,16,Pending Decision
+CUST-0000697,Professional Services,North America,Mid-Market,1304,Mid-Market,8,Active,Professional,Monthly,322105.08,26842.09,20.1,438,358,81.74,2388,75.14,15,Stable,0.87,6,1,27.10,3.9,1757.43,5,7,132,Planning
+CUST-0000698,Retail,EMEA,Small,35,SMB,1,Onboarding,Starter,Monthly,1270.32,105.86,4.42,4,1,25.00,6,12.17,45,Declining,4.49,8,2,43.03,3.3,15.58,3,6,122,Planning
+CUST-0000699,Healthcare,APAC,Enterprise,66088,Enterprise,53,Active,Enterprise,Annual,12556237.20,1046353.10,35.13,10000,7706,77.06,83516,69.55,15,Growing,3.35,47,5,103.36,1.0,51599.42,0,11,313,Not Due
+CUST-0000700,Healthcare,EMEA,Small,46,SMB,1,Onboarding,Professional,Monthly,10463.52,871.96,7.05,10,3,30.00,12,18.84,38,Declining,0.74,2,0,7.19,,131.73,1,6,344,Not Due
+CUST-0000701,Manufacturing,North America,Small,20,SMB,14,Active,Professional,Quarterly,5821.80,485.15,11.34,10,8,80.00,115,31.77,17,Stable,0.01,2,1,23.97,4.3,23.30,9,6,80,Planning
+CUST-0000702,Retail,North America,Small,35,SMB,73,Active,Professional,Monthly,16681.44,1390.12,2.21,17,8,47.06,69,49.66,30,Stable,1.85,4,2,36.68,3.0,210.10,5,11,71,In Discussion
+CUST-0000703,Healthcare,EMEA,Small,23,SMB,22,Active,Business,Quarterly,84974.76,7081.23,6.74,50,46,92.00,883,58.76,9,Stable,1.4,3,1,31.31,3.7,1130.76,2,3,98,Planning
+CUST-0000704,Professional Services,North America,Small,190,SMB,29,Active,Professional,Monthly,11852.76,987.73,13.68,13,11,84.62,260,77.75,14,Growing,0.57,1,0,7.19,4.4,529.11,115,11,4,Planning
+CUST-0000705,Professional Services,EMEA,Mid-Market,205,Mid-Market,54,Active,Business,Monthly,57961.56,4830.13,24.15,50,40,80.00,674,49.29,22,Growing,2.35,3,0,10.71,4.8,0.00,0,5,299,Not Due
+CUST-0000706,Education,LATAM,Mid-Market,630,Mid-Market,8,Active,Professional,Annual,23837.40,1986.45,23.93,35,21,60.00,254,43.84,33,Stable,1.71,0,0,17.85,4.4,1247.20,37,3,102,Planning
+CUST-0000707,Healthcare,EMEA,Mid-Market,487,Mid-Market,74,Active,Professional,Annual,78267.00,6522.25,9.01,86,75,87.21,789,38.05,15,Stable,1.23,3,0,6.56,,2585.42,82,8,252,Not Due
+CUST-0000708,Healthcare,EMEA,Mid-Market,367,Mid-Market,11,Active,Starter,Quarterly,27990.48,2332.54,5.87,75,47,62.67,620,38.22,26,Stable,4.12,13,2,50.39,3.0,110.54,3,7,341,Planning
+CUST-0000709,Healthcare,APAC,Small,16,SMB,120,Active,Professional,Monthly,6985.80,582.15,11.42,10,9,90.00,76,55.75,10,Stable,0.68,4,1,14.78,,38.06,3,10,15,Pending Decision
+CUST-0000710,Technology,LATAM,Small,62,SMB,37,Active,Starter,Annual,8483.28,706.94,3.99,26,14,53.85,261,35.83,29,Stable,0.88,8,1,28.86,,152.86,4,3,176,Not Due
+CUST-0000711,Healthcare,LATAM,Mid-Market,1909,Mid-Market,12,Active,Professional,Annual,423739.80,35311.65,9.2,691,557,80.61,11829,54.2,20,Growing,3.27,14,0,23.09,4.1,0.00,0,5,287,Not Due
+CUST-0000712,Technology,APAC,Small,31,SMB,62,Active,Starter,Monthly,4922.04,410.17,4.97,14,10,71.43,112,56.03,24,Stable,3.61,9,1,32.70,3.2,0.00,0,5,179,Not Due
+CUST-0000713,Manufacturing,APAC,Small,52,SMB,69,Active,Starter,Monthly,4233.96,352.83,12.1,10,7,70.00,39,52.99,18,Declining,0.24,0,0,10.09,5,20.44,1,4,57,In Discussion
+CUST-0000714,Professional Services,EMEA,Enterprise,3704,Mid-Market,9,Active,Professional,Annual,247463.64,20621.97,12.17,298,266,89.26,6812,61.56,12,Stable,2.55,4,0,13.70,4.2,2465.06,2,6,106,Not Due
+CUST-0000715,Healthcare,APAC,Small,35,SMB,48,Active,Starter,Monthly,2699.64,224.97,6.22,7,4,57.14,27,50.49,24,Declining,0.7,4,1,20.03,,0.00,0,4,32,Planning
+CUST-0000716,Technology,North America,Small,51,SMB,58,Active,Starter,Quarterly,3628.20,302.35,9.57,9,7,77.78,133,55.79,15,Stable,0.69,3,0,12.92,4.6,0.00,0,2,329,Not Due
+CUST-0000717,Technology,North America,Mid-Market,268,Mid-Market,5,Active,Business,Annual,170005.80,14167.15,20.82,118,93,78.81,1091,34.2,19,Stable,1.11,3,1,20.61,4.2,6065.05,37,9,176,Not Due
+CUST-0000718,Education,North America,Mid-Market,1427,Mid-Market,59,Active,Professional,Annual,443128.20,36927.35,10.32,720,497,69.03,10165,69.02,19,Stable,1.49,9,1,32.19,3.8,1996.91,0,7,360,Not Due
+CUST-0000719,Healthcare,North America,Mid-Market,1864,Mid-Market,21,Active,Professional,Quarterly,366981.96,30581.83,5.38,436,205,47.02,1267,29.01,30,Declining,0.64,1,0,7.37,5,2855.53,1,6,319,Not Due
+CUST-0000720,Technology,LATAM,Mid-Market,1712,Mid-Market,7,Active,Business,Monthly,696548.40,58045.70,10.14,390,307,78.72,2770,61.21,14,Declining,0.35,6,0,12.04,4.5,13416.52,6,6,179,Not Due
+CUST-0000721,Professional Services,APAC,Small,123,SMB,4,Active,Starter,Quarterly,19620.36,1635.03,4.81,55,50,90.91,516,54.71,14,Stable,0.19,0,0,4.77,4.8,615.74,11,4,260,Not Due
+CUST-0000722,Technology,APAC,Small,29,SMB,73,Expansion,Starter,Monthly,2260.92,188.41,6.35,6,5,83.33,78,85.51,9,Growing,1.07,1,0,10.27,4.0,15.11,4,2,92,Planning
+CUST-0000723,Financial Services,North America,Enterprise,8555,Enterprise,30,Active,Enterprise,Annual,2266593.00,188882.75,10.84,1846,1667,90.30,24293,64.02,11,Stable,0.08,12,1,33.20,3.7,10607.92,4,9,310,Not Due
+CUST-0000724,Financial Services,LATAM,Small,32,SMB,16,Active,Professional,Monthly,10236.96,853.08,6.45,10,5,50.00,46,40.41,28,Stable,0.1,2,0,12.25,4.6,70.80,1,3,92,In Discussion
+CUST-0000725,Manufacturing,North America,Enterprise,32856,Enterprise,25,Active,Enterprise,Monthly,12983747.52,1081978.96,6.48,9523,8633,90.65,130152,72.12,8,Stable,0.32,37,0,37.88,3.8,39070.79,1,13,81,Planning
+CUST-0000726,Professional Services,North America,Small,70,SMB,73,Active,Starter,Monthly,5262.24,438.52,9.04,15,13,86.67,238,56.41,11,Growing,3.02,12,2,50.08,,42.69,3,5,320,Not Due
+CUST-0000727,Education,APAC,Mid-Market,270,Mid-Market,20,Active,Professional,Quarterly,38991.24,3249.27,3.43,44,21,47.73,283,26.88,31,Stable,7.97,23,6,109.34,1,151.96,1,11,357,Not Due
+CUST-0000728,Manufacturing,LATAM,Small,194,SMB,36,Active,Professional,Annual,14830.20,1235.85,3.78,20,16,80.00,523,70.69,16,Growing,0.93,1,0,2.01,5,0.00,0,4,238,Planning
+CUST-0000729,Manufacturing,EMEA,Mid-Market,261,Mid-Market,17,Active,Business,Monthly,93891.60,7824.30,31.79,98,74,75.51,1210,46.51,19,Declining,0.34,2,0,4.76,4.9,610.08,11,7,145,Planning
+CUST-0000730,Financial Services,APAC,Small,91,SMB,7,Active,Professional,Monthly,20059.44,1671.62,13.89,29,20,68.97,243,51.72,26,Stable,0.39,3,0,7.31,4.3,231.57,5,8,21,Planning
+CUST-0000731,Retail,EMEA,Small,11,SMB,25,Active,Professional,Quarterly,8505.84,708.82,5.88,10,3,30.00,22,4.42,44,Stable,1.59,8,0,11.70,4.4,292.03,71,10,307,Not Due
+CUST-0000732,Retail,North America,Small,125,SMB,15,Active,Professional,Monthly,25671.96,2139.33,6.21,26,17,65.38,89,44.6,25,Stable,12.51,20,10,170.90,1,77.81,0,9,248,Not Due
+CUST-0000733,Technology,LATAM,Small,14,SMB,38,Active,Starter,Quarterly,2552.04,212.67,3.92,5,3,60.00,60,55.24,22,Declining,0.41,2,0,9.99,4.9,157.04,80,8,223,Not Due
+CUST-0000734,Retail,North America,Small,37,SMB,27,Active,Starter,Monthly,3410.88,284.24,13.58,13,10,76.92,133,62.03,19,Stable,0.04,0,0,11.11,,0.00,0,0,109,Planning
+CUST-0000735,Healthcare,EMEA,Mid-Market,461,Mid-Market,67,Active,Business,Quarterly,158485.80,13207.15,8.4,79,69,87.34,940,69.82,9,Growing,4.97,13,0,23.85,3.5,980.27,3,6,187,Not Due
+CUST-0000736,Manufacturing,EMEA,Small,21,SMB,53,Active,Professional,Monthly,6449.04,537.42,12.77,10,9,90.00,348,79.26,8,Growing,9.04,15,4,81.76,1.8,34.78,2,12,269,Not Due
+CUST-0000737,Healthcare,APAC,Mid-Market,1113,Mid-Market,17,Active,Professional,Quarterly,89820.12,7485.01,17.45,94,63,67.02,798,54.37,21,Stable,0.34,1,0,6.29,4.2,1036.78,6,7,21,In Discussion
+CUST-0000738,Technology,LATAM,Small,23,SMB,41,Active,Starter,Monthly,3983.16,331.93,2.91,11,7,63.64,173,54.11,21,Growing,2.9,2,1,28.80,3.7,11.92,4,6,12,Pending Decision
+CUST-0000739,Healthcare,EMEA,Small,47,SMB,24,Active,Starter,Monthly,8189.64,682.47,10.3,23,19,82.61,364,57.11,14,Stable,2.13,6,1,25.36,3.9,164.88,6,6,180,Not Due
+CUST-0000740,Manufacturing,LATAM,Small,45,SMB,29,Active,Professional,Monthly,6930.00,577.50,11.71,10,9,90.00,291,84.25,8,Growing,2.77,6,1,24.75,,702.63,92,11,1,In Discussion
+CUST-0000741,Education,EMEA,Enterprise,16384,Enterprise,88,Expansion,Enterprise,Annual,5598078.00,466506.50,6.11,4607,4449,96.57,24892,75.28,15,Stable,0.27,18,0,16.85,3.0,64231.62,1,7,271,Not Due
+CUST-0000742,Education,LATAM,Small,156,SMB,7,Active,Professional,Monthly,22207.56,1850.63,7.97,30,19,63.33,119,17.08,36,Declining,2.29,1,1,18.31,4.4,0.00,0,5,216,Not Due
+CUST-0000743,Retail,EMEA,Small,129,SMB,41,Active,Starter,Quarterly,16172.64,1347.72,5.02,37,13,35.14,93,37.6,43,Stable,2.01,8,1,22.75,4.3,295.52,3,5,147,Planning
+CUST-0000744,Healthcare,APAC,Small,18,SMB,75,Active,Professional,Quarterly,8028.36,669.03,11.41,10,9,90.00,161,67.03,11,Stable,0.19,1,0,10.12,5,101.97,2,9,40,Pending Decision
+CUST-0000745,Technology,LATAM,Mid-Market,485,Mid-Market,33,Active,Professional,Annual,120850.56,10070.88,4.92,117,102,87.18,1424,72.09,15,Growing,0.14,0,0,1.00,,888.64,0,6,337,Not Due
+CUST-0000746,Financial Services,EMEA,Small,26,SMB,16,Active,Starter,Quarterly,3415.08,284.59,9.94,10,7,70.00,137,59.1,23,Stable,0.1,1,1,19.94,4.3,0.00,0,8,84,Not Due
+CUST-0000747,Professional Services,APAC,Small,14,SMB,86,Active,Professional,Monthly,6870.48,572.54,10.68,10,8,80.00,128,47.66,15,Stable,1.42,2,0,8.75,4.7,53.30,0,5,345,Not Due
+CUST-0000748,Technology,APAC,Small,41,SMB,0,Onboarding,Professional,Quarterly,10151.52,845.96,15.84,11,7,63.64,73,42.29,22,Growing,2.29,10,0,12.38,4.2,181.53,2,5,223,Not Due
+CUST-0000749,Financial Services,APAC,Small,15,SMB,26,Active,Business,Quarterly,56907.24,4742.27,10.96,50,49,98.00,647,69.45,14,Growing,0.39,2,0,13.69,4.9,0.00,0,3,166,Not Due
+CUST-0000750,Professional Services,EMEA,Enterprise,4710,Enterprise,0,Onboarding,Business,Annual,1510417.20,125868.10,13.14,1342,991,73.85,14698,37.93,20,Stable,1.31,7,0,7.42,4.0,136352.20,68,9,245,Not Due
+CUST-0000751,Retail,EMEA,Mid-Market,205,Mid-Market,46,Active,Professional,Monthly,42867.84,3572.32,11.95,53,33,62.26,516,56.92,20,Stable,2.02,0,0,11.73,4.4,638.93,1,7,5,In Discussion
+CUST-0000752,Healthcare,EMEA,Small,29,SMB,36,Active,Starter,Monthly,3272.28,272.69,0.66,10,7,70.00,35,51.82,18,Declining,0.36,1,0,4.28,4.3,20.39,1,6,317,Planning
+CUST-0000753,Professional Services,APAC,Mid-Market,202,Mid-Market,14,Active,Professional,Quarterly,9929.64,827.47,27.79,16,11,68.75,127,50.59,20,Stable,2.38,6,0,16.92,4.4,58.13,1,9,0,In Discussion
+CUST-0000754,Financial Services,LATAM,Enterprise,27951,Enterprise,96,Active,Business,Annual,5017957.92,418163.16,28.04,3500,2550,72.86,52333,63.43,21,Stable,0.3,15,0,21.68,4.1,7720.53,4,10,216,Not Due
+CUST-0000755,Technology,LATAM,Mid-Market,637,Mid-Market,2,Onboarding,Professional,Annual,118380.48,9865.04,16.93,133,69,51.88,1830,57.16,24,Stable,0.59,2,0,8.69,4.7,1969.71,4,8,63,Planning
+CUST-0000756,Education,North America,Small,16,SMB,120,Active,Business,Quarterly,70775.52,5897.96,8.94,50,47,94.00,998,66.19,9,Growing,0.94,1,1,21.56,3.9,2659.00,32,7,235,Not Due
+CUST-0000757,Professional Services,LATAM,Small,196,SMB,2,Onboarding,Starter,Monthly,7514.04,626.17,11.31,21,12,57.14,51,34.9,32,Declining,0.99,3,0,13.31,4.7,131.17,3,6,72,In Discussion
+CUST-0000758,Financial Services,North America,Small,129,SMB,59,Active,Starter,Monthly,10756.68,896.39,5.82,29,12,41.38,105,46.33,30,Stable,0.41,2,0,10.42,4.3,133.85,1,1,324,Not Due
+CUST-0000759,Professional Services,EMEA,Small,58,SMB,4,Active,Starter,Monthly,2024.88,168.74,11.17,6,3,50.00,41,16.0,33,Stable,1.31,2,0,12.03,4.3,0.00,0,1,168,Not Due
+CUST-0000760,Retail,APAC,Small,16,SMB,0,Active,Professional,Monthly,7351.68,612.64,3.14,10,8,80.00,75,66.22,13,Stable,1.65,2,0,12.43,4.5,78.76,0,3,174,Not Due
+CUST-0000761,Manufacturing,North America,Small,69,SMB,21,Active,Professional,Monthly,13311.60,1109.30,9.27,17,12,70.59,168,44.63,27,Growing,1.65,6,0,14.43,3.5,151.97,2,3,325,Planning
+CUST-0000762,Professional Services,LATAM,Mid-Market,1477,Mid-Market,7,Active,Professional,Annual,110379.48,9198.29,14.76,185,100,54.05,2240,44.64,27,Growing,0.24,2,1,27.71,4.2,0.00,0,5,259,Not Due
+CUST-0000763,Retail,APAC,Small,173,SMB,12,Active,Professional,Monthly,24830.76,2069.23,5.39,26,22,84.62,274,63.67,12,Stable,0.93,0,0,10.30,4.4,78.62,3,6,193,Not Due
+CUST-0000764,Professional Services,North America,Small,42,SMB,0,Active,Business,Quarterly,48294.72,4024.56,9.53,50,32,64.00,300,54.92,24,Declining,1.27,2,0,15.39,4.3,511.33,2,6,141,Not Due
+CUST-0000765,Manufacturing,EMEA,Small,79,SMB,37,Active,Starter,Monthly,8693.16,724.43,4.37,19,11,57.89,98,40.82,24,Stable,0.5,4,0,15.79,4.1,0.00,0,5,291,Not Due
+CUST-0000766,Professional Services,EMEA,Mid-Market,345,Mid-Market,71,Active,Professional,Monthly,27591.84,2299.32,3.56,35,24,68.57,288,40.39,21,Declining,2.64,6,0,16.47,4.0,0.00,0,3,235,Not Due
+CUST-0000767,Manufacturing,APAC,Small,56,SMB,29,Active,Professional,Monthly,7618.56,634.88,5.04,11,7,63.64,96,53.57,25,Growing,2.13,1,1,21.82,4.5,25.01,3,4,268,Not Due
+CUST-0000768,Professional Services,APAC,Mid-Market,1216,Mid-Market,50,Active,Business,Quarterly,812044.68,67670.39,4.64,426,287,67.37,2505,55.3,20,Declining,1.02,1,0,1.00,4.9,5458.38,1,8,172,Not Due
+CUST-0000769,Professional Services,LATAM,Enterprise,20864,Enterprise,75,Active,Enterprise,Quarterly,5694181.56,474515.13,31.92,7097,5569,78.47,66047,75.85,13,Stable,2.35,29,3,67.63,2.0,416999.02,103,11,101,Not Due
+CUST-0000770,Technology,LATAM,Small,76,SMB,20,Active,Professional,Monthly,5998.92,499.91,7.2,10,5,50.00,66,31.5,28,Stable,0.97,1,0,12.65,3.7,44.54,2,8,32,Planning
+CUST-0000771,Retail,APAC,Mid-Market,1157,Mid-Market,12,Active,Business,Monthly,280647.36,23387.28,23.41,213,153,71.83,1605,37.36,19,Declining,0.34,3,0,4.97,4.2,1594.18,1,7,91,Planning
+CUST-0000772,Education,APAC,Small,22,SMB,25,Active,Starter,Monthly,2021.04,168.42,9.07,6,4,66.67,69,37.68,25,Growing,0.5,0,0,6.86,4.4,41.79,4,1,361,Not Due
+CUST-0000773,Professional Services,North America,Small,70,SMB,34,Active,Starter,Annual,6187.44,515.62,6.08,20,13,65.00,122,60.51,19,Declining,0.98,5,0,11.83,4.3,48.08,1,7,38,Planning
+CUST-0000774,Retail,LATAM,Small,21,SMB,32,Active,Starter,Monthly,1221.12,101.76,4.77,3,2,66.67,20,52.18,20,Growing,1.87,0,0,1.00,5,74.72,53,2,347,Not Due
+CUST-0000775,Education,LATAM,Mid-Market,237,Mid-Market,33,Active,Professional,Monthly,97257.96,8104.83,10.69,93,76,81.72,1161,70.55,11,Growing,2.54,9,1,28.52,3.8,1238.85,4,7,268,Not Due
+CUST-0000776,Professional Services,North America,Enterprise,3110,Enterprise,57,Active,Enterprise,Quarterly,1295284.44,107940.37,12.81,983,739,75.18,16800,53.19,19,Growing,0.83,12,0,13.23,4.7,10494.22,4,8,174,Not Due
+CUST-0000777,Retail,EMEA,Small,15,SMB,46,Active,Professional,Monthly,6194.04,516.17,18.93,10,6,60.00,41,36.92,24,Declining,1.75,4,1,24.97,4.0,69.99,1,3,93,Planning
+CUST-0000778,Retail,LATAM,Small,57,Mid-Market,14,Active,Business,Monthly,69520.32,5793.36,1.44,50,47,94.00,491,55.42,13,Stable,0.91,5,0,6.35,4.7,0.00,0,5,150,Planning
+CUST-0000779,Manufacturing,APAC,Enterprise,6674,Enterprise,43,Expansion,Enterprise,Annual,308852.28,25737.69,23.89,356,280,78.65,1755,77.7,15,Stable,0.19,4,0,10.90,5,0.00,0,8,252,Not Due
+CUST-0000780,Healthcare,LATAM,Mid-Market,305,Enterprise,49,Active,Enterprise,Annual,304674.60,25389.55,5.36,250,115,46.00,1876,59.23,27,Declining,0.9,2,1,24.09,4.6,2470.39,4,9,363,Not Due
+CUST-0000781,Retail,APAC,Small,18,SMB,3,Onboarding,Professional,Annual,7888.68,657.39,10.07,10,8,80.00,43,53.02,15,Stable,0.18,1,1,29.34,4.1,337.50,83,7,178,Not Due
+CUST-0000782,Technology,LATAM,Mid-Market,233,Mid-Market,7,Active,Business,Monthly,138035.04,11502.92,5.84,78,70,89.74,2384,88.82,6,Growing,1.84,7,0,9.65,4.5,0.00,0,7,288,Not Due
+CUST-0000783,Professional Services,EMEA,Small,73,SMB,27,Active,Starter,Monthly,5373.48,447.79,3.08,13,5,38.46,81,44.44,31,Declining,1.11,4,1,24.40,4.6,61.27,0,5,274,Not Due
+CUST-0000784,Professional Services,APAC,Small,36,SMB,120,Active,Professional,Monthly,11612.40,967.70,3.95,10,8,80.00,103,65.91,25,Stable,0.18,2,0,4.49,4.1,96.95,3,4,127,Not Due
+CUST-0000785,Healthcare,EMEA,Enterprise,4757,Enterprise,14,Active,Enterprise,Annual,1735537.68,144628.14,28.95,1421,1190,83.74,19950,73.9,10,Stable,0.81,6,2,35.58,3.9,24225.98,3,9,196,Not Due
+CUST-0000786,Financial Services,LATAM,Small,23,SMB,1,Active,Professional,Annual,6408.96,534.08,15.36,10,7,70.00,31,62.94,19,Declining,2.54,6,2,43.12,3.5,44.25,1,10,28,In Discussion
+CUST-0000787,Technology,LATAM,Mid-Market,525,Mid-Market,11,Active,Business,Monthly,120940.08,10078.34,12.19,104,53,50.96,422,32.88,29,Stable,5.98,14,4,77.02,,0.00,0,11,211,Not Due
+CUST-0000788,Manufacturing,APAC,Small,14,SMB,2,Onboarding,Professional,Annual,7322.76,610.23,6.45,10,8,80.00,77,54.39,15,Stable,0.89,3,0,7.07,4.6,10.92,2,4,9,In Discussion
+CUST-0000789,Healthcare,APAC,Small,91,SMB,7,Active,Professional,Monthly,32978.76,2748.23,4.67,34,31,91.18,572,66.84,13,Growing,3.33,7,1,28.83,3.2,398.24,0,9,73,Planning
+CUST-0000790,Healthcare,EMEA,Small,84,SMB,7,Active,Starter,Monthly,9918.36,826.53,3.68,29,26,89.66,249,66.6,12,Declining,1.16,5,1,26.38,4.1,141.99,4,3,309,Not Due
+CUST-0000791,Financial Services,North America,Small,57,SMB,14,Active,Professional,Quarterly,15325.32,1277.11,4.69,15,8,53.33,173,36.06,27,Stable,1.72,2,1,26.48,3.6,1298.35,123,7,349,Not Due
+CUST-0000792,Financial Services,LATAM,Small,13,SMB,48,Active,Professional,Monthly,9585.60,798.80,14.53,10,7,70.00,62,46.19,28,Declining,0.24,3,1,25.71,4.1,56.42,2,5,173,Not Due
+CUST-0000793,Healthcare,North America,Enterprise,13095,Enterprise,1,Onboarding,Enterprise,Annual,1474724.88,122893.74,24.22,1369,1143,83.49,16636,47.49,13,Growing,2.5,11,1,30.23,,15834.00,5,9,256,Not Due
+CUST-0000794,Retail,APAC,Small,64,SMB,27,Active,Professional,Monthly,19946.64,1662.22,6.52,24,17,70.83,218,39.31,19,Growing,0.9,1,1,23.93,3.7,130.92,0,6,157,Not Due
+CUST-0000795,Healthcare,LATAM,Small,69,SMB,10,Active,Starter,Monthly,3040.92,253.41,1.86,9,6,66.67,65,60.12,20,Declining,0.44,4,0,11.12,4.3,19.15,1,2,126,In Discussion
+CUST-0000796,Retail,LATAM,Enterprise,11571,Enterprise,1,Active,Enterprise,Quarterly,3469113.72,289092.81,12.16,3419,2292,67.04,27922,36.04,22,Stable,1.0,16,1,27.57,4.1,59262.06,5,12,2,In Discussion
+CUST-0000797,Professional Services,APAC,Mid-Market,522,Mid-Market,5,Active,Professional,Monthly,39593.88,3299.49,17.51,49,41,83.67,698,71.81,10,Growing,0.65,3,0,13.12,5,304.23,4,2,355,Not Due
+CUST-0000798,Education,EMEA,Mid-Market,629,Mid-Market,69,Active,Enterprise,Monthly,337727.40,28143.95,19.26,250,191,76.40,2543,56.53,17,Declining,4.3,11,0,22.11,4.2,3636.24,1,8,96,Planning
+CUST-0000799,Retail,North America,Mid-Market,446,Mid-Market,9,Active,Professional,Quarterly,134884.08,11240.34,13.69,137,92,67.15,1445,50.86,20,Growing,2.53,5,0,15.48,4.4,439.19,1,7,82,Planning
+CUST-0000800,Education,LATAM,Small,58,SMB,22,Active,Professional,Monthly,13398.60,1116.55,15.77,16,11,68.75,102,43.18,28,Stable,1.86,5,0,15.44,4.4,145.06,3,2,290,Not Due
+CUST-0000801,Healthcare,EMEA,Small,60,SMB,19,Active,Starter,Quarterly,3781.68,315.14,13.92,10,8,80.00,159,60.1,18,Stable,0.25,3,0,6.72,4.3,0.00,0,6,15,Planning
+CUST-0000802,Manufacturing,APAC,Small,40,SMB,14,Active,Starter,Quarterly,1570.44,130.87,8.46,4,2,50.00,49,44.1,28,Stable,0.62,2,0,14.98,4.9,176.48,95,6,222,Not Due
+CUST-0000803,Healthcare,APAC,Small,19,SMB,12,Active,Professional,Monthly,9013.68,751.14,3.7,10,7,70.00,59,38.71,21,Growing,0.01,0,0,10.45,4.5,1568.54,126,7,197,Planning
+CUST-0000804,Technology,LATAM,Small,15,SMB,46,Active,Professional,Monthly,7456.20,621.35,13.34,10,7,70.00,80,66.69,16,Stable,1.24,6,0,12.05,4.6,101.92,6,7,343,Not Due
+CUST-0000805,Technology,APAC,Small,23,SMB,2,Active,Professional,Monthly,7963.32,663.61,12.66,10,6,60.00,90,42.8,29,Stable,0.43,3,1,21.37,3.6,1814.09,130,8,153,Not Due
+CUST-0000806,Retail,North America,Small,157,SMB,4,Active,Starter,Monthly,31112.76,2592.73,6.82,75,63,84.00,871,47.67,18,Stable,1.66,6,0,14.85,4.1,0.00,0,6,359,Not Due
+CUST-0000807,Manufacturing,APAC,Small,114,SMB,61,Active,Professional,Monthly,7524.84,627.07,11.59,11,9,81.82,105,59.51,14,Growing,1.76,9,0,16.90,4.3,0.00,0,7,2,In Discussion
+CUST-0000808,Manufacturing,APAC,Small,188,SMB,6,Active,Starter,Monthly,9036.48,753.04,11.37,22,17,77.27,143,60.29,14,Growing,0.56,3,0,8.11,5,91.48,1,3,186,Not Due
+CUST-0000809,Financial Services,APAC,Small,116,SMB,8,Active,Professional,Monthly,25207.92,2100.66,15.05,34,24,70.59,345,67.59,23,Declining,0.84,3,0,9.56,4.3,306.62,5,7,201,Not Due
+CUST-0000810,Manufacturing,APAC,Small,42,SMB,3,Onboarding,Professional,Quarterly,8303.04,691.92,17.56,10,9,90.00,65,76.63,8,Stable,1.3,2,0,9.21,4.3,0.00,0,4,128,Not Due
+CUST-0000811,Manufacturing,EMEA,Small,99,SMB,19,Active,Starter,Monthly,18012.48,1501.04,7.75,47,37,78.72,418,50.53,17,Stable,1.47,4,0,14.62,4.1,171.14,1,5,221,Not Due
+CUST-0000812,Retail,North America,Small,127,SMB,14,Active,Starter,Monthly,8652.36,721.03,8.86,31,20,64.52,283,47.1,25,Stable,2.08,5,0,10.89,4.5,84.42,3,9,61,Planning
+CUST-0000813,Financial Services,North America,Enterprise,3991,Enterprise,13,Active,Enterprise,Annual,1503897.48,125324.79,12.21,1120,1047,93.48,18357,54.39,9,Stable,1.66,8,1,29.29,3.9,0.00,0,8,145,Not Due
+CUST-0000814,Technology,North America,Mid-Market,1061,Mid-Market,38,Active,Business,Monthly,600355.08,50029.59,11.77,380,281,73.95,1002,25.32,21,Stable,5.52,16,4,75.97,2.3,8126.60,9,15,69,In Discussion
+CUST-0000815,Financial Services,North America,Small,28,SMB,25,Active,Starter,Monthly,2002.44,166.87,5.67,5,4,80.00,83,57.64,14,Stable,4.33,6,1,25.39,2.9,11.11,1,6,90,Planning
+CUST-0000816,Technology,LATAM,Small,18,SMB,84,Active,Professional,Monthly,9215.88,767.99,4.55,10,9,90.00,119,53.44,15,Stable,0.18,1,0,11.92,4.7,122.92,1,7,89,Not Due
+CUST-0000817,Financial Services,APAC,Small,36,SMB,16,Active,Professional,Annual,7031.16,585.93,10.82,13,5,38.46,72,25.47,40,Stable,0.98,8,0,12.30,4.3,128.82,6,5,203,Not Due
+CUST-0000818,Healthcare,LATAM,Enterprise,70189,Enterprise,38,Active,Enterprise,Annual,13088337.60,1090694.80,9.26,10000,8366,83.66,203979,62.37,13,Stable,0.41,43,0,36.71,3.1,87390.49,1,13,363,Not Due
+CUST-0000819,Professional Services,LATAM,Small,12,SMB,16,Active,Business,Monthly,55335.96,4611.33,5.36,50,37,74.00,368,51.07,19,Stable,1.82,5,1,22.66,4.1,7329.26,105,11,206,Not Due
+CUST-0000820,Retail,EMEA,Mid-Market,569,Mid-Market,66,Active,Business,Monthly,237884.04,19823.67,11.66,146,122,83.56,3449,55.5,17,Stable,1.88,5,1,21.84,4.2,1482.99,2,9,153,Not Due
+CUST-0000821,Financial Services,APAC,Mid-Market,348,Mid-Market,18,Active,Business,Monthly,82669.68,6889.14,8.62,50,31,62.00,290,48.77,22,Declining,0.02,0,0,3.10,4.6,810.92,1,3,307,Not Due
+CUST-0000822,Manufacturing,APAC,Small,14,SMB,120,Active,Professional,Monthly,7702.56,641.88,5.3,10,8,80.00,118,55.87,19,Growing,1.1,3,0,5.74,4.3,66.51,4,4,233,Not Due
+CUST-0000823,Healthcare,EMEA,Mid-Market,1670,Mid-Market,30,Active,Business,Quarterly,203535.12,16961.26,21.51,135,115,85.19,1694,58.47,15,Stable,4.02,10,1,35.54,3.6,3059.45,5,9,220,Not Due
+CUST-0000824,Healthcare,EMEA,Small,32,SMB,1,Active,Starter,Monthly,3397.80,283.15,10.11,9,6,66.67,55,33.23,25,Stable,4.05,6,1,30.03,,53.65,3,10,44,In Discussion
+CUST-0000825,Retail,North America,Mid-Market,1602,Mid-Market,43,Active,Business,Monthly,198149.28,16512.44,27.05,134,85,63.43,1054,50.43,21,Declining,1.74,9,0,18.29,4.5,3263.09,4,9,52,Planning
+CUST-0000826,Manufacturing,North America,Small,11,SMB,17,Active,Starter,Monthly,388.08,32.34,5.99,1,1,100.00,11,73.54,7,Stable,0.46,1,0,5.66,4.7,4.09,1,0,105,Not Due
+CUST-0000827,Education,APAC,Enterprise,6824,Enterprise,46,Active,Enterprise,Quarterly,2002422.72,166868.56,18.31,1818,1420,78.11,29175,55.94,17,Declining,0.49,6,0,7.53,5,9343.57,1,11,49,In Discussion
+CUST-0000828,Healthcare,LATAM,Small,15,Mid-Market,11,Active,Enterprise,Quarterly,321411.00,26784.25,6.61,250,242,96.80,4513,68.93,6,Growing,0.77,4,0,10.24,4.9,57347.70,142,11,266,Not Due
+CUST-0000829,Professional Services,EMEA,Mid-Market,211,SMB,51,Active,Professional,Quarterly,78937.44,6578.12,6.23,83,69,83.13,1750,65.67,14,Growing,0.9,4,0,10.71,4.4,1012.27,2,6,187,Not Due
+CUST-0000830,Manufacturing,APAC,Small,70,SMB,0,Onboarding,Starter,Monthly,9167.04,763.92,1.86,28,22,78.57,135,60.67,18,Growing,0.71,0,0,6.73,5.0,40.33,2,6,106,Planning
+CUST-0000831,Education,North America,Mid-Market,1013,SMB,4,Active,Starter,Monthly,31700.64,2641.72,6.62,75,27,36.00,145,8.72,37,Declining,1.34,5,1,26.35,4.2,2213.28,91,12,19,In Discussion
+CUST-0000832,Financial Services,EMEA,Small,52,SMB,1,Onboarding,Starter,Monthly,4220.88,351.74,6.75,10,7,70.00,78,53.49,22,Declining,0.73,1,1,21.04,4.3,50.88,5,4,201,Not Due
+CUST-0000833,Technology,EMEA,Small,193,SMB,15,Active,Professional,Annual,36013.20,3001.10,5.72,33,27,81.82,311,46.27,15,Declining,0.42,4,0,11.73,4.5,6501.49,143,11,129,Planning
+CUST-0000834,Education,North America,Small,178,SMB,6,Active,Starter,Monthly,4698.12,391.51,8.79,12,11,91.67,374,82.22,11,Growing,0.25,0,0,7.84,4.5,60.58,6,1,101,Planning
+CUST-0000835,Technology,North America,Small,139,SMB,37,Active,Starter,Monthly,7696.68,641.39,4.27,20,13,65.00,113,42.14,21,Stable,1.31,3,0,8.97,5.0,52.34,3,3,364,Not Due
+CUST-0000836,Retail,LATAM,Small,104,SMB,13,Active,Starter,Monthly,11538.24,961.52,8.89,39,32,82.05,440,54.35,14,Stable,0.97,1,0,7.67,4.3,0.00,0,6,282,Not Due
+CUST-0000837,Financial Services,LATAM,Mid-Market,986,Mid-Market,19,Expansion,Professional,Quarterly,98815.20,8234.60,22.68,151,134,88.74,2748,84.73,7,Growing,0.34,0,0,5.60,4.5,1531.32,2,5,64,Planning
+CUST-0000838,Manufacturing,North America,Small,16,SMB,25,Active,Business,Monthly,65850.00,5487.50,9.26,50,41,82.00,604,69.0,22,Stable,0.25,1,0,3.06,4.5,529.98,4,5,143,Planning
+CUST-0000839,Professional Services,LATAM,Mid-Market,244,Mid-Market,62,Active,Business,Quarterly,171584.28,14298.69,16.32,111,93,83.78,1059,67.37,17,Declining,0.94,2,0,15.20,4.8,540.64,2,7,79,Planning
+CUST-0000840,Retail,LATAM,Small,186,SMB,53,Active,Professional,Monthly,70478.40,5873.20,5.44,71,65,91.55,1243,69.7,8,Growing,3.9,15,2,49.82,3.0,517.36,2,5,223,Not Due
+CUST-0000841,Education,EMEA,Small,77,SMB,38,Active,Starter,Monthly,3643.68,303.64,6.86,10,7,70.00,45,38.66,24,Stable,1.21,5,1,20.59,4.0,0.00,0,9,24,In Discussion
+CUST-0000842,Education,EMEA,Small,15,SMB,120,Active,Professional,Monthly,7029.12,585.76,10.42,10,4,40.00,58,52.03,33,Declining,1.46,4,0,13.12,4.7,61.67,3,8,114,Planning
+CUST-0000843,Education,EMEA,Mid-Market,246,Enterprise,4,Active,Enterprise,Annual,208050.96,17337.58,21.85,250,203,81.20,3518,49.54,26,Declining,0.65,4,1,27.84,4.0,4187.76,4,6,307,Not Due
+CUST-0000844,Financial Services,North America,Small,16,SMB,72,Active,Professional,Annual,6966.60,580.55,8.46,10,8,80.00,125,59.92,16,Growing,2.21,0,0,11.43,4.6,77.07,1,1,115,Planning
+CUST-0000845,Manufacturing,LATAM,Small,16,SMB,30,Active,Starter,Monthly,654.12,54.51,5.59,2,1,50.00,6,39.69,29,Declining,1.29,2,0,7.60,4.7,0.00,0,1,286,Not Due
+CUST-0000846,Education,APAC,Small,24,SMB,80,Active,Starter,Quarterly,2595.24,216.27,11.65,7,5,71.43,87,58.44,23,Stable,0.35,1,0,9.95,4.8,44.95,5,5,144,Not Due
+CUST-0000847,Retail,APAC,Mid-Market,417,Mid-Market,50,Active,Professional,Annual,29316.48,2443.04,7.53,33,29,87.88,588,83.99,8,Growing,1.47,4,1,23.35,4.4,272.60,2,6,172,Not Due
+CUST-0000848,Healthcare,North America,Small,62,SMB,1,Onboarding,Starter,Monthly,5764.08,480.34,10.95,15,7,46.67,51,20.75,32,Declining,1.07,2,0,13.30,4.3,85.42,1,4,273,Not Due
+CUST-0000849,Professional Services,LATAM,Enterprise,99448,Enterprise,6,Active,Enterprise,Annual,10238039.76,853169.98,26.03,10000,7679,76.79,52303,33.69,21,Stable,0.98,37,1,49.20,3.3,67107.76,2,9,313,Planning
+CUST-0000850,Financial Services,APAC,Mid-Market,1702,Mid-Market,27,Active,Professional,Quarterly,419303.88,34941.99,3.35,654,310,47.40,2258,39.72,29,Declining,1.01,10,0,9.25,4.7,0.00,0,6,169,Not Due
+CUST-0000851,Education,EMEA,Enterprise,15702,Mid-Market,1,Onboarding,Professional,Quarterly,681306.84,56775.57,10.03,750,601,80.13,9782,50.43,15,Growing,1.6,2,0,8.68,4.8,3721.18,0,10,145,Planning
+CUST-0000852,Financial Services,EMEA,Mid-Market,348,Mid-Market,6,Active,Professional,Annual,40691.64,3390.97,14.78,63,33,52.38,369,32.83,32,Declining,0.87,5,0,8.17,4.2,212.25,1,8,19,Pending Decision
+CUST-0000853,Retail,North America,Mid-Market,1649,Mid-Market,9,Active,Professional,Monthly,124288.20,10357.35,18.06,236,183,77.54,1978,56.11,14,Growing,1.15,7,1,19.06,4.2,1459.91,3,7,79,Planning
+CUST-0000854,Financial Services,North America,Mid-Market,545,Mid-Market,11,Active,Professional,Annual,159378.84,13281.57,17.37,203,198,97.54,4715,74.39,13,Stable,0.78,3,0,10.54,4.9,2276.02,1,9,34,In Discussion
+CUST-0000855,Financial Services,EMEA,Enterprise,4323,Enterprise,11,Active,Enterprise,Quarterly,1584827.52,132068.96,5.88,1016,550,54.13,7568,43.7,26,Stable,1.26,10,0,11.94,4.1,7965.25,2,6,285,Not Due
+CUST-0000856,Education,LATAM,Small,13,SMB,29,Active,Starter,Monthly,1805.28,150.44,1.35,5,3,60.00,36,47.73,27,Stable,3.08,7,1,28.13,3.7,37.19,4,6,156,Not Due
+CUST-0000857,Manufacturing,EMEA,Small,147,SMB,30,Active,Starter,Monthly,10678.32,889.86,10.57,24,17,70.83,388,46.94,24,Growing,1.72,2,0,10.40,4.3,135.45,1,2,224,Not Due
+CUST-0000858,Manufacturing,LATAM,Small,23,SMB,26,Expansion,Starter,Quarterly,2017.08,168.09,7.03,5,4,80.00,113,79.45,11,Stable,0.29,1,0,8.13,4.7,172.47,75,10,16,In Discussion
+CUST-0000859,Manufacturing,APAC,Small,38,SMB,36,Expansion,Starter,Monthly,4587.36,382.28,10.84,12,9,75.00,155,72.72,15,Stable,1.98,5,1,22.26,4.0,18.46,1,3,186,Not Due
+CUST-0000860,Technology,LATAM,Mid-Market,1546,Mid-Market,120,Active,Business,Annual,348517.32,29043.11,1.86,235,188,80.00,3706,62.73,27,Stable,3.37,5,0,19.85,3.8,4549.17,2,9,148,In Discussion
+CUST-0000861,Education,APAC,Mid-Market,963,Mid-Market,18,Active,Professional,Annual,97555.44,8129.62,19.13,105,85,80.95,1509,61.74,14,Stable,0.5,2,1,20.51,,791.25,1,7,271,Not Due
+CUST-0000862,Professional Services,LATAM,Small,113,SMB,72,Active,Professional,Quarterly,25579.80,2131.65,2.44,32,27,84.38,388,82.0,10,Stable,0.39,2,0,10.88,4.6,1040.24,37,8,134,Planning
+CUST-0000863,Manufacturing,North America,Mid-Market,276,Mid-Market,5,Active,Professional,Quarterly,48115.68,4009.64,13.59,75,70,93.33,1182,70.74,11,Declining,1.63,0,0,11.61,4.8,805.31,1,8,36,Planning
+CUST-0000864,Education,EMEA,Small,119,SMB,65,Active,Starter,Monthly,14133.84,1177.82,4.12,49,30,61.22,564,48.96,25,Stable,0.1,3,1,19.54,3.8,155.65,4,5,239,Not Due
+CUST-0000865,Education,LATAM,Mid-Market,1230,Mid-Market,24,Active,Business,Monthly,604698.84,50391.57,12.02,464,160,34.48,703,30.16,40,Declining,0.86,5,0,10.93,4.8,2902.80,3,11,46,Planning
+CUST-0000866,Education,LATAM,Small,104,SMB,35,Active,Professional,Monthly,23638.20,1969.85,0.62,31,26,83.87,183,43.14,15,Declining,2.07,4,1,24.17,,432.45,4,4,173,Not Due
+CUST-0000867,Financial Services,LATAM,Small,169,SMB,49,Active,Professional,Monthly,40698.24,3391.52,9.95,41,31,75.61,365,42.77,17,Stable,2.73,4,1,32.72,3.4,0.00,0,4,121,Planning
+CUST-0000868,Financial Services,North America,Small,18,SMB,22,Active,Starter,Quarterly,1216.80,101.40,9.96,3,2,66.67,29,55.33,21,Declining,1.73,4,1,29.25,4.1,10.30,0,5,178,Not Due
+CUST-0000869,Manufacturing,North America,Small,11,SMB,10,Active,Professional,Quarterly,8685.72,723.81,7.24,10,4,40.00,42,42.36,37,Declining,0.56,3,0,13.84,4.8,170.05,3,6,17,Planning
+CUST-0000870,Manufacturing,APAC,Mid-Market,342,Mid-Market,8,Active,Professional,Monthly,39931.68,3327.64,27.55,58,52,89.66,1469,49.0,22,Growing,1.22,3,1,19.34,4.9,574.68,2,9,6,In Discussion
+CUST-0000871,Retail,North America,Mid-Market,1011,Mid-Market,23,Active,Business,Monthly,209848.92,17487.41,7.93,144,71,49.31,423,43.74,31,Declining,2.19,9,1,30.84,3.8,2581.90,8,9,6,In Discussion
+CUST-0000872,Technology,EMEA,Small,18,Mid-Market,3,Active,Business,Annual,65322.00,5443.50,27.56,50,47,94.00,718,62.74,8,Declining,0.41,3,0,4.77,5,509.70,4,9,69,In Discussion
+CUST-0000873,Financial Services,LATAM,Small,50,SMB,38,Active,Professional,Monthly,11244.24,937.02,6.41,10,7,70.00,188,68.93,17,Stable,1.35,4,0,12.70,4.4,107.05,1,4,133,Planning
+CUST-0000874,Professional Services,EMEA,Mid-Market,849,Mid-Market,30,Active,Professional,Annual,73932.36,6161.03,23.89,110,83,75.45,1241,57.52,18,Declining,3.6,10,2,39.90,3.6,3892.80,36,8,178,Not Due
+CUST-0000875,Manufacturing,APAC,Mid-Market,1469,Mid-Market,8,Active,Professional,Annual,578305.92,48192.16,12.89,662,642,96.98,17533,68.92,6,Growing,0.98,5,1,25.38,3.7,4577.90,1,8,186,Not Due
+CUST-0000876,Technology,EMEA,Mid-Market,1504,Mid-Market,43,Active,Professional,Monthly,360796.56,30066.38,3.7,529,481,90.93,12164,45.26,11,Growing,0.41,2,1,11.02,4.1,2417.95,1,8,349,Not Due
+CUST-0000877,Healthcare,APAC,Mid-Market,1908,Mid-Market,2,Onboarding,Professional,Annual,205907.40,17158.95,4.26,303,209,68.98,6079,47.12,19,Growing,0.96,2,0,9.38,4.3,2086.29,4,11,77,Planning
+CUST-0000878,Technology,North America,Mid-Market,1258,Mid-Market,37,Active,Professional,Quarterly,64666.32,5388.86,27.74,118,89,75.42,2577,69.3,13,Stable,1.25,2,0,4.03,4.5,147.77,3,4,352,Not Due
+CUST-0000879,Healthcare,LATAM,Enterprise,63113,Enterprise,16,Active,Enterprise,Annual,13872049.44,1156004.12,28.58,10000,7927,79.27,124036,29.6,20,Stable,1.82,43,2,64.65,2.0,0.00,0,12,124,Planning
+CUST-0000880,Retail,APAC,Small,95,Mid-Market,12,Active,Starter,Monthly,9579.12,798.26,4.67,36,32,88.89,425,59.55,12,Stable,0.62,2,0,10.13,4.7,49.08,1,1,184,Not Due
+CUST-0000881,Education,EMEA,Small,125,SMB,16,Active,Starter,Quarterly,11345.04,945.42,2.89,28,20,71.43,394,55.34,18,Growing,2.04,7,0,14.10,4.1,157.07,5,7,25,Planning
+CUST-0000882,Technology,LATAM,Small,108,SMB,0,Active,Starter,Monthly,7698.96,641.58,4.88,25,15,60.00,278,32.18,42,Stable,3.17,10,2,46.76,2.7,35.94,1,8,69,Planning
+CUST-0000883,Manufacturing,LATAM,Small,25,SMB,94,Active,Professional,Monthly,7056.00,588.00,8.95,10,5,50.00,59,48.58,30,Declining,1.66,8,1,29.10,4.1,69.56,2,9,14,In Discussion
+CUST-0000884,Retail,North America,Small,24,SMB,24,Active,Starter,Annual,926.40,77.20,10.8,3,1,33.33,5,29.4,37,Declining,1.23,2,1,28.74,4.2,0.00,0,5,4,Pending Decision
+CUST-0000885,Retail,EMEA,Mid-Market,359,Mid-Market,49,Active,Professional,Annual,29818.92,2484.91,12.52,29,23,79.31,699,62.17,13,Growing,0.21,0,0,6.27,4.3,199.61,1,5,113,Planning
+CUST-0000886,Financial Services,North America,Enterprise,74884,Enterprise,59,Active,Enterprise,Annual,11654084.52,971173.71,28.64,9570,8581,89.67,126052,72.13,9,Growing,0.43,47,1,59.94,3.4,184104.46,2,13,238,Not Due
+CUST-0000887,Education,LATAM,Small,19,SMB,5,Active,Professional,Monthly,8645.40,720.45,6.13,10,8,80.00,127,44.85,18,Growing,0.93,0,0,10.26,4.2,117.81,2,4,272,Not Due
+CUST-0000888,Technology,EMEA,Small,65,SMB,5,Active,Professional,Monthly,7650.36,637.53,4.86,10,9,90.00,265,78.06,12,Growing,0.42,0,0,8.12,4.5,50.81,1,3,319,Not Due
+CUST-0000889,Education,North America,Mid-Market,1499,Mid-Market,40,Active,Professional,Quarterly,83280.96,6940.08,8.05,117,106,90.60,2628,58.54,10,Stable,11.59,27,11,185.85,1,974.87,2,13,85,Planning
+CUST-0000890,Professional Services,LATAM,Small,136,SMB,19,Active,Business,Quarterly,72949.44,6079.12,7.92,50,48,96.00,712,70.67,7,Growing,1.24,4,2,34.30,3.9,0.00,0,12,88,Planning
+CUST-0000891,Education,LATAM,Small,118,SMB,71,Expansion,Starter,Quarterly,11635.68,969.64,11.4,45,35,77.78,571,72.58,13,Growing,1.7,7,0,16.81,3.9,0.00,0,7,26,Pending Decision
+CUST-0000892,Professional Services,EMEA,Mid-Market,944,SMB,11,Active,Business,Quarterly,235125.48,19593.79,8.06,175,155,88.57,2080,69.54,11,Stable,1.64,1,0,11.32,5,1730.85,2,9,51,Planning
+CUST-0000893,Professional Services,North America,Small,192,SMB,9,Active,Starter,Monthly,9055.08,754.59,5.26,32,22,68.75,307,57.82,20,Growing,1.09,5,0,4.67,4.5,614.79,42,6,253,Not Due
+CUST-0000894,Technology,APAC,Small,46,Mid-Market,58,Active,Professional,Annual,6592.68,549.39,14.01,10,9,90.00,139,57.13,17,Growing,0.28,2,0,11.87,3.9,53.68,1,6,23,Pending Decision
+CUST-0000895,Professional Services,LATAM,Enterprise,17311,Enterprise,39,Active,Enterprise,Quarterly,14398888.32,1199907.36,12.77,8798,7690,87.41,35645,61.55,14,Declining,4.72,36,5,101.36,1.4,78515.08,1,12,279,Planning
+CUST-0000896,Technology,EMEA,Small,49,SMB,56,Active,Starter,Monthly,3664.44,305.37,3.68,12,11,91.67,201,75.35,12,Growing,0.31,2,0,4.20,4.4,41.30,4,4,216,Not Due
+CUST-0000897,Manufacturing,EMEA,Enterprise,4884,Enterprise,24,Active,Enterprise,Annual,1185807.48,98817.29,21.05,817,723,88.49,10415,67.37,12,Growing,0.42,6,0,12.52,4.4,5544.72,1,4,150,Planning
+CUST-0000898,Education,APAC,Mid-Market,899,Mid-Market,93,Active,Starter,Annual,31575.24,2631.27,8.35,75,58,77.33,769,76.85,12,Declining,1.55,6,1,21.90,4.0,0.00,0,7,12,In Discussion
+CUST-0000899,Professional Services,LATAM,Mid-Market,1276,Enterprise,52,Active,Professional,Annual,167443.44,13953.62,40.98,363,309,85.12,7295,76.9,9,Stable,0.4,0,0,10.63,4.4,1815.87,3,2,123,Not Due
+CUST-0000900,Professional Services,EMEA,Small,34,SMB,50,Active,Professional,Monthly,6004.68,500.39,16.92,10,8,80.00,123,73.44,14,Growing,0.47,0,0,7.35,4.5,694.51,89,8,128,Planning
+CUST-0000901,Technology,EMEA,Small,14,SMB,7,Active,Starter,Monthly,1010.64,84.22,12.57,3,3,100.00,28,64.94,7,Growing,2.04,3,0,13.84,4.1,9.87,2,3,91,Planning
+CUST-0000902,Education,LATAM,Enterprise,2141,Enterprise,17,Active,Enterprise,Monthly,433879.44,36156.62,19.11,378,288,76.19,8803,58.62,22,Growing,1.47,1,0,7.87,4.4,1833.05,3,8,66,In Discussion
+CUST-0000903,Professional Services,EMEA,Small,119,SMB,14,Active,Professional,Quarterly,7873.56,656.13,14.45,15,11,73.33,88,50.74,18,Stable,0.22,2,0,4.60,4.1,30.64,1,6,32,Planning
+CUST-0000904,Manufacturing,APAC,Small,23,Mid-Market,5,Active,Business,Annual,70226.76,5852.23,17.16,50,47,94.00,1529,79.06,6,Growing,0.27,1,0,8.49,,4773.49,38,5,307,Not Due
+CUST-0000905,Retail,EMEA,Small,89,SMB,22,Active,Starter,Annual,4558.44,379.87,7.91,10,7,70.00,80,37.79,20,Stable,2.93,9,1,26.84,4.2,13.50,1,3,142,Planning
+CUST-0000906,Retail,LATAM,Small,27,SMB,17,Active,Professional,Annual,9469.56,789.13,5.64,10,7,70.00,60,47.27,19,Stable,5.51,12,2,46.26,2.7,1270.61,66,13,7,In Discussion
+CUST-0000907,Technology,North America,Small,86,SMB,6,Active,Starter,Monthly,13464.00,1122.00,3.78,32,19,59.38,223,60.15,23,Declining,2.68,5,1,32.89,3.0,0.00,0,6,322,Not Due
+CUST-0000908,Professional Services,North America,Mid-Market,1329,Mid-Market,4,Active,Business,Annual,728560.20,60713.35,6.52,426,382,89.67,14094,89.52,6,Growing,0.28,1,1,18.77,4.3,9322.21,2,11,49,Planning
+CUST-0000909,Education,LATAM,Mid-Market,1173,Enterprise,63,Active,Business,Annual,60514.20,5042.85,22.1,57,52,91.23,476,67.39,8,Stable,1.9,4,2,36.65,3.3,123.69,3,9,341,Planning
+CUST-0000910,Manufacturing,EMEA,Mid-Market,429,Mid-Market,21,Active,Professional,Quarterly,75836.64,6319.72,5.52,95,94,98.95,1693,66.69,6,Growing,1.24,6,0,15.73,4.3,1237.58,2,4,140,Planning
+CUST-0000911,Professional Services,North America,Small,68,SMB,29,Active,Starter,Monthly,11120.52,926.71,3.54,24,18,75.00,270,41.26,19,Stable,11.08,21,7,129.42,1,406.89,30,9,324,Not Due
+CUST-0000912,Retail,North America,Mid-Market,826,Mid-Market,8,Active,Business,Quarterly,360973.68,30081.14,6.87,192,184,95.83,2609,58.19,10,Growing,0.05,1,1,15.39,4.0,4619.33,1,7,212,Not Due
+CUST-0000913,Retail,LATAM,Small,84,SMB,32,Active,Professional,Monthly,11329.32,944.11,9.53,14,12,85.71,216,50.1,17,Stable,2.88,2,1,25.55,4.2,101.27,1,1,332,Not Due
+CUST-0000914,Retail,APAC,Small,137,SMB,120,Active,Professional,Monthly,16946.16,1412.18,2.42,24,20,83.33,298,60.32,12,Stable,0.37,3,2,28.40,4.1,156.95,5,7,335,Not Due
+CUST-0000915,Manufacturing,APAC,Small,20,SMB,6,Active,Professional,Monthly,6988.80,582.40,11.03,10,10,100.00,217,66.76,6,Growing,2.0,3,0,9.98,4.1,0.00,0,5,235,Not Due
+CUST-0000916,Retail,EMEA,Small,57,SMB,85,Active,Professional,Monthly,11154.72,929.56,15.18,14,8,57.14,90,55.48,25,Stable,3.34,11,1,35.59,3.7,69.00,2,7,308,Planning
+CUST-0000917,Professional Services,EMEA,Mid-Market,348,Enterprise,4,Active,Professional,Annual,42352.44,3529.37,32.91,85,75,88.24,387,66.37,16,Declining,1.08,2,0,9.51,4.9,0.00,0,8,43,Planning
+CUST-0000918,Education,North America,Small,123,SMB,14,Active,Starter,Quarterly,16177.20,1348.10,11.54,41,36,87.80,1111,82.99,8,Stable,0.7,4,0,9.39,4.7,300.32,5,2,160,Planning
+CUST-0000919,Technology,EMEA,Small,45,SMB,85,Active,Business,Monthly,78813.84,6567.82,11.61,50,41,82.00,652,67.04,19,Growing,0.28,0,0,4.75,5,875.14,4,8,263,Not Due
+CUST-0000920,Professional Services,North America,Small,23,SMB,31,Active,Starter,Monthly,3119.64,259.97,2.38,11,10,90.91,120,53.17,20,Stable,0.53,3,0,12.49,5.0,24.63,1,5,204,Planning
+CUST-0000921,Manufacturing,EMEA,Small,159,Mid-Market,9,Active,Business,Annual,78902.76,6575.23,5.63,50,37,74.00,778,40.87,19,Stable,2.41,4,0,11.46,4.5,440.45,1,7,135,Planning
+CUST-0000922,Financial Services,APAC,Small,17,SMB,1,Active,Starter,Monthly,953.28,79.44,8.09,3,2,66.67,24,49.44,21,Declining,0.2,1,1,20.42,3.9,6.79,1,2,91,Planning
+CUST-0000923,Financial Services,North America,Mid-Market,1956,Mid-Market,14,Active,Professional,Annual,289112.88,24092.74,11.99,292,285,97.60,1702,73.7,7,Stable,0.16,2,0,10.06,4.1,36095.81,132,6,341,Not Due
+CUST-0000924,Healthcare,LATAM,Small,167,SMB,1,Active,Professional,Monthly,15160.44,1263.37,15.55,25,17,68.00,112,44.29,21,Stable,0.71,3,0,8.21,,44.92,1,5,359,Not Due
+CUST-0000925,Financial Services,North America,Mid-Market,233,Mid-Market,22,Active,Business,Quarterly,121878.12,10156.51,15.23,71,55,77.46,594,34.79,27,Growing,1.13,3,0,10.10,4.8,0.00,0,7,20,Pending Decision
+CUST-0000926,Education,LATAM,Small,62,Mid-Market,6,Active,Business,Quarterly,85248.96,7104.08,19.4,50,32,64.00,368,44.35,27,Stable,0.53,2,0,11.77,4.4,1175.28,2,4,118,Planning
+CUST-0000927,Professional Services,North America,Enterprise,5809,Enterprise,38,Active,Enterprise,Quarterly,1620475.32,135039.61,12.03,1071,937,87.49,24534,58.81,12,Stable,4.04,4,1,33.04,3.2,35450.22,4,8,355,Not Due
+CUST-0000928,Technology,LATAM,Small,32,SMB,4,Active,Professional,Monthly,7114.44,592.87,19.99,10,8,80.00,140,64.74,14,Declining,0.87,4,0,14.74,,115.64,1,4,321,Not Due
+CUST-0000929,Retail,North America,Mid-Market,945,Mid-Market,13,Active,Business,Quarterly,111442.68,9286.89,12.0,96,81,84.38,707,47.62,14,Stable,1.11,5,0,13.84,4.3,457.87,1,8,281,Not Due
+CUST-0000930,Healthcare,EMEA,Small,43,SMB,32,Active,Professional,Monthly,7408.20,617.35,2.58,10,7,70.00,148,58.9,18,Growing,3.74,6,1,25.91,3.6,64.08,1,10,21,In Discussion
+CUST-0000931,Retail,APAC,Small,40,SMB,13,Active,Starter,Quarterly,2497.20,208.10,9.03,7,3,42.86,16,27.28,38,Declining,0.2,5,1,20.72,4.1,13.11,0,7,270,Not Due
+CUST-0000932,Technology,North America,Small,37,SMB,25,Active,Starter,Quarterly,3390.24,282.52,6.49,9,7,77.78,78,82.44,16,Growing,1.06,2,1,21.52,5.0,8.89,2,8,151,Not Due
+CUST-0000933,Professional Services,North America,Small,49,SMB,17,Active,Professional,Quarterly,5862.24,488.52,18.77,10,9,90.00,261,79.26,8,Growing,0.19,2,1,19.50,4.4,122.07,3,4,236,Not Due
+CUST-0000934,Professional Services,APAC,Enterprise,70736,Enterprise,62,Active,Enterprise,Annual,3999561.48,333296.79,15.09,4811,4507,93.68,91521,83.51,10,Stable,0.28,12,0,11.86,4.4,56174.01,10,5,345,Not Due
+CUST-0000935,Manufacturing,North America,Small,191,SMB,44,Active,Starter,Monthly,30972.36,2581.03,1.28,75,39,52.00,367,36.16,29,Stable,2.29,7,0,11.81,4.4,195.59,5,3,213,Not Due
+CUST-0000936,Professional Services,EMEA,Small,94,SMB,120,Expansion,Professional,Quarterly,44144.16,3678.68,14.45,47,39,82.98,981,83.21,17,Growing,0.58,0,0,4.77,,0.00,0,7,291,Not Due
+CUST-0000937,Technology,EMEA,Mid-Market,233,Mid-Market,18,Active,Professional,Annual,23566.08,1963.84,12.1,31,30,96.77,349,76.86,7,Declining,1.11,4,0,16.51,4.3,2841.57,96,12,6,In Discussion
+CUST-0000938,Financial Services,North America,Small,12,SMB,8,Active,Business,Monthly,66608.28,5550.69,7.88,50,45,90.00,1061,77.7,11,Growing,1.0,2,0,11.35,4.3,480.70,6,9,42,In Discussion
+CUST-0000939,Retail,LATAM,Small,10,SMB,15,Active,Starter,Annual,345.12,28.76,6.91,1,1,100.00,16,68.8,6,Stable,2.98,2,1,25.09,,4.98,2,8,59,Pending Decision
+CUST-0000940,Education,LATAM,Small,17,SMB,7,Active,Professional,Monthly,7238.16,603.18,14.6,10,9,90.00,46,73.62,9,Stable,0.22,0,0,12.47,3.9,76.17,1,2,337,Not Due
+CUST-0000941,Education,LATAM,Mid-Market,252,Mid-Market,120,Active,Business,Quarterly,72048.72,6004.06,13.43,50,44,88.00,1367,58.51,17,Growing,1.56,2,1,19.01,,543.19,2,4,243,Not Due
+CUST-0000942,Education,EMEA,Small,31,SMB,75,Active,Starter,Monthly,389.28,32.44,10.93,1,1,100.00,10,76.15,3,Stable,0.98,1,0,13.57,4.7,0.00,0,6,1,Pending Decision
+CUST-0000943,Technology,LATAM,Small,181,SMB,120,Active,Professional,Monthly,51512.04,4292.67,15.31,71,41,57.75,328,57.2,23,Stable,3.24,6,0,11.99,3.5,7582.36,93,10,266,Not Due
+CUST-0000944,Professional Services,LATAM,Mid-Market,707,Mid-Market,12,Active,Professional,Annual,29245.56,2437.13,21.67,42,41,97.62,850,55.42,7,Stable,3.08,11,2,45.11,3.1,190.22,3,10,154,Planning
+CUST-0000945,Education,LATAM,Enterprise,22042,Enterprise,10,Active,Enterprise,Annual,4800453.12,400037.76,15.78,3055,1250,40.92,10076,27.84,33,Declining,1.46,23,1,37.40,3.5,593514.46,101,14,246,Not Due
+CUST-0000946,Technology,APAC,Enterprise,5446,Enterprise,31,Active,Business,Annual,2223130.32,185260.86,15.31,1575,1407,89.33,19779,48.67,11,Growing,0.63,4,1,21.90,4.2,25491.29,2,5,171,Not Due
+CUST-0000947,Technology,LATAM,Small,52,SMB,120,Active,Professional,Monthly,13680.72,1140.06,13.71,18,15,83.33,125,61.91,19,Declining,0.68,2,0,9.38,4.1,55.00,2,6,148,Not Due
+CUST-0000948,Education,LATAM,Small,49,SMB,22,Active,Starter,Monthly,4944.96,412.08,5.01,13,12,92.31,257,75.4,10,Growing,0.78,1,0,7.58,4.4,38.62,0,2,171,Not Due
+CUST-0000949,Education,LATAM,Small,11,SMB,90,Active,Professional,Quarterly,6681.72,556.81,16.82,10,9,90.00,259,75.22,8,Growing,1.52,1,0,7.31,4.0,105.90,1,4,262,Not Due
+CUST-0000950,Retail,LATAM,Mid-Market,1375,Mid-Market,16,Active,Business,Quarterly,787005.36,65583.78,17.13,628,209,33.28,2473,28.76,36,Declining,0.91,5,0,12.83,,7965.96,4,11,8,In Discussion
+CUST-0000951,Healthcare,APAC,Small,37,SMB,54,Active,Starter,Monthly,669.36,55.78,6.38,2,1,50.00,9,39.24,34,Stable,2.55,6,0,13.69,3.8,3.13,1,2,270,Not Due
+CUST-0000952,Education,North America,Mid-Market,645,Mid-Market,20,Active,Professional,Annual,131890.20,10990.85,1.54,137,60,43.80,614,28.74,36,Declining,0.91,5,0,6.41,5,654.50,2,8,362,Not Due
+CUST-0000953,Healthcare,EMEA,Small,154,SMB,8,Active,Starter,Monthly,3737.88,311.49,1.04,12,8,66.67,73,36.87,22,Stable,2.04,4,1,23.84,3.9,297.34,58,6,256,Not Due
+CUST-0000954,Manufacturing,APAC,Enterprise,42253,Enterprise,60,Active,Enterprise,Annual,12737023.20,1061418.60,9.82,10000,7727,77.27,110698,71.44,22,Stable,0.38,37,0,35.11,,0.00,0,11,143,In Discussion
+CUST-0000955,Professional Services,EMEA,Small,147,SMB,18,Active,Starter,Monthly,15062.88,1255.24,0.85,40,23,57.50,330,46.68,24,Declining,1.09,8,1,25.44,3.5,49.79,1,6,160,Not Due
+CUST-0000956,Professional Services,EMEA,Small,63,SMB,42,Active,Starter,Quarterly,4309.92,359.16,5.36,10,8,80.00,42,66.15,19,Declining,2.82,8,2,42.54,3.3,19.95,3,8,122,In Discussion
+CUST-0000957,Manufacturing,LATAM,Small,53,Mid-Market,13,Active,Business,Annual,57632.52,4802.71,5.82,50,41,82.00,713,72.32,12,Growing,1.65,4,2,36.27,3.4,963.61,10,12,13,Planning
+CUST-0000958,Financial Services,APAC,Enterprise,62768,Enterprise,2,Onboarding,Business,Annual,3514740.00,292895.00,16.19,3500,2312,66.06,27843,47.82,25,Declining,1.35,19,1,37.72,3.8,16508.06,2,13,182,Not Due
+CUST-0000959,Retail,North America,Mid-Market,1765,Mid-Market,7,Active,Professional,Monthly,680105.64,56675.47,13.38,750,664,88.53,9581,48.11,12,Stable,1.97,10,0,19.92,4.0,0.00,0,8,356,Not Due
+CUST-0000960,Technology,APAC,Mid-Market,620,Mid-Market,104,Active,Enterprise,Monthly,311562.00,25963.50,8.9,250,179,71.60,1559,41.03,28,Stable,1.26,10,0,14.08,4.4,0.00,0,6,166,Not Due
+CUST-0000961,Healthcare,North America,Mid-Market,286,Mid-Market,35,Active,Business,Annual,119806.68,9983.89,23.81,102,64,62.75,483,44.95,23,Declining,0.4,0,0,2.71,4.9,1399.49,3,9,79,Planning
+CUST-0000962,Healthcare,EMEA,Small,102,SMB,21,Active,Starter,Monthly,8924.88,743.74,7.19,24,21,87.50,133,31.5,19,Declining,1.13,8,0,10.76,4.9,109.63,3,9,15,In Discussion
+CUST-0000963,Manufacturing,North America,Mid-Market,1363,Enterprise,8,Active,Enterprise,Annual,375552.60,31296.05,17.25,250,219,87.60,3632,60.87,13,Growing,0.95,0,0,11.75,4.8,20303.48,112,10,109,In Discussion
+CUST-0000964,Technology,LATAM,Small,21,SMB,4,Active,Professional,Quarterly,7380.00,615.00,11.23,10,8,80.00,94,67.89,22,Declining,0.2,1,0,9.90,4.5,68.53,2,5,359,Not Due
+CUST-0000965,Professional Services,APAC,Small,25,SMB,56,Active,Starter,Monthly,1209.72,100.81,1.43,3,2,66.67,48,70.32,19,Stable,1.53,4,1,21.95,4.4,8.54,2,3,336,Not Due
+CUST-0000966,Healthcare,APAC,Small,13,SMB,16,Active,Professional,Monthly,7503.96,625.33,5.51,10,9,90.00,75,71.58,9,Stable,3.38,8,1,30.41,3.9,132.27,7,10,30,Pending Decision
+CUST-0000967,Technology,APAC,Small,123,Mid-Market,35,Active,Professional,Annual,15697.92,1308.16,5.06,14,5,35.71,79,30.45,36,Declining,2.04,11,0,13.98,4.2,37.64,3,7,209,Not Due
+CUST-0000968,Professional Services,LATAM,Small,29,SMB,6,Active,Professional,Monthly,8045.28,670.44,18.99,10,8,80.00,160,36.59,18,Stable,0.29,0,0,2.97,4.6,43.74,1,4,91,In Discussion
+CUST-0000969,Education,LATAM,Mid-Market,354,SMB,23,Active,Professional,Quarterly,95618.88,7968.24,12.37,115,105,91.30,2092,56.68,11,Growing,3.02,7,1,31.82,4.1,1680.45,5,5,235,Planning
+CUST-0000970,Technology,APAC,Mid-Market,1150,Mid-Market,51,Active,Business,Annual,361052.88,30087.74,3.31,222,210,94.59,3790,71.23,7,Growing,3.24,13,1,32.83,4.0,5346.30,1,5,201,Not Due
+CUST-0000971,Education,LATAM,Small,86,SMB,6,Active,Starter,Monthly,9390.96,782.58,2.57,33,24,72.73,263,49.71,18,Stable,0.4,1,0,10.02,4.7,302.53,11,4,335,Planning
+CUST-0000972,Technology,LATAM,Small,11,SMB,7,Active,Professional,Monthly,5623.08,468.59,6.15,10,8,80.00,89,63.2,15,Declining,0.84,3,1,23.71,4.0,49.28,2,8,36,In Discussion
+CUST-0000973,Technology,APAC,Small,11,SMB,14,Active,Professional,Monthly,8287.08,690.59,16.15,10,4,40.00,46,53.79,32,Declining,2.22,5,0,10.69,4.4,628.37,81,7,227,Not Due
+CUST-0000974,Healthcare,North America,Small,96,SMB,11,Active,Starter,Monthly,4937.64,411.47,9.67,12,7,58.33,72,42.73,24,Declining,1.55,3,2,40.79,4.1,57.11,0,8,81,Planning
+CUST-0000975,Healthcare,EMEA,Small,147,SMB,6,Active,Professional,Quarterly,12889.80,1074.15,12.2,19,13,68.42,223,53.98,20,Stable,1.44,4,1,19.30,4.7,55.67,0,7,16,In Discussion
+CUST-0000976,Manufacturing,North America,Small,17,SMB,17,Active,Starter,Quarterly,1549.32,129.11,9.71,4,3,75.00,50,66.42,16,Growing,0.29,0,0,6.79,5,15.01,0,5,168,Not Due
+CUST-0000977,Healthcare,LATAM,Small,24,SMB,120,Active,Professional,Monthly,7975.20,664.60,10.54,10,7,70.00,95,37.73,20,Stable,1.03,2,0,14.98,4.9,92.84,4,4,229,Not Due
+CUST-0000978,Professional Services,LATAM,Small,26,SMB,6,Active,Professional,Annual,7200.24,600.02,5.33,10,8,80.00,118,51.53,14,Stable,7.36,15,4,78.72,2.2,0.00,0,8,103,Planning
+CUST-0000979,Education,APAC,Small,48,SMB,22,Active,Professional,Monthly,10958.04,913.17,3.06,10,7,70.00,89,61.87,25,Stable,0.34,2,0,4.92,4.4,70.28,5,4,100,Planning
+CUST-0000980,Healthcare,North America,Enterprise,89521,Mid-Market,1,Active,Professional,Quarterly,561569.88,46797.49,2.49,750,495,66.00,12404,48.14,31,Stable,0.96,8,0,9.58,,0.00,0,6,105,Not Due
+CUST-0000981,Education,EMEA,Small,24,SMB,44,Active,Starter,Monthly,4604.28,383.69,4.91,10,7,70.00,139,50.68,23,Stable,0.8,3,0,11.07,,30.08,2,6,82,Not Due
+CUST-0000982,Financial Services,APAC,Enterprise,9754,Enterprise,40,Active,Enterprise,Annual,1952528.52,162710.71,30.38,1870,681,36.42,10324,23.02,36,Stable,3.02,17,2,50.74,3.8,7807.15,1,13,70,Pending Decision
+CUST-0000983,Professional Services,LATAM,Mid-Market,658,Mid-Market,1,Onboarding,Business,Quarterly,415948.44,34662.37,7.31,298,184,61.74,2656,39.36,25,Stable,1.33,8,0,19.28,4.0,2617.83,1,4,120,Planning
+CUST-0000984,Technology,APAC,Small,30,SMB,33,Active,Professional,Annual,8377.80,698.15,9.87,10,5,50.00,70,39.07,27,Declining,1.1,5,0,11.78,4.5,463.10,74,9,160,Not Due
+CUST-0000985,Technology,LATAM,Small,17,SMB,47,Active,Starter,Annual,721.68,60.14,5.32,2,2,100.00,72,76.21,4,Growing,2.18,1,0,9.43,4.1,5.42,3,7,3,In Discussion
+CUST-0000986,Manufacturing,North America,Mid-Market,1127,SMB,22,Active,Professional,Monthly,122418.48,10201.54,16.38,154,119,77.27,2420,60.94,16,Growing,1.95,9,1,32.19,4.0,1043.39,7,5,353,Not Due
+CUST-0000987,Manufacturing,LATAM,Mid-Market,228,Mid-Market,1,Active,Business,Annual,135219.72,11268.31,1.31,87,59,67.82,398,18.01,33,Declining,0.19,5,1,28.15,4.2,890.43,2,8,95,In Discussion
+CUST-0000988,Healthcare,North America,Mid-Market,1222,Mid-Market,25,Active,Business,Monthly,305232.12,25436.01,15.22,281,230,81.85,4066,60.12,14,Growing,1.19,2,0,9.14,4.7,2711.87,2,8,37,In Discussion
+CUST-0000989,Education,APAC,Small,12,SMB,2,Onboarding,Starter,Annual,1330.56,110.88,11.27,4,1,25.00,10,10.93,46,Declining,0.01,4,1,16.04,3.9,14.02,2,5,155,Not Due
+CUST-0000990,Retail,EMEA,Small,41,SMB,43,Active,Professional,Quarterly,12388.32,1032.36,11.73,15,13,86.67,240,69.46,10,Stable,1.75,4,1,17.70,4.2,246.08,8,6,184,Not Due
+CUST-0000991,Healthcare,LATAM,Small,29,SMB,98,Active,Professional,Quarterly,7953.36,662.78,16.04,10,9,90.00,133,71.16,12,Growing,0.12,0,0,8.73,5,55.31,2,5,162,Not Due
+CUST-0000992,Technology,EMEA,Small,46,SMB,51,Active,Professional,Annual,10086.48,840.54,3.13,10,7,70.00,48,57.16,20,Declining,3.29,6,1,32.25,3.6,83.13,3,10,89,In Discussion
+CUST-0000993,Technology,LATAM,Mid-Market,212,Mid-Market,37,Active,Professional,Annual,34461.84,2871.82,6.27,41,35,85.37,725,64.48,15,Growing,1.87,8,1,29.33,3.3,224.59,4,7,233,Not Due
+CUST-0000994,Technology,APAC,Small,19,SMB,65,Active,Professional,Monthly,9565.80,797.15,4.43,10,7,70.00,84,68.07,19,Declining,3.03,5,2,41.10,3.5,451.87,64,15,79,Planning
+CUST-0000995,Manufacturing,EMEA,Mid-Market,378,Mid-Market,50,Active,Professional,Monthly,52289.88,4357.49,21.39,94,77,81.91,2481,69.77,12,Growing,0.27,0,0,8.12,3.7,587.19,1,5,120,Not Due
+CUST-0000996,Financial Services,North America,Mid-Market,371,Mid-Market,7,Active,Professional,Quarterly,52579.32,4381.61,20.45,102,93,91.18,2071,78.45,7,Growing,0.44,3,0,10.46,4.4,587.64,7,5,123,Planning
+CUST-0000997,Healthcare,EMEA,Small,79,SMB,7,Active,Starter,Monthly,5062.32,421.86,8.41,14,9,64.29,100,25.11,27,Stable,1.17,6,1,22.21,4.6,83.09,4,5,270,Not Due
+CUST-0000998,Healthcare,EMEA,Mid-Market,1931,SMB,10,Active,Business,Monthly,409209.60,34100.80,14.15,318,301,94.65,7583,68.24,14,Stable,2.02,9,0,19.86,3.5,3706.54,1,7,292,Not Due
+CUST-0000999,Retail,North America,Small,11,SMB,12,Active,Starter,Annual,2209.68,184.14,0.52,5,2,40.00,30,21.21,37,Stable,0.67,5,1,27.28,4.0,12.38,1,3,102,Planning
+CUST-0001000,Technology,North America,Mid-Market,604,Enterprise,27,Active,Enterprise,Annual,300501.84,25041.82,14.99,250,157,62.80,2128,40.61,27,Stable,2.08,7,1,36.03,4.0,1463.15,1,8,160,Not Due
