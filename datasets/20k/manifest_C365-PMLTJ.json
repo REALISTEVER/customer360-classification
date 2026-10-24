@@ -1,0 +1,59 @@
+{
+  "column_count": 30,
+  "content_reproducibility": "CSV content is deterministic for the generator version, schema version, seed, and row count. The manifest timestamp and ZIP container metadata are run metadata and may differ.",
+  "csv_sha256": "d44eec7bf6209c0b677fd2b077f64bdada5d0216c236c62a994a01a48dddd22f",
+  "data_dictionary_filename": "data_dictionary.csv",
+  "dataset_filename": "customer_360_C365-PMLTJ.csv",
+  "dataset_id": "C365-PMLTJ",
+  "expected_column_names": [
+    "customer_id",
+    "industry",
+    "region",
+    "company_size_band",
+    "employee_count",
+    "customer_segment",
+    "tenure_months",
+    "lifecycle_stage",
+    "plan_tier",
+    "billing_cycle",
+    "annual_contract_value",
+    "monthly_recurring_revenue",
+    "discount_percentage",
+    "seats_purchased",
+    "seats_active",
+    "active_user_percentage",
+    "sessions_last_30_days",
+    "feature_adoption_percentage",
+    "days_since_last_login",
+    "usage_trend_30d",
+    "error_rate_percentage",
+    "support_tickets_last_90_days",
+    "critical_tickets_last_90_days",
+    "avg_resolution_hours",
+    "customer_satisfaction_score",
+    "outstanding_balance",
+    "avg_payment_delay_days",
+    "csm_touchpoints_last_90_days",
+    "days_until_renewal",
+    "renewal_stage"
+  ],
+  "generation_timestamp": "2026-10-11T17:20:02.883213+00:00",
+  "generator_version": "0.2.0",
+  "intentional_data_quality_summary": {
+    "categorical_inconsistency": {
+      "industry": "Approximately 0.6% of Financial or Professional Services labels use a lowercase second word."
+    },
+    "legitimate_outliers": {
+      "enterprise_scale": "Rare large enterprises arise from the upper employee, seat, and enterprise-price tails.",
+      "reliability_incidents": "Approximately 1.5% of records receive an elevated but bounded product error-rate event."
+    },
+    "missingness": {
+      "customer_satisfaction_score": "Approximately 9% of records have no survey response."
+    }
+  },
+  "reproduction_command": "python -m comp365_data_generator --rows 20000 --seed 950531371",
+  "row_count": 20000,
+  "scenario": "Synthetic Customer 360 / business operations",
+  "schema_version": "2.0.0",
+  "seed": 950531371
+}
