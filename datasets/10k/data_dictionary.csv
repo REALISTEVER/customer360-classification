@@ -1,0 +1,31 @@
+field_name,description,data_type,source_system,allowed_values_or_expected_range,nullable
+customer_id,Synthetic unique customer key.,string,CRM,CUST-0000001 format,No
+industry,Customer industry classification.,string,CRM,Controlled industry set,No
+region,Primary commercial region.,string,CRM,"North America, EMEA, APAC, LATAM",No
+company_size_band,Employee-size grouping.,string,CRM,"Small, Mid-Market, Enterprise",No
+employee_count,Estimated company employee count.,integer,CRM,10-100000,No
+customer_segment,Commercial account segment.,string,CRM,"SMB, Mid-Market, Enterprise",No
+tenure_months,Months since customer start.,integer,CRM,0-120,No
+lifecycle_stage,Current non-outcome customer lifecycle context.,string,Customer Success,"Onboarding, Active, Expansion, Paused",No
+plan_tier,Subscribed product plan.,string,Billing,"Starter, Professional, Business, Enterprise",No
+billing_cycle,Contract invoicing cadence.,string,Billing,"Monthly, Quarterly, Annual",No
+annual_contract_value,Annualized contracted revenue after discount.,decimal,Billing / ERP,>= 0; equals monthly_recurring_revenue x 12,No
+monthly_recurring_revenue,Contracted recurring revenue per month.,decimal,Billing / ERP,>= 0,No
+discount_percentage,Contract discount from list price.,decimal,Billing / ERP,0.00-40.00,No
+seats_purchased,Licensed seats under contract.,integer,Billing,1-10000,No
+seats_active,Seats active in the recent period.,integer,Product Usage,0 through seats_purchased,No
+active_user_percentage,Active seats as a percentage of purchased seats.,decimal,Product Usage,0.00-100.00,No
+sessions_last_30_days,Total product sessions in the last 30 days.,integer,Product Usage,>= 0,No
+feature_adoption_percentage,Adoption of tracked product features.,decimal,Product Usage,0.00-100.00,No
+days_since_last_login,Days since the latest recorded user login.,integer,Product Usage,0-365,No
+usage_trend_30d,Recent product-usage direction.,string,Product Usage,"Declining, Stable, Growing",No
+error_rate_percentage,Share of recent sessions with product errors.,decimal,Product Usage / Reliability,0.00-20.00,No
+support_tickets_last_90_days,All support tickets opened in the last 90 days.,integer,Support,0-500,No
+critical_tickets_last_90_days,Critical support tickets in the last 90 days.,integer,Support,0 through support_tickets_last_90_days,No
+avg_resolution_hours,Average support-ticket resolution time.,decimal,Support,>= 0,No
+customer_satisfaction_score,Most recent customer satisfaction score when a survey response exists.,decimal,Support,1.0-5.0 when present,Yes
+outstanding_balance,Unpaid balance at generation time.,decimal,Billing / ERP,>= 0,No
+avg_payment_delay_days,Average days paid after invoice due date.,integer,Billing / ERP,0-180,No
+csm_touchpoints_last_90_days,Documented CSM contacts in the last 90 days.,integer,Customer Success,0-50,No
+days_until_renewal,Days remaining until contract renewal.,integer,Customer Success,0-365,No
+renewal_stage,"Current renewal-process context, not a renewal outcome.",string,Customer Success,"Not Due, Planning, In Discussion, Pending Decision",No
